@@ -31,9 +31,11 @@ github_username:  jekyll
 
 # Build settings
 # theme: minima
-theme: _themes/course-in-a-box
+# theme: ./_themes/course-in-a-box
+#remote_theme: /_themes/course-in-a-box
 plugins:
   - jekyll-feed
+#  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,3 +56,30 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Some files we need to exclude, so Github can build the site
+exclude: [Gemfile, Gemfile.lock, README.md]
+
+defaults:
+  -
+    scope:
+      path: "modules" # an empty string here means all files in the project
+    values:
+      layout: "course_page"
+
+prose:
+  media: img
+  ignore:
+    - /_includes
+    - /_layouts
+    - /_sass
+    - /fonts
+    - /js
+    - /css
+
+# Set some personal styles and logo for your course
+# this is a hex value http://www.w3schools.com/tags/ref_colorpicker.asp
+jumbotron_color: "#000"
+jumbotron_image: "img/banner_tile1_73.svg"
+# jumbotron_mask: "img/jumbotron-mask.svg"
+jumbotron_icon: "img/aid_logo_100.webp"
