@@ -6,7 +6,7 @@ published: true
 
 # Welcome to AI-Demystified - an Easy Introduction to Generative AI!
 
-This course is designed to guide you from the fundamental principles that enable these remarkable technologies to practical applications in coding, creative endeavors, and beyond. We'll explore how AI systems learn, how they progress from simple tasks like autocorrect to generating complex and novel content, and how you can harness their power effectively and ethically. Get ready to unlock new creative potentials and gain essential skills for the AI-driven future.
+This course is designed to guide you from the fundamental principles that enable these remarkable technologies to practical applications in coding, creative endeavors, and beyond. We'll explore how AI systems learn, how they progress from simple tasks like autocorrect to generating complex and novel content, and how you can harness their power effectively and ethically. 
 
 ## Course Modules
 
