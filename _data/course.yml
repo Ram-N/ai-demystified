@@ -1,3 +1,38 @@
 title: Generative AI Demystified
 description: An open-source online course on generative AI
-modules: ["Introduction", "Topics", "Glossary", "Quizzes", "Resources"]
+modules: ["introduction", "modules", "glossary", "quizzes", "resources"]
+sections_order:
+  - introduction
+  - modules_section # Renamed from "modules" to be more specific
+  - glossary
+  - quizzes
+  - resources
+
+modules_content:
+  introduction:
+    - title: Welcome to Generative AI
+      url: /modules/modules/1_Intro_to_AI.html
+  "how-ai-works":
+    - title: Understanding the Basics
+      url: /modules/modules/2_how_AI_works.html
+  "intro-to-llms":
+    - title: What are Large Language Models?
+      url: /modules/modules/3_Intro_to_LLMs.html
+  "using-ai-tools":
+    - title: Exploring Practical Applications
+      url: /modules/modules/4_Using_AI_Tools.html
+  "coding-with-genai":
+    - title: AI for Code Generation
+      url: /modules/module5-coding-with-genai/index.html
+  "building-sharing-models":
+    - title: Model Development Lifecycle
+      url: /modules/module6-building-sharing-models/index.html
+  "ai-ethics":
+    - title: Ethical Considerations in AI
+      url: /modules/module7-ai-ethics/index.html
+  "creative-genai-projects":
+    - title: Unleashing AI Creativity
+      url: /modules/module8-creative-projects/index.html
+glossary: /glossary/
+quiz: /quiz/
+resources: /resources/

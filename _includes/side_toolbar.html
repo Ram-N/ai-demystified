@@ -1,34 +1,144 @@
 <div class="sidebar col-md-3">
-	{% include next_module.html %}
 
-	{% if prev %}
-		<div class="pagination-section">
-			<div class="title">
-				Previous module:
-			</div>
-			<a rel="prev" class="prev" href="{{ site.baseurl }}{{ prev_post.url }}">
-				{{ prev }} </a>
-		</div>
-		<hr />
-	{% endif %}
-	<ul>
-		{% for post in site.categories[module] reversed %}
-			<li class="{% if post.url == page.url %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
-				<a
-						href="{{ site.baseurl }}{{ post.url }}">
-					{{ post.title }}
-				</a>
-			</li>
-		{% endfor %}
-	</ul>
-	{% if next %}
-		<hr />
-		<div class="pagination-section">
-			<div class="title">
-				Next module:
-			</div>
-			<a rel="next" class="next" href="{{ site.baseurl }}{{ next_post.url }}"> {{ next }}
-			</a>
-		</div>
-	{% endif %}
+{% assign current_section_slug = page.section_slug %}
+{% assign section_index = nil %}
+
+{% for slug in site.data.course.sections_order %}
+  {% if slug == current_section_slug %}
+    {% assign section_index = forloop.index0 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+  <!-- <p>section idz {{section_index}} {{current_section_slug}}</p> -->
+
+  {% if section_index != nil %}
+   <!-- <p>section id {{section_index}}</p> -->
+
+    {% assign prev_section_index = section_index | minus: 1 %}
+    {% assign next_section_index = section_index | plus: 1 %}
+	{% assign next_index_num = next_section_index | plus: 0 %}
+
+    {% if prev_section_index >= 0 %}
+      {% assign prev_section_slug = site.data.course.sections_order[prev_section_index] %}
+      <div class="pagination-section">
+        <div class="title">
+          Previous section:
+        </div>
+        <a rel="prev" class="prev" href="{{ site.baseurl }}/modules/{{ prev_section_slug | replace: '_section', '' }}/">
+          {{ prev_section_slug | replace: '_section', '' | replace: '-', ' ' | capitalize }}
+        </a>
+      </div>
+      <hr />
+    {% endif %}
+
+
+	{% if current_section_slug == 'modules_section' %}
+      <ul>
+        {% for module_slug in site.data.course.modules_content.keys %}
+          {% assign module_array = site.data.course.modules_content[module_slug] %}
+          {% assign module = module_array[0] %}
+          <li class="{% if page.url == module.url %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
+            <a href="{{ site.baseurl }}{{ module.url }}">
+              {{ module.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+	  <!-- <p>{{next_index_num < (site.data.course.sections_order | size) }}</p>
+	  <p>{{(site.data.course.sections_order | size)}}</p> -->
+
+	{% if section_index != nil %}
+      {% assign next_section_index = section_index | plus: 1 %}
+      {% assign next_section_slug = site.data.course.sections_order[next_section_index] %}
+
+      {% if next_section_slug != nil %}
+        <hr />
+        <div class="pagination-section">
+          <div class="title">
+            Next section:
+          </div>
+          <a rel="next" class="next" href="{{ site.baseurl }}/modules/{{ next_section_slug | replace: '_section', '' }}/">
+            {{ next_section_slug | replace: '_section', '' | replace: '-', ' ' | capitalize }}
+          </a>
+        </div>
+      {% endif %}
+    {% endif %}
+
+  {% endif %}
 </div>
+
+
+
+
+<!-- <div class="sidebar col-md-3">
+
+
+
+ {% if next_index | plus: 0 != nil and next_index | plus: 0 < (site.data.course.modules_order | size) %}
+    {% assign next_module_slug = site.data.course.modules_order[next_index] %}
+    <hr />
+    <div class="pagination-section">
+      <div class="title">
+        Next module:
+      </div>
+      <a rel="next" class="next" href="{{ site.baseurl }}/modules/{{ next_module_slug }}/index.html">
+        {{ next_module_slug | replace: '-', ' ' | capitalize }}
+      </a>
+    </div>
+  {% endif %}
+
+
+	<hr />
+</div> -->
+
+<!-- 
+
+    {% assign current_module_slug = page.module_slug %}
+    {% assign module_index = site.data.course.modules_order | index: current_module_slug %}
+
+	<p>Current Module Slug: {{ current_module_slug }}</p>
+	<p>Current Module Index: {{ module_index }}</p>
+
+    {% if module_index != nil %}
+        {% assign prev_index = module_index | minus: 1 %}
+        {% assign next_index = module_index | plus: 1 %}
+
+        {% if prev_index >= 0 %}
+            {% assign prev_module_slug = site.data.course.modules_order[prev_index] %}
+            <div class="pagination-section">
+                <div class="title">
+                    Previous module:
+                </div>
+                <a rel="prev" class="prev" href="{{ site.baseurl }}/modules/{{ prev_module_slug }}/index.html">
+                    {{ prev_module_slug | replace: '-', ' ' | capitalize }}
+                </a>
+            </div>
+            <hr />
+        {% endif %}
+
+        <ul>
+            {% for lesson in site.data.course.modules_content[current_module_slug] %}
+                <li class="{% if page.url == lesson.url %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
+                    <a href="{{ site.baseurl }}{{ lesson.url }}">
+                        {{ lesson.title }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        {% if next_index < site.data.course.modules_order | size %}
+            {% assign next_module_slug = site.data.course.modules_order[next_index] %}
+            <hr />
+            <div class="pagination-section">
+                <div class="title">
+                    Next module:
+                </div>
+                <a rel="next" class="next" href="{{ site.baseurl }}/modules/{{ next_module_slug }}/index.html">
+                    {{ next_module_slug | replace: '-', ' ' | capitalize }}
+                </a>
+            </div>
+        {% endif %}
+    {% endif %} -->

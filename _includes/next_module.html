@@ -1,17 +1,19 @@
-{% assign next=null %}
-{% assign prev=null %}
-{% assign temp=null %}
+{% assign current_module_slug = page.module_slug %}
+{% assign module_index = site.data.course.modules_order | index: current_module_slug %}
 
-{% for m in site.data.course.modules %}
-	{% if m == module and forloop.first != true %}
-		{% assign p = forloop.index0 | minus:1  %}
-		{% assign prev = site.data.course.modules[p] %}
-		{% assign prev_post = site.categories[prev]|reverse|first %}
-	{% endif %}
-	{% if m == module and forloop.last != true %}
-		{% assign n = forloop.index0 | plus:1  %}
-		{% assign next = site.data.course.modules[n] %}
-		{% assign next_post = site.categories[next]|reverse|first %}
-	{% endif %}
-{% endfor %}
+{% if module_index != nil %}
+    {% assign next_module_index = module_index | plus: 1 %}
 
+    {% if next_module_index < site.data.course.modules_order | size %}
+        {% assign next_module_slug = site.data.course.modules_order[next_module_index] %}
+        <div class="pagination-section">
+            <div class="title">
+                Next up:
+            </div>
+            <a rel="next" class="next" href="{{ site.baseurl }}/modules/{{ next_module_slug }}/index.html">
+                {{ next_module_slug | replace: '-', ' ' | capitalize }}
+            </a>
+        </div>
+        <hr />
+    {% endif %}
+{% endif %}
