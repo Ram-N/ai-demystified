@@ -24,10 +24,20 @@ topics: # Renamed from modules_content
       - title: Topic 1 - AI Concepts
         url: /sections/modules/topic1/lesson2.html
     intro-to-llms:
-      - title: Intro to LLMs
-        url: /sections/modules/llms/3_Intro_to_LLMs.html
-      - title: From SpellCheck to Next Word Prediction
+      - title: "Intro to LLMs"
+        url: /sections/modules/llms/index.html
+      - title: "From SpellCheck to Next Word Prediction"
         url: /sections/modules/llms/spellcheck_to_next_word.html
+      - title: "How Does an LLM Actually Work?"
+        url: /sections/modules/llms/how_llms_work.html
+      - title: "Training an AI: Reading the Internet at Super Speed"
+        url: /sections/modules/llms/training_llms.html
+      - title: "Why ChatGPT Doesn’t Really ‘Understand’ You"
+        url: /sections/modules/llms/llms_vs_understanding.html
+      - title: "Tokens, Prompts, and Predictions: The Language of LLMs"
+        url: /sections/modules/llms/tokens_prompts_predictions.html
+      - title: "Hallucinations and Why AI Sometimes Makes Stuff Up"
+        url: /sections/modules/llms/llm_hallucinations.html
     building-and-sharing:
       - title: Build some Gen AI Apps
         url: /sections/modules/build_share/6_Building_and_Sharing.html
