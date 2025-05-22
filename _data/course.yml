@@ -38,6 +38,20 @@ topics: # Renamed from modules_content
         url: /sections/modules/llms/tokens_prompts_predictions.html
       - title: "Hallucinations and Why AI Sometimes Makes Stuff Up"
         url: /sections/modules/llms/llm_hallucinations.html
+    using_tools:
+      - title: "Talk to AI Like a Teacher, Not a Search Engine"
+        url: /sections/modules/using_tools/talk_to_ai_like_a_teacher.html
+      - title: "Prompt Recipes: How to Get the AI to Do What You Want"
+        url: /sections/modules/using_tools/prompt_recipes.html
+      - title: "When to Use AI — and When Not To"
+        url: /sections/modules/using_tools/when_to_use_ai.html
+      - title: "Make It Better: Revising AI Output Like a Pro"
+        url: /sections/modules/using_tools/revising_ai_output.html
+      - title: "AI and Originality: How to Use It Without Copying"
+        url: /sections/modules/using_tools/ai_and_originality.html
+      - title: "Putting It All Together: Your AI Toolkit"
+        url: /sections/modules/using_tools/your_ai_toolkit.html
+
     building-and-sharing:
       - title: Build some Gen AI Apps
         url: /sections/modules/build_share/6_Building_and_Sharing.html
