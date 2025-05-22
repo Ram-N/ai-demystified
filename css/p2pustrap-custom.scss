@@ -11,6 +11,8 @@
 @import "p2pu-theme/buttons";
 @import "p2pu-theme/footer";
 @import "p2pu-theme/custom";
+// Add your custom styles import here, typically at the end
+@import "add_ons"; //RN
 
 {% if site.jumbotron_color %}
 	$jumbotron-color: {{ site.jumbotron_color }};

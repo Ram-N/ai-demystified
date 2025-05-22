@@ -8,31 +8,45 @@ sections_order:
   - quizzes
   - resources
 
-modules_content:
+topics: # Renamed from modules_content
   introduction:
     - title: Welcome to Generative AI
-      url: /modules/modules/1_Intro_to_AI.html
-  "how-ai-works":
-    - title: Understanding the Basics
-      url: /modules/modules/2_how_AI_works.html
-  "intro-to-llms":
-    - title: What are Large Language Models?
-      url: /modules/modules/3_Intro_to_LLMs.html
-  "using-ai-tools":
-    - title: Exploring Practical Applications
-      url: /modules/modules/4_Using_AI_Tools.html
-  "coding-with-genai":
-    - title: AI for Code Generation
-      url: /modules/module5-coding-with-genai/index.html
-  "building-sharing-models":
-    - title: Model Development Lifecycle
-      url: /modules/module6-building-sharing-models/index.html
-  "ai-ethics":
-    - title: Ethical Considerations in AI
-      url: /modules/module7-ai-ethics/index.html
-  "creative-genai-projects":
-    - title: Unleashing AI Creativity
-      url: /modules/module8-creative-projects/index.html
-glossary: /glossary/
-quiz: /quiz/
-resources: /resources/
+      url: /modules/introduction/
+  modules_section: # Added modules_section to contain topics
+    introduction:  # Example topic within Modules Section
+      - title: Introduction to AI
+        url: /sections/modules/introduction/1_Intro_to_AI.html
+      - title: Topic 1 - AI Concepts
+        url: /sections/modules/topic1/lesson2.html
+    how-ai-works:
+      - title: How AI Works
+        url: /sections/modules/how_ai_works/2_How_AI_Works.html
+      - title: Topic 1 - AI Concepts
+        url: /sections/modules/topic1/lesson2.html
+    intro-to-llms:
+      - title: Intro to LLMs
+        url: /sections/modules/llms/3_Intro_to_LLMs.html
+      - title: From SpellCheck to Next Word Prediction
+        url: /sections/modules/llms/spellcheck_to_next_word.html
+    building-and-sharing:
+      - title: Build some Gen AI Apps
+        url: /sections/modules/build_share/6_Building_and_Sharing.html
+      - title: Topic 2 - LLM Applications
+        url: /sections/modules/topic2/lesson2.html
+    ai-projects:
+      - title: Gen AI Projects
+        url: /sections/modules/ai_projects/8_genai_projects.html
+    coding-with-genai:
+      - title: Coding with AI
+        url: /sections/modules/coding-with-ai/5_Coding_with_AI.html
+  glossary:
+    - title: Glossary
+      url: /glossary/
+  quizzes:
+    - title: Quiz1
+      url: /quiz1
+    - title: Quiz2
+      url: /quiz2
+  resources:
+    - title: Resources
+      url: /resources/

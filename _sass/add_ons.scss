@@ -1,0 +1,24 @@
+/* For floating image to the right */
+.float-right-image {
+    float: right; /* Floats the image to the right */
+    margin-left: 20px; /* Adds space between image and text on the left */
+    margin-bottom: 20px; /* Adds space below the image */
+    max-width: 50%; /* Optional: Ensure it doesn't take up too much width */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* For floating image to the left (if you want this option) */
+.float-left-image {
+    float: left; /* Floats the image to the left */
+    margin-right: 20px; /* Adds space between image and text on the right */
+    margin-bottom: 20px; /* Adds space below the image */
+    max-width: 50%; /* Optional: Ensure it doesn't take up too much width */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
