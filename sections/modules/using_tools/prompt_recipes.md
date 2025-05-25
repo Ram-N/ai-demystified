@@ -2,7 +2,7 @@
 layout: course_page
 title: Using AI Tools Effectively
 published: true
-topic_slug: ai-tools
+topic_slug: using-ai-tools
 section_slug: modules_section
 ---
 

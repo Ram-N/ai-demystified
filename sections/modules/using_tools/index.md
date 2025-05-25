@@ -2,11 +2,13 @@
 layout: course_page
 title: Using AI Tools Effectively
 published: true
-topic_slug: ai-tools
+topic_slug: using-ai-tools
 section_slug: modules_section
 ---
 
-# Articles in This Module: Using AI Tools Effectively
+### Articles in This Module
+
+# Using AI Tools Effectively
 
 - [Talk to AI Like a Teacher, Not a Search Engine](talk_to_ai_like_a_teacher.html)  
   How to write clear and purposeful prompts to get better responses.

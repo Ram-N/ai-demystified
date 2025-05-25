@@ -20,9 +20,18 @@ topics: # Renamed from modules_content
         url: /sections/modules/topic1/lesson2.html
     how-ai-works:
       - title: How AI Works
-        url: /sections/modules/how_ai_works/2_How_AI_Works.html
-      - title: Topic 1 - AI Concepts
-        url: /sections/modules/topic1/lesson2.html
+        url: /sections/modules/how_ai_works/index.html
+      - title: "Guessing the Next Word: The Math Behind AI Magic"
+        url: /sections/modules/how_ai_works/next_word_prediction.html
+      - title: "Learning from Examples: How AI Gets 'Smarter' Over Time"
+        url: /sections/modules/how_ai_works/learning_from_data.html
+      - title: "Patterns Everywhere: Why AI Loves Finding Repeats"
+        url: /sections/modules/how_ai_works/pattern_recognition.html
+      - title: "What’s a Model? It’s Like a Formula With Opinions"
+        url: /sections/modules/how_ai_works/what_is_a_model.html
+      - title: "AI Doesn’t Think — It Calculates (Fast)"
+        url: /sections/modules/how_ai_works/ai_vs_human_thinking.html
+
     intro-to-llms:
       - title: "Intro to LLMs"
         url: /sections/modules/llms/index.html
@@ -38,7 +47,9 @@ topics: # Renamed from modules_content
         url: /sections/modules/llms/tokens_prompts_predictions.html
       - title: "Hallucinations and Why AI Sometimes Makes Stuff Up"
         url: /sections/modules/llms/llm_hallucinations.html
-    using_tools:
+    using-ai-tools:
+      - title: "Using AI Tools: A Quick Overview"
+        url: /sections/modules/using_tools/index.html
       - title: "Talk to AI Like a Teacher, Not a Search Engine"
         url: /sections/modules/using_tools/talk_to_ai_like_a_teacher.html
       - title: "Prompt Recipes: How to Get the AI to Do What You Want"
@@ -51,6 +62,17 @@ topics: # Renamed from modules_content
         url: /sections/modules/using_tools/ai_and_originality.html
       - title: "Putting It All Together: Your AI Toolkit"
         url: /sections/modules/using_tools/your_ai_toolkit.html
+    ai-ethics:
+      - title: "Is AI Always Fair? Spoiler: Not Really"
+        url: /sections/modules/ethics/ai_and_fairness.html
+      - title: "Garbage In, Garbage Out: Why Data Matters"
+        url: /sections/modules/ethics/data_bias_and_gigo.html
+      - title: "Who's responsible When AI Gets It Wrong?"
+        url: /sections/modules/ethics/accountability_in_ai.html
+      - title: "AI Can't Explain Itself — Should That Worry Us?"
+        url: /sections/modules/ethics/ai_transparency_and_explainability.html
+      - title: "Can AI Tell the Truth? The Problem with Deepfakes and Misinformation"
+        url: /sections/modules/ethics/deepfakes_and_misinfo.html
 
     building-and-sharing:
       - title: Build some Gen AI Apps
@@ -61,8 +83,18 @@ topics: # Renamed from modules_content
       - title: Gen AI Projects
         url: /sections/modules/ai_projects/8_genai_projects.html
     coding-with-genai:
-      - title: Coding with AI
-        url: /sections/modules/coding-with-ai/5_Coding_with_AI.html
+      - title: "Coding with AI: Topics"
+        url: /sections/modules/coding_with_ai/index.html
+      - title: "Your AI Coding Buddy: Asking the Right Questions"
+        url: /sections/modules/coding_with_ai/ai_as_coding_mentor.html
+      - title: "From Idea to Code: Turning Concepts into Commands"
+        url: /sections/modules/coding_with_ai/idea_to_code.html
+      - title: "Reading AI Code: Don't Just Copy, Understand"
+        url: /sections/modules/coding_with_ai/understanding_ai_code.html
+      - title: "Debugging with AI: Fixing What's Broken (or Missing)"
+        url: /sections/modules/coding_with_ai/debugging_with_ai.html
+      - title: "Level Up: Improve, Extend, or Refactor Your Code with AI"
+        url: /sections/modules/coding_with_ai/refactor_with_ai.html
   glossary:
     - title: Glossary
       url: /glossary/
