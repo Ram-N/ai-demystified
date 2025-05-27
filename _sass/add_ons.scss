@@ -1,19 +1,29 @@
 /* For floating image to the right */
 .float-right-image {
-    float: right; /* Floats the image to the right */
-    margin-left: 20px; /* Adds space between image and text on the left */
-    margin-bottom: 20px; /* Adds space below the image */
-    max-width: 50%; /* Optional: Ensure it doesn't take up too much width */
-    height: auto; /* Maintains aspect ratio */
+    float: right;
+    /* Floats the image to the right */
+    margin-left: 20px;
+    /* Adds space between image and text on the left */
+    margin-bottom: 20px;
+    /* Adds space below the image */
+    max-width: 50%;
+    /* Optional: Ensure it doesn't take up too much width */
+    height: auto;
+    /* Maintains aspect ratio */
 }
 
 /* For floating image to the left (if you want this option) */
 .float-left-image {
-    float: left; /* Floats the image to the left */
-    margin-right: 20px; /* Adds space between image and text on the right */
-    margin-bottom: 20px; /* Adds space below the image */
-    max-width: 50%; /* Optional: Ensure it doesn't take up too much width */
-    height: auto; /* Maintains aspect ratio */
+    float: left;
+    /* Floats the image to the left */
+    margin-right: 20px;
+    /* Adds space between image and text on the right */
+    margin-bottom: 20px;
+    /* Adds space below the image */
+    max-width: 50%;
+    /* Optional: Ensure it doesn't take up too much width */
+    height: auto;
+    /* Maintains aspect ratio */
 }
 
 .clearfix::after {
@@ -22,3 +32,92 @@
     display: table;
 }
 
+.topic-navigation {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e1e5e9;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-prev,
+.nav-next {
+    flex: 1;
+}
+
+.nav-next {
+    text-align: right;
+}
+
+.prev-topic-link,
+.next-topic-link {
+    display: inline-block;
+    padding: 0.75rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #374151;
+    transition: all 0.2s ease;
+}
+
+.prev-topic-link:hover,
+.next-topic-link:hover {
+    background-color: #f3f4f6;
+    border-color: #9ca3af;
+    text-decoration: none;
+}
+
+.nav-label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6b7280;
+    margin-bottom: 0.25rem;
+}
+
+.topic-title {
+    display: block;
+    font-weight: 600;
+    color: #111827;
+}
+
+/* Individual navigation styles if using separate snippets */
+.topic-nav-prev {
+    float: left;
+    margin-bottom: 1rem;
+}
+
+.topic-nav-next {
+    float: right;
+    margin-bottom: 1rem;
+}
+
+/* Clear floats */
+.topic-nav-prev::after,
+.topic-nav-next::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Wrapper class unique to topic navigation */
+.topic-nav-wrap {
+  flex-wrap: wrap;
+}
+
+/* Only affect pagination-sections inside this wrapper */
+.topic-nav-wrap .pagination-section {
+  flex: 1 1 48%;
+  min-width: 240px;
+}
+
+/* Optional: tweak spacing inside */
+.topic-nav-wrap .pagination-section a {
+  display: inline-block;
+  margin-top: 0.25rem;
+}

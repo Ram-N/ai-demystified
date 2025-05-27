@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "introduction-to-ai",
+    "title": "Introduction to AI",
+    "url": "/sections/modules/introduction/"
+  },
+  {
+    "slug": "how-ai-works",
+    "title": "How AI Works",
+    "url": "/sections/modules/how_ai_works/"
+  },
+  {
+    "slug": "intro-to-llms",
+    "title": "Introduction to LLMs",
+    "url": "/sections/modules/llms/"
+  },
+  {
+    "slug": "using-ai-tools",
+    "title": "Using AI Tools",
+    "url": "/sections/modules/using_tools/"
+  },
+  {
+    "slug": "ai-ethics",
+    "title": "AI Ethics",
+    "url": "/sections/modules/ethics/"
+  }
+]

@@ -1,0 +1,85 @@
+{% comment %}
+  debug_next_topic.html - Debug version to understand the data structure
+  Replace next_topic.html temporarily with this to debug
+{% endcomment %}
+
+<div style="background: #f0f0f0; padding: 15px; margin: 10px 0; font-family: monospace; font-size: 12px;">
+  <h4>DEBUG: Topic Navigation</h4>
+  
+  {% comment %} URL parsing debug {% endcomment %}
+  <p><strong>Page URL:</strong> {{ page.url }}</p>
+  {% assign url_parts = page.url | split: '/' %}
+  <p><strong>URL Parts:</strong> {{ url_parts | inspect }}</p>
+  
+  {% comment %} Find current section and topic {% endcomment %}
+  {% assign current_section_slug = nil %}
+  {% assign current_topic_slug = nil %}
+  
+  {% for part in url_parts %}
+    {% if part == 'sections' %}
+      {% assign sections_index = forloop.index0 %}
+      {% assign modules_index = sections_index | plus: 1 %}
+      {% if url_parts[modules_index] == 'modules' %}
+        {% assign current_section_slug = 'modules_section' %}
+        {% assign topic_slug_index = modules_index | plus: 1 %}
+        {% if url_parts[topic_slug_index] and url_parts[topic_slug_index] != '' %}
+          {% assign current_topic_slug = url_parts[topic_slug_index] %}
+        {% endif %}
+      {% endif %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  
+  <p><strong>Current Section:</strong> {{ current_section_slug }}</p>
+  <p><strong>Current Topic:</strong> {{ current_topic_slug }}</p>
+  
+  {% comment %} Data structure debug {% endcomment %}
+  <p><strong>Raw modules_section data:</strong></p>
+  <pre>{{ site.data.course.topics.modules_section | inspect }}</pre>
+  
+  {% comment %} Try different approaches to get topic keys {% endcomment %}
+  <h5>Method 1: Using | keys</h5>
+  {% assign method1 = site.data.course.topics.modules_section | keys %}
+  <p><strong>Keys result:</strong> {{ method1 | inspect }}</p>
+  
+  <h5>Method 2: Manual iteration</h5>
+  {% assign topic_slugs = "" | split: "" %}
+  {% for topic in site.data.course.topics.modules_section %}
+    <p><strong>Topic pair:</strong> {{ topic | inspect }}</p>
+    <p><strong>Topic[0]:</strong> {{ topic[0] }}</p>
+    <p><strong>Topic[1] type:</strong> {{ topic[1] | inspect }}</p>
+    {% assign topic_slugs = topic_slugs | push: topic[0] %}
+  {% endfor %}
+  
+  <p><strong>Final topic_slugs array:</strong> {{ topic_slugs | inspect }}</p>
+  
+  {% comment %} Test finding current topic {% endcomment %}
+  <h5>Finding Current Topic Index</h5>
+  {% assign topic_index = nil %}
+  {% for topic_slug in topic_slugs %}
+    <p><strong>Comparing:</strong> "{{ topic_slug }}" vs "{{ current_topic_slug }}" = {% if topic_slug == current_topic_slug %}MATCH (index {{ forloop.index0 }}){% else %}no match{% endif %}</p>
+    {% if topic_slug == current_topic_slug %}
+      {% assign topic_index = forloop.index0 %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  
+  <p><strong>Found topic_index:</strong> {{ topic_index }}</p>
+  
+  {% if topic_index != nil %}
+    {% assign prev_topic_index = topic_index | minus: 1 %}
+    {% assign next_topic_index = topic_index | plus: 1 %}
+    
+    <p><strong>Prev index:</strong> {{ prev_topic_index }}</p>
+    <p><strong>Next index:</strong> {{ next_topic_index }}</p>
+    <p><strong>Array size:</strong> {{ topic_slugs.size }}</p>
+    
+    {% if prev_topic_index >= 0 %}
+      <p><strong>Prev topic:</strong> {{ topic_slugs[prev_topic_index] }}</p>
+    {% endif %}
+    
+    {% if next_topic_index < topic_slugs.size %}
+      <p><strong>Next topic:</strong> {{ topic_slugs[next_topic_index] }}</p>
+    {% endif %}
+  {% endif %}
+</div>

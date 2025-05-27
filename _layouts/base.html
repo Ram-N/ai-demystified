@@ -5,13 +5,15 @@
 <!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="en" class="no-js"> <!--<![endif]-->
-<head>
-	<script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
-	<meta charset="utf-8">
-	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
 
-	<title>{{ site.data.course.title|strip_html }}{% if page.title %} | {{ page.title|strip_html }}{% endif %}</title>
-  {% if site.data.course.description %}<meta name="description" content="{{ site.data.course.description | strip_html}}">{% endif %}
+<head>
+  <script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
+  <meta charset="utf-8">
+  <!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
+
+  <title>{{ site.data.course.title|strip_html }}{% if page.title %} | {{ page.title|strip_html }}{% endif %}</title>
+  {% if site.data.course.description %}
+  <meta name="description" content="{{ site.data.course.description | strip_html}}">{% endif %}
   <meta name="author" content="{{ site.github.owner_name }}">
 
   <meta property="og:title" content="{{ site.data.course.title }}" />
@@ -20,43 +22,61 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
 
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/p2pustrap-custom.css" />
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/site.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/p2pustrap-custom.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css" />
   {% if page.extra_css %}
-    {% for css in page.extra_css %}
-    <link rel="stylesheet" href="{{ site.baseurl }}{{ css }}" />
-    {% endfor %}
+  {% for css in page.extra_css %}
+  <link rel="stylesheet" href="{{ site.baseurl }}{{ css }}" />
+  {% endfor %}
   {% endif %}
 
-	<link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
-	<script type="text/javascript" src="{{ site.baseurl }}/js/modernizr-2.6.2.min.js"></script>
+  <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
+  <script type="text/javascript" src="{{ site.baseurl }}/js/modernizr-2.6.2.min.js"></script>
+  <script>
+    window.BASEURL = '{{ site.baseurl }}';
+  </script>
 </head>
-<body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}"{% endif %}
-      class="d-flex flex-column min-vh-100">
 
-{% include navigation.html %}
+<body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}" {% endif %} {% if page.topic_slug
+  %}data-topic-slug="{{ page.topic_slug }}" {% endif %} class="d-flex flex-column min-vh-100">
 
-{{ content }}
 
-{% include footer.html %}
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<script src="{{site.baseurl}}/js/gh_link_helper.js"></script>
+  {% include navigation.html %}
 
-{% if page.extra_js %}
+  {{ content }}
+
+  {% include footer.html %}
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="{{site.baseurl}}/js/gh_link_helper.js"></script>
+
+  {% if page.extra_js %}
   {% for js in page.extra_js %}
-    <script src="{{site.baseurl}}{{js}}"></script>
+  <script src="{{site.baseurl}}{{js}}"></script>
   {% endfor %}
-{% endif %}
+  {% endif %}
 
-<!-- Google Analytics -->
-{% if site.ga_tracking_code or site.p2pu_ga_tracking_code %}
-	{% include ga.html %}
-{% endif %}
+  <!-- Google Analytics -->
+  {% if site.ga_tracking_code or site.p2pu_ga_tracking_code %}
+  {% include ga.html %}
+  {% endif %}
+
+
+  {% if page.topic_slug %}
+  <script src="{{ site.baseurl }}/js/topicNavigation.js"></script>
+  {% endif %}
 
 </body>
+
 </html>
