@@ -13,11 +13,19 @@ topics: # Renamed from modules_content
     - title: Welcome to Generative AI
       url: /modules/introduction/
   modules_section: # Added modules_section to contain topics
-    introduction:  # Example topic within Modules Section
-      - title: Introduction to AI
-        url: /sections/modules/introduction/1_Intro_to_AI.html
-      - title: Topic 1 - AI Concepts
-        url: /sections/modules/topic1/lesson2.html
+    introduction-to-genai:
+    - title: Introduction to Generative AI
+      url: /sections/modules/introduction/index.html
+    - title: What Is Generative AI?
+      url: /sections/modules/introduction/1_what_is_genai.html
+    - title: Why Is Everyone Talking About It?
+      url: /sections/modules/introduction/2_why_is_genai_a_big_deal.html
+    - title: What Can It Create?
+      url: /sections/modules/introduction/3_what_can_genai_create.html
+    - title: Is It Really That Smart?
+      url: /sections/modules/introduction/4_is_genai_smart_or_not.html
+    - title: Humans + AI -- Better Together?
+      url: /sections/modules/introduction/5_humans_plus_ai.html
     how-ai-works:
       - title: How AI Works
         url: /sections/modules/how_ai_works/index.html
@@ -33,20 +41,20 @@ topics: # Renamed from modules_content
         url: /sections/modules/how_ai_works/ai_vs_human_thinking.html
 
     intro-to-llms:
-      - title: "Intro to LLMs"
-        url: /sections/modules/llms/index.html
-      - title: "From SpellCheck to Next Word Prediction"
-        url: /sections/modules/llms/spellcheck_to_next_word.html
-      - title: "How Does an LLM Actually Work?"
-        url: /sections/modules/llms/how_llms_work.html
-      - title: "Training an AI: Reading the Internet at Super Speed"
-        url: /sections/modules/llms/training_llms.html
-      - title: "Why ChatGPT Doesn’t Really ‘Understand’ You"
-        url: /sections/modules/llms/llms_vs_understanding.html
-      - title: "Tokens, Prompts, and Predictions: The Language of LLMs"
-        url: /sections/modules/llms/tokens_prompts_predictions.html
-      - title: "Hallucinations and Why AI Sometimes Makes Stuff Up"
-        url: /sections/modules/llms/llm_hallucinations.html
+        - title: "Intro to LLMs"
+          url: /sections/modules/llms/index.html
+        - title: "From SpellCheck to Next Word Prediction"
+          url: /sections/modules/llms/spellcheck_to_next_word.html
+        - title: "How Does an LLM Actually Work?"
+          url: /sections/modules/llms/how_llms_work.html
+        - title: "Training an AI: Reading the Internet at Super Speed"
+          url: /sections/modules/llms/training_llms.html
+        - title: "Why ChatGPT Doesn’t Really ‘Understand’ You"
+          url: /sections/modules/llms/llms_vs_understanding.html
+        - title: "Tokens, Prompts, and Predictions: The Language of LLMs"
+          url: /sections/modules/llms/tokens_prompts_predictions.html
+        - title: "Hallucinations and Why AI Sometimes Makes Stuff Up"
+          url: /sections/modules/llms/llm_hallucinations.html
     using-ai-tools:
       - title: "Using AI Tools: A Quick Overview"
         url: /sections/modules/using_tools/index.html

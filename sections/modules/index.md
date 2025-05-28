@@ -8,10 +8,10 @@ section_slug: modules_section
 
 # Course Modules
 
-1. **[M1: Introduction to AI](introduction/1_Intro_to_AI.html)**  
+1. **[M1: Introduction to AI](introduction/)**  
    This module provides a foundational overview of what artificial intelligence is and its core concepts.
 
-2. **[M2: How AI Works](introduction/2_how_AI_works.html)**  
+2. **[M2: How AI Works](how_ai_works/)**  
    Explore the fundamental mechanisms and algorithms that enable artificial intelligence to function and learn.
 
 3. **[M3: Introduction to LLMs](llms/)**  
