@@ -2,7 +2,7 @@
 layout: course_page
 title: AI Ethics
 published: true
-topic_slug: ai-ethics
+module_slug: ai-ethics
 section_slug: modules_section
 ---
 

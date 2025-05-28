@@ -2,7 +2,7 @@
 layout: course_page
 title: How Does AI Work?
 published: true
-topic_slug: how-ai-works
+module_slug: how-ai-works
 section_slug: modules_section
 ---
 

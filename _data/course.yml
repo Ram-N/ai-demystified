@@ -8,7 +8,7 @@ sections_order:
   - quizzes
   - resources
 
-topics: # Renamed from modules_content
+sections: # Renamed from modules_content
   introduction:
     - title: Welcome to Generative AI
       url: /modules/introduction/

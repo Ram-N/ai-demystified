@@ -39,8 +39,8 @@
   </script>
 </head>
 
-<body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}" {% endif %} {% if page.topic_slug
-  %}data-topic-slug="{{ page.topic_slug }}" {% endif %} class="d-flex flex-column min-vh-100">
+<body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}" {% endif %} {% if page.module_slug
+  %} data-module-slug="{{ page.module_slug }}" {% endif %} class="d-flex flex-column min-vh-100">
 
 
 
@@ -73,8 +73,8 @@
   {% endif %}
 
 
-  {% if page.topic_slug %}
-  <script src="{{ site.baseurl }}/js/topicNavigation.js"></script>
+  {% if page.module_slug %}
+  <script src="{{ site.baseurl }}/js/moduleNavigation.js"></script>
   {% endif %}
 
 </body>

@@ -2,7 +2,7 @@
 layout: course_page
 title: Coding with AI
 published: true
-topic_slug: coding-with-genai
+module_slug: coding-with-genai
 section_slug: modules_section
 ---
 

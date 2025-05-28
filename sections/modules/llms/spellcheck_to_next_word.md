@@ -2,7 +2,7 @@
 layout: course_page
 title: From Spell Check to Next Word Prediction
 published: true
-topic_slug: intro-to-llms
+module_slug: intro-to-llms
 section_slug: modules_section
 ---
 

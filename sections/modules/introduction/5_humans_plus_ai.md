@@ -2,7 +2,7 @@
 layout: course_page
 title: "Humans + AI: Better Together?"
 published: true
-topic_slug: introduction-to-genai
+module_slug: introduction-to-genai
 section_slug: modules_section
 ---
 

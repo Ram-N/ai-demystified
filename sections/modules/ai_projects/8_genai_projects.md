@@ -3,7 +3,7 @@ layout: course_page
 title: Module 8 Creative AI Projects
 published: true
 section_slug: modules_section
-topic_slug: ai-projects
+module_slug: ai-projects
 ---
 
 # AI Projects

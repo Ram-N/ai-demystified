@@ -2,7 +2,7 @@
 layout: course_page
 title: Module 1 - Introductory Concepts
 published: true
-topic_slug: how-ai-works
+module_slug: how-ai-works
 section_slug: modules_section
 ---
 

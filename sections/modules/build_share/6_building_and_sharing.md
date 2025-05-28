@@ -3,7 +3,7 @@ layout: course_page
 title: Module 6 Building and Sharing Models
 published: true
 section_slug: modules_section
-topic_slug: building-and-sharing
+module_slug: building-and-sharing
 ---
 
 # Building and Sharing Models

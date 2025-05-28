@@ -2,7 +2,7 @@
 layout: course_page
 title: Module 5 Coding with GenAI
 published: true
-topic_slug: coding-with-genai
+module_slug: coding-with-genai
 section_slug: modules_section
 ---
 

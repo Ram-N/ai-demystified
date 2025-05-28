@@ -2,7 +2,8 @@
 layout: course_page
 title: "Why Is Everyone Talking About It?"
 published: true
-topic_slug: introduction-to-genai
+module_slug: introduction-to-genai
+topic_slug: everyone_talking
 section_slug: modules_section
 ---
 
