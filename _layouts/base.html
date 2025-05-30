@@ -39,8 +39,8 @@
   </script>
 </head>
 
-<body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}" {% endif %} {% if page.module_slug
-  %} data-module-slug="{{ page.module_slug }}" {% endif %} class="d-flex flex-column min-vh-100">
+<body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}" {% endif %} {% if page.module_slug %}
+  data-module-slug="{{ page.module_slug }}" {% endif %} class="d-flex flex-column min-vh-100">
 
 
 
@@ -60,6 +60,11 @@
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
   <script src="{{site.baseurl}}/js/gh_link_helper.js"></script>
+
+
+  {% if page.module_slug %}
+  <script src="{{ site.baseurl }}/js/sidebar.js"></script>
+  {% endif %}
 
   {% if page.extra_js %}
   {% for js in page.extra_js %}

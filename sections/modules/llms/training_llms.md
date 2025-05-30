@@ -4,6 +4,7 @@ title: Introduction to LLMs
 published: true
 module_slug: intro-to-llms
 section_slug: modules_section
+"topic_slug": "training_an_ai"
 ---
 
 # Training an AI: Reading the Internet at Super Speed

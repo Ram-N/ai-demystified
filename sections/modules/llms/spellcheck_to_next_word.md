@@ -3,6 +3,7 @@ layout: course_page
 title: From Spell Check to Next Word Prediction
 published: true
 module_slug: intro-to-llms
+"topic_slug": "from_spellcheck_to_prediction"
 section_slug: modules_section
 ---
 

@@ -4,6 +4,7 @@ title: "Humans + AI: Better Together?"
 published: true
 module_slug: introduction-to-genai
 section_slug: modules_section
+"topic_slug": "humans_ai_better_together"
 ---
 
 AI doesn’t replace creativity — it helps you grow it.

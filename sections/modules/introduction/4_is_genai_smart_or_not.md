@@ -4,6 +4,7 @@ title: "Is It Really That Smart?"
 published: true
 module_slug: introduction-to-genai
 section_slug: modules_section
+topic_slug: is-it-really-that-smart
 ---
 
 Generative AI looks smart — but is it really?

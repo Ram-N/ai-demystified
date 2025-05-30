@@ -4,6 +4,7 @@ title: Introduction to LLMs
 published: true
 module_slug: intro-to-llms
 section_slug: modules_section
+"topic_slug": "tokens_prompts"
 ---
 
 # Tokens, Prompts, and Predictions: The Language of LLMs

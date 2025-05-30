@@ -4,6 +4,7 @@ title: Introduction to LLMs
 published: true
 module_slug: intro-to-llms
 section_slug: modules_section
+"topic_slug": "why_chatgpt_understand"
 ---
 
 # Why ChatGPT Doesn’t Really ‘Understand’ You

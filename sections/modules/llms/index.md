@@ -4,6 +4,7 @@ title: Introduction to LLMs
 published: true
 module_slug: intro-to-llms
 section_slug: modules_section
+"topic_slug": "intro_to_llms"
 ---
 
 # Introduction to LLMs

@@ -3,6 +3,7 @@ layout: course_page
 title: "What Can It Create?"
 published: true
 module_slug: introduction-to-genai
+topic_slug: "what-can-it-create"
 section_slug: modules_section
 ---
 

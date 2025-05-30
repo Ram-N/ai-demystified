@@ -3,7 +3,7 @@ layout: course_page
 title: "What Is Generative AI?"
 published: true
 module_slug: introduction-to-genai
-topic_slug: what_is_genai
+topic_slug: "introduction-to-generative_ai"
 section_slug: modules_section
 ---
 
