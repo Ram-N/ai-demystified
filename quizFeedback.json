@@ -1,0 +1,56 @@
+{
+  "q1": {
+    "A": {
+      "correct": false,
+      "text": "Rhymes with 'eyes', but doesn’t make sense in context."
+    },
+    "B": {
+      "correct": true,
+      "text": "Fits the rhyme and the meaning! Also surreal and poetic!"
+    },
+    "C": {
+      "correct": false,
+      "text": "Rhymes with 'through', but too silly for the line."
+    },
+    "D": {
+      "correct": false,
+      "text": "Rhymes with 'through', completely offbeat. Try another choice!"
+    }
+  },
+  "q2": {
+    "A": {
+      "correct": true,
+      "text": "A good rhyming and thematic fit!"
+    },
+    "B": {
+      "correct": false,
+      "text": "Rhymes well, but doesn’t match the imagery of sound/echoes."
+    },
+    "C": {
+      "correct": false,
+      "text": "Too goofy. Doesn’t match the tone or rhyme."
+    },
+    "D": {
+      "correct": false,
+      "text": "No rhyme and unrelated to the ocean theme."
+    }
+  },
+  "q3": {
+    "A": {
+      "correct": true,
+      "text": "Beautiful rhyme and fits the poetic tone."
+    },
+    "B": {
+      "correct": false,
+      "text": "Close rhyme, but a bit off in tone."
+    },
+    "C": {
+      "correct": false,
+      "text": "Rhymes, but sounds like a lunch order."
+    },
+    "D": {
+      "correct": false,
+      "text": "Funny, but way off topic!"
+    }
+  }
+}
