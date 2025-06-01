@@ -11,7 +11,7 @@
       {% for module in site.data.course.modules %}
        {% assign first_post = site.categories[module]|reverse|first %}
        <li class="nav-item py-2{% if page.categories[1] == module %} active{% endif %}">
-         <a class="nav-link" href="{{ site.baseurl }}/sections/{{ module }}/">
+         <a class="nav-link" href="{{ site.baseurl }}/content/{{ module }}/">
           {{ module }}
          </a>
        </li>

@@ -1,0 +1,80 @@
+---
+layout: base
+---
+
+<div class="container-fluid d-flex flex-grow-1 flex-column">
+  <div class="row flex-grow-1">
+    {% include side_bar.html %}
+    <div class="col-xl-8 col-md-9 bg-white">
+      <div class="content p-md-2">
+
+        <h1>{{ page.title }}</h1>
+
+        <!-- Glossary Definition Section -->
+        <div class="glossary-definition">
+          <h2>Definition</h2>
+          <div>
+            {{ content }}
+          </div>
+        </div>
+
+        <!-- Visual Example Section -->
+        {% if page.visual_example %}
+        <div class="visual-example">
+          <h2>Visual Example</h2>
+          <div>
+            {{ page.visual_example | markdownify }}
+          </div>
+        </div>
+        {% endif %}
+
+        <!-- Analogy Section -->
+        {% if page.analogy %}
+        <div class="analogy">
+          <h2>Analogy</h2>
+          <div>
+            {{ page.analogy }}
+          </div>
+        </div>
+        {% endif %}
+
+        <!-- Usage in the Wild Section -->
+        {% if page.usage_in_the_wild %}
+        <div class="usage-in-the-wild">
+          <h2>Usage in the Wild</h2>
+          <div>
+            {{ page.usage_in_the_wild }}
+          </div>
+        </div>
+        {% endif %}
+
+        <!-- Further Reading Section -->
+        {% if page.further_reading %}
+        <div class="further-reading">
+          <h2>Further Reading</h2>
+          <ul>
+            {% for link in page.further_reading %}
+              <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+        <!-- Related Terms & Further Reading Section -->
+        {% if page.related_terms %}
+        <div class="related-terms">
+          <h2>Related Terms & Further Reading</h2>
+          <div>
+            <ul>
+              {% for term in page.related_terms %}
+                <li><a href="{{ term.url }}">{{ term.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+</div>
