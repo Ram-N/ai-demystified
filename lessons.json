@@ -1,242 +1,242 @@
 [
   {
     "title": "Introduction to Generative AI",
-    "url": "/sections/modules/introduction/index.html",
+    "url": "/content/modules/introduction/index.html",
     "module_slug": "introduction-to-genai",
     "topic_slug": "introduction-to-generative_ai"
   },
   {
     "title": "What Is Generative AI?",
-    "url": "/sections/modules/introduction/1_what_is_genai.html",
+    "url": "/content/modules/introduction/1_what_is_genai.html",
     "module_slug": "introduction-to-genai",
     "topic_slug": "what_is-generative_ai"
   },
   {
     "title": "Why Is Everyone Talking About It?",
-    "url": "/sections/modules/introduction/2_why_is_genai_a_big_deal.html",
+    "url": "/content/modules/introduction/2_why_is_genai_a_big_deal.html",
     "module_slug": "introduction-to-genai",
     "topic_slug": "why-is-everyone-talking"
   },
   {
     "title": "What Can It Create?",
-    "url": "/sections/modules/introduction/3_what_can_genai_create.html",
+    "url": "/content/modules/introduction/3_what_can_genai_create.html",
     "module_slug": "introduction-to-genai",
     "topic_slug": "what-can-it-create"
   },
   {
     "title": "Is It Really That Smart?",
-    "url": "/sections/modules/introduction/4_is_genai_smart_or_not.html",
+    "url": "/content/modules/introduction/4_is_genai_smart_or_not.html",
     "module_slug": "introduction-to-genai",
     "topic_slug": "is-it-really-that-smart"
   },
   {
     "title": "Humans + AI -- Better Together?",
-    "url": "/sections/modules/introduction/5_humans_plus_ai.html",
+    "url": "/content/modules/introduction/5_humans_plus_ai.html",
     "module_slug": "introduction-to-genai",
     "topic_slug": "humans_ai_better_together"
   },
   {
     "title": "How AI Works",
-    "url": "/sections/modules/how_ai_works/index.html",
+    "url": "/content/modules/how_ai_works/index.html",
     "module_slug": "how-ai-works",
     "topic_slug": "how-ai-works"
   },
   {
     "title": "Guessing the Next Word: The Math Behind AI Magic",
-    "url": "/sections/modules/how_ai_works/next_word_prediction.html",
+    "url": "/content/modules/how_ai_works/next_word_prediction.html",
     "module_slug": "how-ai-works",
     "topic_slug": "guessing_the_next_word"
   },
   {
     "title": "Learning from Examples: How AI Gets 'Smarter' Over Time",
-    "url": "/sections/modules/how_ai_works/learning_from_data.html",
+    "url": "/content/modules/how_ai_works/learning_from_data.html",
     "module_slug": "how-ai-works",
     "topic_slug": "learning_from_examples"
   },
   {
     "title": "Patterns Everywhere: Why AI Loves Finding Repeats",
-    "url": "/sections/modules/how_ai_works/pattern_recognition.html",
+    "url": "/content/modules/how_ai_works/pattern_recognition.html",
     "module_slug": "how-ai-works",
     "topic_slug": "patterns_everywhere"
   },
   {
     "title": "What\u2019s a Model? It\u2019s Like a Formula With Opinions",
-    "url": "/sections/modules/how_ai_works/what_is_a_model.html",
+    "url": "/content/modules/how_ai_works/what_is_a_model.html",
     "module_slug": "how-ai-works",
     "topic_slug": "whats_a_model"
   },
   {
     "title": "AI Doesn\u2019t Think \u2014 It Calculates (Fast)",
-    "url": "/sections/modules/how_ai_works/ai_vs_human_thinking.html",
+    "url": "/content/modules/how_ai_works/ai_vs_human_thinking.html",
     "module_slug": "how-ai-works",
     "topic_slug": "ai_doesnt_think"
   },
   {
     "title": "Intro to LLMs",
-    "url": "/sections/modules/llms/index.html",
+    "url": "/content/modules/llms/index.html",
     "module_slug": "intro-to-llms",
     "topic_slug": "intro_to_llms"
   },
   {
     "title": "From SpellCheck to Next Word Prediction",
-    "url": "/sections/modules/llms/spellcheck_to_next_word.html",
+    "url": "/content/modules/llms/spellcheck_to_next_word.html",
     "module_slug": "intro-to-llms",
     "topic_slug": "from_spellcheck_to_prediction"
   },
   {
     "title": "How Does an LLM Actually Work?",
-    "url": "/sections/modules/llms/how_llms_work.html",
+    "url": "/content/modules/llms/how_llms_work.html",
     "module_slug": "intro-to-llms",
     "topic_slug": "how_does_an_llm_work"
   },
   {
     "title": "Training an AI: Reading the Internet at Super Speed",
-    "url": "/sections/modules/llms/training_llms.html",
+    "url": "/content/modules/llms/training_llms.html",
     "module_slug": "intro-to-llms",
     "topic_slug": "training_an_ai"
   },
   {
     "title": "Why ChatGPT Doesn\u2019t Really \u2018Understand\u2019 You",
-    "url": "/sections/modules/llms/llms_vs_understanding.html",
+    "url": "/content/modules/llms/llms_vs_understanding.html",
     "module_slug": "intro-to-llms",
     "topic_slug": "why_chatgpt_understand"
   },
   {
     "title": "Tokens, Prompts, and Predictions: The Language of LLMs",
-    "url": "/sections/modules/llms/tokens_prompts_predictions.html",
+    "url": "/content/modules/llms/tokens_prompts_predictions.html",
     "module_slug": "intro-to-llms",
     "topic_slug": "tokens_prompts"
   },
   {
     "title": "Hallucinations and Why AI Sometimes Makes Stuff Up",
-    "url": "/sections/modules/llms/llm_hallucinations.html",
+    "url": "/content/modules/llms/llm_hallucinations.html",
     "module_slug": "intro-to-llms",
     "topic_slug": "hallucinations"
 
   },
   {
     "title": "Using AI Tools: A Quick Overview",
-    "url": "/sections/modules/using_tools/index.html",
+    "url": "/content/modules/using_tools/index.html",
     "module_slug": "using-tools",
     "topic_slug": "using_ai_overview"
   },
   {
     "title": "Talk to AI Like a Teacher, Not a Search Engine",
-    "url": "/sections/modules/using_tools/talk_to_ai_like_a_teacher.html",
+    "url": "/content/modules/using_tools/talk_to_ai_like_a_teacher.html",
     "module_slug": "using-tools",
     "topic_slug": "talk_to_ai_like_a_teacher"
   },
   {
     "title": "Prompt Recipes: How to Get the AI to Do What You Want",
-    "url": "/sections/modules/using_tools/prompt_recipes.html",
+    "url": "/content/modules/using_tools/prompt_recipes.html",
     "module_slug": "using-tools",
     "topic_slug": "prompt_recipes"
   },
   {
     "title": "When to Use AI \u2014 and When Not To",
-    "url": "/sections/modules/using_tools/when_to_use_ai.html",
+    "url": "/content/modules/using_tools/when_to_use_ai.html",
     "module_slug": "using-tools",
     "topic_slug": "when_to_use_ai"
   },
   {
     "title": "Make It Better: Revising AI Output Like a Pro",
-    "url": "/sections/modules/using_tools/revising_ai_output.html",
+    "url": "/content/modules/using_tools/revising_ai_output.html",
     "module_slug": "using-tools",
     "topic_slug": "make_it_better"
   },
   {
     "title": "AI and Originality: How to Use It Without Copying",
-    "url": "/sections/modules/using_tools/ai_and_originality.html",
+    "url": "/content/modules/using_tools/ai_and_originality.html",
     "module_slug": "using-tools",
     "topic_slug": "ai_and_originality"
   },
   {
     "title": "Putting It All Together: Your AI Toolkit",
-    "url": "/sections/modules/using_tools/your_ai_toolkit.html",
+    "url": "/content/modules/using_tools/your_ai_toolkit.html",
     "module_slug": "using-tools",
     "topic_slug": "your_ai_toolkit"
   },
   {
     "title": "Is AI Always Fair? Spoiler: Not Really",
-    "url": "/sections/modules/ethics/ai_and_fairness.html",
+    "url": "/content/modules/ethics/ai_and_fairness.html",
     "module_slug": "ethics",
     "topic_slug": "is_ai_always_fair"
   },
   {
     "title": "Garbage In, Garbage Out: Why Data Matters",
-    "url": "/sections/modules/ethics/data_bias_and_gigo.html",
+    "url": "/content/modules/ethics/data_bias_and_gigo.html",
     "module_slug": "ethics",
     "topic_slug": "garbage_in_garbage_out"
   },
   {
     "title": "Who's responsible When AI Gets It Wrong?",
-    "url": "/sections/modules/ethics/accountability_in_ai.html",
+    "url": "/content/modules/ethics/accountability_in_ai.html",
     "module_slug": "ethics",
     "topic_slug": "whos_responsible"
   },
   {
     "title": "AI Can't Explain Itself \u2014 Should That Worry Us?",
-    "url": "/sections/modules/ethics/ai_transparency_and_explainability.html",
+    "url": "/content/modules/ethics/ai_transparency_and_explainability.html",
     "module_slug": "ethics",
     "topic_slug": "ai_cant_explain_itself"
   },
   {
     "title": "Can AI Tell the Truth? The Problem with Deepfakes and Misinformation",
-    "url": "/sections/modules/ethics/deepfakes_and_misinfo.html",
+    "url": "/content/modules/ethics/deepfakes_and_misinfo.html",
     "module_slug": "ethics",
     "topic_slug": "can_ai_tell_the_truth"
   },
   {
     "title": "Build some Gen AI Apps",
-    "url": "/sections/modules/build_share/6_Building_and_Sharing.html",
+    "url": "/content/modules/build_share/6_Building_and_Sharing.html",
     "module_slug": "build-share",
     "topic_slug": "build_some_gen_ai_apps"
   },
   {
     "title": "Topic 2 - LLM Applications",
-    "url": "/sections/modules/topic2/lesson2.html",
+    "url": "/content/modules/topic2/lesson2.html",
     "module_slug": "topic2",
     "topic_slug": "topic_2_llm_applications"
   },
   {
     "title": "Gen AI Projects",
-    "url": "/sections/modules/ai_projects/8_genai_projects.html",
+    "url": "/content/modules/ai_projects/8_genai_projects.html",
     "module_slug": "ai-projects",
     "topic_slug": "gen-ai-projects"
   },
   {
     "title": "Coding with AI: Topics",
-    "url": "/sections/modules/coding_with_ai/index.html",
+    "url": "/content/modules/coding_with_ai/index.html",
     "module_slug": "coding-with-ai",
     "topic_slug": "coding-with-ai_topics"
   },
   {
     "title": "Your AI Coding Buddy: Asking the Right Questions",
-    "url": "/sections/modules/coding_with_ai/ai_as_coding_mentor.html",
+    "url": "/content/modules/coding_with_ai/ai_as_coding_mentor.html",
     "module_slug": "coding-with-ai",
     "topic_slug": "your_ai_coding_buddy"
   },
   {
     "title": "From Idea to Code: Turning Concepts into Commands",
-    "url": "/sections/modules/coding_with_ai/idea_to_code.html",
+    "url": "/content/modules/coding_with_ai/idea_to_code.html",
     "module_slug": "coding-with-ai",
     "topic_slug": "from_idea_to_code"
   },
   {
     "title": "Reading AI Code: Don't Just Copy, Understand",
-    "url": "/sections/modules/coding_with_ai/understanding_ai_code.html",
+    "url": "/content/modules/coding_with_ai/understanding_ai_code.html",
     "module_slug": "coding-with-ai",
     "topic_slug": "reading_ai_code"
   },
   {
     "title": "Debugging with AI: Fixing What's Broken (or Missing)",
-    "url": "/sections/modules/coding_with_ai/debugging_with_ai.html",
+    "url": "/content/modules/coding_with_ai/debugging_with_ai.html",
     "module_slug": "coding-with-ai",
     "topic_slug": "debugging_with_ai"
   },
   {
     "title": "Level Up: Improve, Extend, or Refactor Your Code with AI",
-    "url": "/sections/modules/coding_with_ai/refactor_with_ai.html",
+    "url": "/content/modules/coding_with_ai/refactor_with_ai.html",
     "module_slug": "coding-with-ai",
     "topic_slug": "level_up_improve"
   }
