@@ -1,102 +1,166 @@
 {
   "pop_quiz_song1": {
-    "A": {
-      "correct": false,
-      "text": "Rhymes with 'eyes', but doesn't make sense in context."
-    },
-    "B": {
-      "correct": true,
-      "text": "Fits the rhyme and the meaning! Also surreal and poetic!"
-    },
-    "C": {
-      "correct": false,
-      "text": "Rhymes with 'through', but too silly for the line."
-    },
-    "D": {
-      "correct": false,
-      "text": "Rhymes with 'through', completely offbeat. Try another choice!"
+    "question": "What word best completes this line in the poem?\n'Through galaxies of stars and _____'",
+    "type": "multiple-choice",
+    "options": [
+      {"value": "A", "text": "A. flies"},
+      {"value": "B", "text": "B. skies"},
+      {"value": "C", "text": "C. moo"},
+      {"value": "D", "text": "D. blue"}
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": {
+        "correct": false,
+        "text": "Rhymes with 'eyes', but doesn't make sense in context."
+      },
+      "B": {
+        "correct": true,
+        "text": "Fits the rhyme and the meaning! Also surreal and poetic!"
+      },
+      "C": {
+        "correct": false,
+        "text": "Rhymes with 'through', but too silly for the line."
+      },
+      "D": {
+        "correct": false,
+        "text": "Rhymes with 'through', completely offbeat. Try another choice!"
+      }
     }
   },
   "pop_quiz_song2": {
-    "A": {
-      "correct": true,
-      "text": "A good rhyming and thematic fit!"
-    },
-    "B": {
-      "correct": false,
-      "text": "Rhymes well, but doesn't match the imagery of sound/echoes."
-    },
-    "C": {
-      "correct": false,
-      "text": "Too goofy. doesn't match the tone or rhyme."
-    },
-    "D": {
-      "correct": false,
-      "text": "No rhyme and unrelated to the ocean theme."
+    "question": "What word completes this line best?\n'Deep in the ocean, where echoes _____'",
+    "type": "multiple-choice",
+    "options": [
+      {"value": "A", "text": "A. flow"},
+      {"value": "B", "text": "B. grow"},
+      {"value": "C", "text": "C. mow"},
+      {"value": "D", "text": "D. cat"}
+    ],
+    "correctAnswer": "A",
+    "feedback": {
+      "A": {
+        "correct": true,
+        "text": "A good rhyming and thematic fit!"
+      },
+      "B": {
+        "correct": false,
+        "text": "Rhymes well, but doesn't match the imagery of sound/echoes."
+      },
+      "C": {
+        "correct": false,
+        "text": "Too goofy. doesn't match the tone or rhyme."
+      },
+      "D": {
+        "correct": false,
+        "text": "No rhyme and unrelated to the ocean theme."
+      }
     }
   },
   "pop_quiz_song3": {
-    "A": {
-      "correct": true,
-      "text": "Beautiful rhyme and fits the poetic tone."
-    },
-    "B": {
-      "correct": false,
-      "text": "Close rhyme, but a bit off in tone."
-    },
-    "C": {
-      "correct": false,
-      "text": "Rhymes, but sounds like a lunch order."
-    },
-    "D": {
-      "correct": false,
-      "text": "Funny, but way off topic!"
+    "question": "Which word fits here?\n'In moonlit gardens, where shadows _____'",
+    "type": "multiple-choice",
+    "options": [
+      {"value": "A", "text": "A. dance"},
+      {"value": "B", "text": "B. prance"},
+      {"value": "C", "text": "C. enhance"},
+      {"value": "D", "text": "D. romance"}
+    ],
+    "correctAnswer": "A",
+    "feedback": {
+      "A": {
+        "correct": true,
+        "text": "Beautiful rhyme and fits the poetic tone."
+      },
+      "B": {
+        "correct": false,
+        "text": "Close rhyme, but a bit off in tone."
+      },
+      "C": {
+        "correct": false,
+        "text": "Rhymes, but sounds like a lunch order."
+      },
+      "D": {
+        "correct": false,
+        "text": "Funny, but way off topic!"
+      }
     }
   },
   "pop_quiz_llm1": {
-    "true": {
-      "correct": false,
-      "text": "AI seems like it understands, but it's only making predictions based on patterns — not real comprehension."
-    },
-    "false": {
-      "correct": true,
-      "text": "Correct! AI doesn't understand like humans — it matches patterns in data."
+    "question": "An AI trained on massive amounts of text can understand what words mean and use that understanding to answer questions, just like a human.",
+    "type": "boolean",
+    "options": [
+      {"value": "true", "text": "True"},
+      {"value": "false", "text": "False"}
+    ],
+    "correctAnswer": "false",
+    "feedback": {
+      "true": {
+        "correct": false,
+        "text": "Not quite. While AI can predict words and patterns very well, it doesn't actually understand meaning like humans do."
+      },
+      "false": {
+        "correct": true,
+        "text": "Correct! AI doesn't truly understand meaning - it's actually very good at recognizing patterns in text and predicting what words should come next."
+      }
     }
   },
   "pop_quiz_llm2": {
-    "a": {
-      "correct": false,
-      "text": "Not quite. AI doesn't memorize sentences; it generalizes across many examples."
-    },
-    "b": {
-      "correct": false,
-      "text": "Nope. AI can mimic emotional language, but it doesn't feel or understand emotions."
-    },
-    "c": {
-      "correct": true,
-      "text": "Exactly! Training data helps the AI learn which words and phrases tend to appear together."
-    },
-    "d": {
-      "correct": false,
-      "text": "That's more about speech recognition, not how large language models are trained."
+    "question": "What best describes the role of training data when building an AI?",
+    "type": "multiple-choice",
+    "options": [
+      {"value": "a", "text": "A. It helps the AI memorize exact sentences"},
+      {"value": "b", "text": "B. It teaches the AI emotional understanding"},
+      {"value": "c", "text": "C. It feeds the AI examples so it can learn word patterns"},
+      {"value": "d", "text": "D. It teaches the AI to translate spoken language into sound"}
+    ],
+    "correctAnswer": "c",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Not quite. AI doesn't just memorize sentences - it learns patterns from them."
+      },
+      "b": {
+        "correct": false,
+        "text": "No, AI doesn't actually develop emotional understanding from training data."
+      },
+      "c": {
+        "correct": true,
+        "text": "Correct! Training data helps the AI learn patterns in how words and phrases are used together."
+      },
+      "d": {
+        "correct": false,
+        "text": "No, text training data isn't about sound translation."
+      }
     }
   },
   "pop_quiz_llm3": {
-    "a": {
-      "correct": false,
-      "text": "Creative guess, but 'sleeps' is not a common follow-up for 'The sun...'"
-    },
-    "b": {
-      "correct": false,
-      "text": "Poetic! But not a frequent pattern in text data."
-    },
-    "c": {
-      "correct": true,
-      "text": "Correct! 'The sun is…' is a very common pattern the AI would pick up during training."
-    },
-    "d": {
-      "correct": false,
-      "text": "Dramatic, yes — but not as statistically likely as simple sentences like 'The sun is shining.'"
+    "question": "After reading these phrases:\n'The sun is shining.'\n'The sun rises in the east.'\n'The sun sets beautifully.'\n\nWhat is the AI most likely to predict after seeing: 'The sun…'",
+    "type": "multiple-choice",
+    "options": [
+      {"value": "a", "text": "A. sleeps"},
+      {"value": "b", "text": "B. dances"},
+      {"value": "c", "text": "C. is"},
+      {"value": "d", "text": "D. explodes"}
+    ],
+    "correctAnswer": "c",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "No, 'sleeps' wasn't in any of the training examples."
+      },
+      "b": {
+        "correct": false,
+        "text": "No, 'dances' wasn't in any of the training examples."
+      },
+      "c": {
+        "correct": true,
+        "text": "Correct! Based on the training examples, 'is' appeared after 'The sun' and is therefore most likely to be predicted."
+      },
+      "d": {
+        "correct": false,
+        "text": "No, 'explodes' wasn't in any of the training examples."
+      }
     }
   }
 }

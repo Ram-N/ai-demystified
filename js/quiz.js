@@ -1,40 +1,69 @@
-document.addEventListener('DOMContentLoaded', () => {    const baseurl = window.BASEURL || '';
+document.addEventListener('DOMContentLoaded', () => {
+    const baseurl = window.BASEURL || '';
     const feedbackUrl = `${baseurl}/quizFeedback.json`;
-    const quizForms = document.querySelectorAll('form[id^="pop_quiz_"]');
+    let feedbackData = {};
 
-    let feedbackData = {};  // ✅ declare in outer scope
+    // Function to generate quiz HTML
+    function generateQuizHtml(quizId, quizData) {
+        const form = document.createElement('form');
+        form.id = quizId;
+        form.className = 'quiz-form';
 
+        const questionP = document.createElement('p');
+        questionP.innerHTML = quizData.question;
+        form.appendChild(questionP);
+
+        quizData.options.forEach(option => {
+            const label = document.createElement('label');
+            const input = document.createElement('input');
+            input.type = quizData.type === 'boolean' ? 'radio' : 'radio';
+            input.name = quizId;
+            input.value = option.value;
+            label.appendChild(input);
+            label.appendChild(document.createTextNode(` ${option.text}`));
+            form.appendChild(label);
+        });
+
+        const resultDiv = document.createElement('div');
+        resultDiv.className = 'quiz-result';
+        form.appendChild(resultDiv);
+
+        return form;
+    }
+
+    // Initialize quizzes
     fetch(feedbackUrl)
         .then(res => res.json())
         .then(data => {
-            feedbackData = data; // ✅ assign here after fetch
+            feedbackData = data;
 
-            quizForms.forEach(form => {
-                const questionId = form.id;                form.addEventListener('change', event => {
-                    // Support both old and new ID formats
-                    if (!event.target.name.includes(questionId)) return;
+            // Find all quiz placeholders
+            document.querySelectorAll('.quiz[data-quiz-id]').forEach(placeholder => {
+                const quizId = placeholder.dataset.quizId;
+                const quizData = feedbackData[quizId];
 
+                if (!quizData) {
+                    console.warn(`⚠️ No quiz data found for ${quizId}`);
+                    return;
+                }
+
+                // Generate and insert quiz form
+                const quizForm = generateQuizHtml(quizId, quizData);
+                placeholder.replaceWith(quizForm);
+
+                // Add event listener
+                quizForm.addEventListener('change', event => {
                     const selected = event.target.value;
-
-                    console.log('🧩 Question ID:', questionId);
-                    console.log('🧪 Selected Choice:', selected);
-                    console.log('📁 feedbackData:', feedbackData);
-                    console.log('📂 feedbackData[questionId]:', feedbackData[questionId]);
-
-                    if (!feedbackData[questionId]) {
-                        console.warn(`⚠️ No feedback found for ${questionId}`);
-                        return;
-                    }
-
-                    const feedback = feedbackData[questionId][selected];
+                    const feedback = quizData.feedback[selected];
+                    
                     if (!feedback) {
-                        console.warn(`⚠️ No feedback found for ${selected} under ${questionId}`);
+                        console.warn(`⚠️ No feedback found for ${selected} under ${quizId}`);
                         return;
                     }
 
-                    const resultDiv = form.querySelector('.quiz-result');
+                    const resultDiv = quizForm.querySelector('.quiz-result');
                     if (!resultDiv) return;
-                    console.log('📊 past resultDiv');
+                    
                     const icon = feedback.correct ? '✅' : '❌';
                     resultDiv.innerHTML = `${icon} <span>${feedback.text}</span>`;
                 });

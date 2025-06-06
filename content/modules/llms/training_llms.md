@@ -40,33 +40,10 @@ Training an LLM means feeding it millions of text examples so it can learn how l
 ## Interactive Quiz
 
 <!-- Question 1 -->
-<form id="pop_quiz_llm1">
-  <p>1. An AI trained on massive amounts of text can understand what words mean and use that understanding to answer questions, just like a human.</p>
-  <label><input type="radio" name="pop_quiz_llm1" value="true"> True</label>
-  <label><input type="radio" name="pop_quiz_llm1" value="false"> False</label>
-  <div class="quiz-result"></div>
-</form>
+<div class="quiz" data-quiz-id="pop_quiz_llm1"></div>
 
 <!-- Question 2 -->
-<form id="pop_quiz_llm2">
-  <p>2. What best describes the role of <strong>training data</strong> when building an AI?</p>
-  <label><input type="radio" name="pop_quiz_llm2" value="a"> A. It helps the AI memorize exact sentences</label>
-  <label><input type="radio" name="pop_quiz_llm2" value="b"> B. It teaches the AI emotional understanding</label>
-  <label><input type="radio" name="pop_quiz_llm2" value="c"> C. It feeds the AI examples so it can learn word patterns</label>
-  <label><input type="radio" name="pop_quiz_llm2" value="d"> D. It teaches the AI to translate spoken language into sound</label>
-  <div class="quiz-result"></div>
-</form>
+<div class="quiz" data-quiz-id="pop_quiz_llm2"></div>
 
 <!-- Question 3 -->
-<form id="llm_training_q3">
-  <p>3. After reading these phrases:<br>
-     “The sun is shining.”<br>
-     “The sun rises in the east.”<br>
-     “The sun sets beautifully.”<br><br>
-     What is the AI most likely to predict after seeing: <em>“The sun…”</em></p>
-  <label><input type="radio" name="llm_training_q3" value="a"> A. sleeps</label><br>
-  <label><input type="radio" name="llm_training_q3" value="b"> B. dances</label><br>
-  <label><input type="radio" name="llm_training_q3" value="c"> C. is</label><br>
-  <label><input type="radio" name="llm_training_q3" value="d"> D. explodes</label>
-  <div class="quiz-result"></div>
-</form>
+<div class="quiz" data-quiz-id="pop_quiz_llm3"></div>
