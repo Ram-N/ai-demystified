@@ -1,0 +1,46 @@
+.quiz-result {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.quiz-result span {
+    margin-left: 8px;
+}
+
+form[id^="llm_training_q"], form[id^="pop_quiz_"] {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+/* Style for multiple choice questions */
+form[id^="llm_training_q"] p, form[id^="q"] p {
+    margin-bottom: 12px;
+}
+
+/* For true/false questions, keep choices on same line */
+form[id^="llm_training_q"]:has(input[value="true"]) label {
+    margin-right: 24px;
+}
+
+form[id^="llm_training_q"] label, form[id^="pop_quiz_"] label {
+    display: inline-block;
+    margin: 4px 20px 4px 0;
+    cursor: pointer;
+}
+
+form[id^="llm_training_q"] input[type="radio"], form[id^="q"] input[type="radio"] {
+    margin-right: 8px;
+}
+
+.quiz-result:not(:empty) {
+    background-color: #e9ecef;
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

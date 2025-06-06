@@ -1,7 +1,6 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const baseurl = window.BASEURL || '';
+document.addEventListener('DOMContentLoaded', () => {    const baseurl = window.BASEURL || '';
     const feedbackUrl = `${baseurl}/quizFeedback.json`;
-    const quizForms = document.querySelectorAll('form[id^="q"]');
+    const quizForms = document.querySelectorAll('form[id^="pop_quiz_"]');
 
     let feedbackData = {};  // ✅ declare in outer scope
 
@@ -11,10 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
             feedbackData = data; // ✅ assign here after fetch
 
             quizForms.forEach(form => {
-                const questionId = form.id;
-
-                form.addEventListener('change', event => {
-                    if (!event.target.name.startsWith(questionId)) return;
+                const questionId = form.id;                form.addEventListener('change', event => {
+                    // Support both old and new ID formats
+                    if (!event.target.name.includes(questionId)) return;
 
                     const selected = event.target.value;
 

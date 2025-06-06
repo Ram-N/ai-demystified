@@ -85,11 +85,11 @@ For each song, click on the option is the _most likely_ option, given the mood a
   <pre><code>I opened my eyes,
 The sun peeked through,
 And danced across the...</code></pre>
-  <form id="q1">
-    <label><pre><code><input type="radio" name="q1" value="A"> cries of flies</code></pre></label>
-    <label><pre><code><input type="radio" name="q1" value="B"> skies of dyes</code></pre></label>
-    <label><pre><code><input type="radio" name="q1" value="C"> blue canoe crew</code></pre></label>
-    <label><pre><code><input type="radio" name="q1" value="D"> zoo kangaroo stew</code></pre></label>
+  <form id="pop_quiz_song1">
+    <label><pre><code><input type="radio" name="pop_quiz_song1" value="A"> cries of flies</code></pre></label>
+    <label><pre><code><input type="radio" name="pop_quiz_song1" value="B"> skies of dyes</code></pre></label>
+    <label><pre><code><input type="radio" name="pop_quiz_song1" value="C"> blue canoe crew</code></pre></label>
+    <label><pre><code><input type="radio" name="pop_quiz_song1" value="D"> zoo kangaroo stew</code></pre></label>
        <div class="quiz-result"></div>    <!-- placeholder for feedback -->
 
   </form>
@@ -99,11 +99,11 @@ And danced across the...</code></pre>
   <pre><code>The waves crash high,
 The seagulls fly,
 Their echoes fill the...</code></pre>
-  <form id="q2">
-    <label><pre><code><input type="radio" name="q2" value="A"> sky with sighs</code></pre></label>
-    <label><pre><code><input type="radio" name="q2" value="B"> tide with pride</code></pre></label>
-    <label><pre><code><input type="radio" name="q2" value="C"> pie and fries</code></pre></label>
-    <label><pre><code><input type="radio" name="q2" value="D"> couch with remote</code></pre></label>
+  <form id="pop_quiz_song2">
+    <label><pre><code><input type="radio" name="pop_quiz_song2" value="A"> sky with sighs</code></pre></label>
+    <label><pre><code><input type="radio" name="pop_quiz_song2" value="B"> tide with pride</code></pre></label>
+    <label><pre><code><input type="radio" name="pop_quiz_song2" value="C"> pie and fries</code></pre></label>
+    <label><pre><code><input type="radio" name="pop_quiz_song2" value="D"> couch with remote</code></pre></label>
        <div class="quiz-result"></div>    <!-- placeholder for feedback -->
 
   </form>
@@ -113,11 +113,11 @@ Their echoes fill the...</code></pre>
   <pre><code>The stars above me glow,
 Whispers in the trees,
 Telling me their...</code></pre>
-  <form id="q3">
-    <label><pre><code><input type="radio" name="q3" value="A"> secrets in the breeze</code></pre></label>
-    <label><pre><code><input type="radio" name="q3" value="B"> hopes and pleas</code></pre></label>
-    <label><pre><code><input type="radio" name="q3" value="C"> knees and cheese</code></pre></label>
-    <label><pre><code><input type="radio" name="q3" value="D"> avocado cargo show</code></pre></label>
+  <form id="pop_quiz_song3">
+    <label><pre><code><input type="radio" name="pop_quiz_song3" value="A"> secrets in the breeze</code></pre></label>
+    <label><pre><code><input type="radio" name="pop_quiz_song3" value="B"> hopes and pleas</code></pre></label>
+    <label><pre><code><input type="radio" name="pop_quiz_song3" value="C"> knees and cheese</code></pre></label>
+    <label><pre><code><input type="radio" name="pop_quiz_song3" value="D"> avocado cargo show</code></pre></label>
 
    <div class="quiz-result"></div>    <!-- placeholder for feedback -->
 
