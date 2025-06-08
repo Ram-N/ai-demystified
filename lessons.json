@@ -12,22 +12,10 @@
     "topic_slug": "what_is-generative_ai"
   },
   {
-    "title": "Why Is Everyone Talking About It?",
-    "url": "/content/modules/introduction/2_why_is_genai_a_big_deal.html",
-    "module_slug": "introduction-to-genai",
-    "topic_slug": "why-is-everyone-talking"
-  },
-  {
     "title": "What Can It Create?",
     "url": "/content/modules/introduction/3_what_can_genai_create.html",
     "module_slug": "introduction-to-genai",
     "topic_slug": "what-can-it-create"
-  },
-  {
-    "title": "Is It Really That Smart?",
-    "url": "/content/modules/introduction/4_is_genai_smart_or_not.html",
-    "module_slug": "introduction-to-genai",
-    "topic_slug": "is-it-really-that-smart"
   },
   {
     "title": "Humans + AI -- Better Together?",

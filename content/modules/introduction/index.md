@@ -19,22 +19,13 @@ The topics in this module are presented as blog-style lessons designed for stude
 - **Analogy**: Regular AI is like a librarian who finds you the right book. Generative AI is like an author who writes you a brand-new story.
 - **Activity**: Students try two tools: a search engine vs. a text generator (e.g. Google vs. ChatGPT), then compare what each one does.
 
-### [L2. Why Is Everyone Talking About It?](2_why_is_genai_a_big_deal.html)
-- **Focus**: Explain the current excitement, breakthroughs (GPT, DALL·E), and media buzz.
-- **Analogy**: It’s like the invention of the calculator, but for thinking and creating.
-- **Activity**: Browse a timeline of GenAI releases, then discuss in pairs: “Which tool would you most want to try and why?”
-
 ### [L3. What Can It Create?](3_what_can_genai_create.html)
 - **Focus**: Showcase the outputs—text, images, music, video, and code.
 - **Analogy**: It’s like a super creative assistant who never gets tired and works in any art form you ask.
 - **Activity**: Rotate through AI demos, then present a “Top 3 coolest AI things I saw.”
 
-### [L4. Is It Really That Smart?](4_is_genai_smart_or_not.html)
-- **Focus**: Talk about how GenAI "knows" things—pattern prediction, not real thinking.
-- **Analogy**: Like a very advanced parrot that’s memorized the entire internet—but still doesn’t understand feelings.
-- **Activity**: Prompt an LLM with tricky questions and discuss where it gets confused.
 
-### [L5. Humans + AI: Better Together?](5_humans_plus_ai.html)
+### [L4. Humans + AI: Better Together?](5_humans_plus_ai.html)
 - **Focus**: Emphasize collaboration—how people use AI to enhance creativity, not replace it.
 - **Analogy**: AI is like a musical instrument—you still need a person to play it beautifully.
 - **Activity**: In groups, students brainstorm a creative project they could make better with AI help.
