@@ -162,5 +162,125 @@
         "text": "No, 'explodes' wasn't in any of the training examples."
       }
     }
+  },
+  "pop_quiz_prompt1": {
+    "question": "What makes a prompt more likely to give a useful response from an AI?",
+    "type": "multiple-choice",
+    "options": [
+      { "value": "a", "text": "A. Keeping it very short" },
+      { "value": "b", "text": "B. Being vague so the AI can be creative" },
+      { "value": "c", "text": "C. Giving clear, specific instructions" },
+      { "value": "d", "text": "D. Asking multiple unrelated things at once" }
+    ],
+    "correctAnswer": "c",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Short prompts can be helpful, but not if they leave out important details."
+      },
+      "b": {
+        "correct": false,
+        "text": "Vague prompts often lead to vague answers."
+      },
+      "c": {
+        "correct": true,
+        "text": "Yes! Clear, specific prompts help the AI understand exactly what you're looking for."
+      },
+      "d": {
+        "correct": false,
+        "text": "Too many unrelated requests can confuse the AI."
+      }
+    }
+  },
+  "pop_quiz_prompt2": {
+    "question": "Which of these is the best prompt for writing a travel blog post?",
+    "type": "multiple-choice",
+    "options": [
+      { "value": "a", "text": "A. Write about travel." },
+      { "value": "b", "text": "B. Tell me something interesting." },
+      { "value": "c", "text": "C. Describe a trip." },
+      { "value": "d", "text": "D. Write a 3-paragraph blog post about visiting Jaipur, focusing on culture, food, and historical sites." }
+    ],
+    "correctAnswer": "d",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "That's too vague and won't guide the AI well."
+      },
+      "b": {
+        "correct": false,
+        "text": "This prompt doesn't give enough direction or context."
+      },
+      "c": {
+        "correct": false,
+        "text": "It's slightly better, but still too general."
+      },
+      "d": {
+        "correct": true,
+        "text": "Correct! This prompt is specific and gives the AI clear instructions on content and structure."
+      }
+    }
+  },
+
+  "pop_quiz_prompt3": {
+    "question": "What should you do if the AI's response isn't quite right the first time?",
+    "type": "multiple-choice",
+    "options": [
+      { "value": "a", "text": "A. Give up" },
+      { "value": "b", "text": "B. Keep repeating the same prompt" },
+      { "value": "c", "text": "C. Refine the prompt with more detail or clarity" },
+      { "value": "d", "text": "D. Complain to the AI" }
+    ],
+    "correctAnswer": "c",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "No need to give up! Try adjusting your prompt."
+      },
+      "b": {
+        "correct": false,
+        "text": "Repeating the same thing usually leads to the same result."
+      },
+      "c": {
+        "correct": true,
+        "text": "Exactly! Improving your prompt is the best way to guide the AI toward a better response."
+      },
+      "d": {
+        "correct": false,
+        "text": "That won't help. Instead, focus on giving clearer instructions."
+      }
+    }
+  },
+
+  "pop_quiz_prompt4": {
+    "question": "Why is it helpful to set a “role” in your prompt, like saying 'You are a teacher…'?",
+    "type": "multiple-choice",
+    "options": [
+      { "value": "a", "text": "A. So the AI knows how to behave or what tone to use" },
+      { "value": "b", "text": "B. To make the prompt longer" },
+      { "value": "c", "text": "C. It confuses the AI" },
+      { "value": "d", "text": "D. It's required for the AI to work" }
+    ],
+    "correctAnswer": "a",
+    "feedback": {
+      "a": {
+        "correct": true,
+        "text": "Yes! Giving the AI a role helps it tailor its response to your needs."
+      },
+      "b": {
+        "correct": false,
+        "text": "Making the prompt longer isn't helpful unless it adds useful detail."
+      },
+      "c": {
+        "correct": false,
+        "text": "Actually, roles help guide the AI—they don't confuse it."
+      },
+      "d": {
+        "correct": false,
+        "text": "It's not required, but it definitely improves the results."
+      }
+    }
   }
 }
+
+
