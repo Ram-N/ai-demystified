@@ -4,6 +4,7 @@ title: Using AI Tools Effectively
 published: true
 module_slug: using-ai-tools
 section_slug: modules_section
+topic_slug: prompt_recipes
 ---
 
 # Prompt Recipes: How to Get the AI to Do What You Want

@@ -3,10 +3,10 @@
     "question": "What word best completes this line in the poem?\n'Through galaxies of stars and _____'",
     "type": "multiple-choice",
     "options": [
-      {"value": "A", "text": "A. flies"},
-      {"value": "B", "text": "B. skies"},
-      {"value": "C", "text": "C. moo"},
-      {"value": "D", "text": "D. blue"}
+      { "value": "A", "text": "A. flies" },
+      { "value": "B", "text": "B. skies" },
+      { "value": "C", "text": "C. moo" },
+      { "value": "D", "text": "D. blue" }
     ],
     "correctAnswer": "B",
     "feedback": {
@@ -32,10 +32,10 @@
     "question": "What word completes this line best?\n'Deep in the ocean, where echoes _____'",
     "type": "multiple-choice",
     "options": [
-      {"value": "A", "text": "A. flow"},
-      {"value": "B", "text": "B. grow"},
-      {"value": "C", "text": "C. mow"},
-      {"value": "D", "text": "D. cat"}
+      { "value": "A", "text": "A. flow" },
+      { "value": "B", "text": "B. grow" },
+      { "value": "C", "text": "C. mow" },
+      { "value": "D", "text": "D. cat" }
     ],
     "correctAnswer": "A",
     "feedback": {
@@ -61,10 +61,10 @@
     "question": "Which word fits here?\n'In moonlit gardens, where shadows _____'",
     "type": "multiple-choice",
     "options": [
-      {"value": "A", "text": "A. dance"},
-      {"value": "B", "text": "B. prance"},
-      {"value": "C", "text": "C. enhance"},
-      {"value": "D", "text": "D. romance"}
+      { "value": "A", "text": "A. dance" },
+      { "value": "B", "text": "B. prance" },
+      { "value": "C", "text": "C. enhance" },
+      { "value": "D", "text": "D. romance" }
     ],
     "correctAnswer": "A",
     "feedback": {
@@ -90,8 +90,8 @@
     "question": "An AI trained on massive amounts of text can understand what words mean and use that understanding to answer questions, just like a human.",
     "type": "boolean",
     "options": [
-      {"value": "true", "text": "True"},
-      {"value": "false", "text": "False"}
+      { "value": "true", "text": "True" },
+      { "value": "false", "text": "False" }
     ],
     "correctAnswer": "false",
     "feedback": {
@@ -109,10 +109,16 @@
     "question": "What best describes the role of training data when building an AI?",
     "type": "multiple-choice",
     "options": [
-      {"value": "a", "text": "A. It helps the AI memorize exact sentences"},
-      {"value": "b", "text": "B. It teaches the AI emotional understanding"},
-      {"value": "c", "text": "C. It feeds the AI examples so it can learn word patterns"},
-      {"value": "d", "text": "D. It teaches the AI to translate spoken language into sound"}
+      { "value": "a", "text": "A. It helps the AI memorize exact sentences" },
+      { "value": "b", "text": "B. It teaches the AI emotional understanding" },
+      {
+        "value": "c",
+        "text": "C. It feeds the AI examples so it can learn word patterns"
+      },
+      {
+        "value": "d",
+        "text": "D. It teaches the AI to translate spoken language into sound"
+      }
     ],
     "correctAnswer": "c",
     "feedback": {
@@ -138,10 +144,10 @@
     "question": "After reading these phrases:\n'The sun is shining.'\n'The sun rises in the east.'\n'The sun sets beautifully.'\n\nWhat is the AI most likely to predict after seeing: 'The sun…'",
     "type": "multiple-choice",
     "options": [
-      {"value": "a", "text": "A. sleeps"},
-      {"value": "b", "text": "B. dances"},
-      {"value": "c", "text": "C. is"},
-      {"value": "d", "text": "D. explodes"}
+      { "value": "a", "text": "A. sleeps" },
+      { "value": "b", "text": "B. dances" },
+      { "value": "c", "text": "C. is" },
+      { "value": "d", "text": "D. explodes" }
     ],
     "correctAnswer": "c",
     "feedback": {
@@ -199,7 +205,10 @@
       { "value": "a", "text": "A. Write about travel." },
       { "value": "b", "text": "B. Tell me something interesting." },
       { "value": "c", "text": "C. Describe a trip." },
-      { "value": "d", "text": "D. Write a 3-paragraph blog post about visiting Jaipur, focusing on culture, food, and historical sites." }
+      {
+        "value": "d",
+        "text": "D. Write a 3-paragraph blog post about visiting Jaipur, focusing on culture, food, and historical sites."
+      }
     ],
     "correctAnswer": "d",
     "feedback": {
@@ -228,7 +237,10 @@
     "options": [
       { "value": "a", "text": "A. Give up" },
       { "value": "b", "text": "B. Keep repeating the same prompt" },
-      { "value": "c", "text": "C. Refine the prompt with more detail or clarity" },
+      {
+        "value": "c",
+        "text": "C. Refine the prompt with more detail or clarity"
+      },
       { "value": "d", "text": "D. Complain to the AI" }
     ],
     "correctAnswer": "c",
@@ -256,7 +268,10 @@
     "question": "Why is it helpful to set a “role” in your prompt, like saying 'You are a teacher…'?",
     "type": "multiple-choice",
     "options": [
-      { "value": "a", "text": "A. So the AI knows how to behave or what tone to use" },
+      {
+        "value": "a",
+        "text": "A. So the AI knows how to behave or what tone to use"
+      },
       { "value": "b", "text": "B. To make the prompt longer" },
       { "value": "c", "text": "C. It confuses the AI" },
       { "value": "d", "text": "D. It's required for the AI to work" }
@@ -282,5 +297,3 @@
     }
   }
 }
-
-
