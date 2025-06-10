@@ -147,31 +147,31 @@
   {
     "title": "Is AI Always Fair? Spoiler: Not Really",
     "url": "/content/modules/ethics/ai_and_fairness.html",
-    "module_slug": "ethics",
+    "module_slug": "ai-ethics",
     "topic_slug": "is_ai_always_fair"
   },
   {
     "title": "Garbage In, Garbage Out: Why Data Matters",
     "url": "/content/modules/ethics/data_bias_and_gigo.html",
-    "module_slug": "ethics",
+    "module_slug": "ai-ethics",
     "topic_slug": "garbage_in_garbage_out"
   },
   {
     "title": "Who's responsible When AI Gets It Wrong?",
     "url": "/content/modules/ethics/accountability_in_ai.html",
-    "module_slug": "ethics",
+    "module_slug": "ai-ethics",
     "topic_slug": "whos_responsible"
   },
   {
     "title": "AI Can't Explain Itself \u2014 Should That Worry Us?",
     "url": "/content/modules/ethics/ai_transparency_and_explainability.html",
-    "module_slug": "ethics",
+    "module_slug": "ai-ethics",
     "topic_slug": "ai_cant_explain_itself"
   },
   {
     "title": "Can AI Tell the Truth? The Problem with Deepfakes and Misinformation",
     "url": "/content/modules/ethics/deepfakes_and_misinfo.html",
-    "module_slug": "ethics",
+    "module_slug": "ai-ethics",
     "topic_slug": "can_ai_tell_the_truth"
   },
   {

@@ -121,3 +121,124 @@
   display: inline-block;
   margin-top: 0.25rem;
 }
+
+/* SIDEBAR MODULE adjustments */
+
+/* Module Header Button Styling */
+.module__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 16px;
+  margin: 0 -16px;  /* Negative margin to extend hover effect */
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2d3748;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.module__header:hover {
+  color: #0056b3;
+  background-color: #f8f9fa;
+}
+
+/* The expanding/collapsing list of lessons */
+.module__lessons {
+  list-style: none;
+  padding-left: 24px; /* Increased indent for better hierarchy */
+  margin: 0;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+/* The Chevron Icon - Modern Version */
+.module__icon {
+  display: inline-block;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: translate(-75%, -75%) rotate(-45deg);
+    transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+/* --- ACTIVE/OPEN STATES --- */
+
+/* --- ACTIVE/OPEN STATES --- */
+
+/* Style the lessons list when its module is active */
+.module.is-active .module__lessons {
+  max-height: 800px; /* Increased to handle more items */
+  opacity: 1;
+  transform: translateY(0);
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* Rotate the chevron when module is active */
+.module.is-active .module__icon::before {
+  transform: translate(-75%, -75%) rotate(45deg);
+}
+
+/* Module header active state */
+.module.is-active .module__header {
+  color: #0056b3;
+  background-color: #f8f9fa;
+}
+
+/* Style for the current lesson */
+.module__lessons a.is-current-lesson {
+  position: relative;
+  font-weight: 600;
+  color: #0056b3;
+  padding-left: 16px;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: currentColor;
+  }
+}
+
+/* Lesson link styling */
+.module__lessons a {
+  display: block;
+  padding: 10px 0;
+  color: #4a5568;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+  
+  &:hover {
+    color: #0056b3;
+    background-color: #f8f9fa;
+    padding-left: 8px;
+  }
+}
