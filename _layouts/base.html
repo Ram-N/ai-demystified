@@ -39,10 +39,10 @@
   </script>
 </head>
 
-<body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}" {% endif %} {% if page.module_slug %}
-  data-module-slug="{{ page.module_slug }}" {% endif %} class="d-flex flex-column min-vh-100">
 
-
+<body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}" {% endif %}{% if page.module_slug %}
+  data-module-slug="{{ page.module_slug }}" {% endif %}{% if page.sidebar_context %}
+  data-sidebar-context="{{ page.sidebar_context }}" {% endif %} class="d-flex flex-column min-vh-100">
 
   {% include navigation.html %}
 
@@ -61,9 +61,10 @@
     crossorigin="anonymous"></script>
   <script src="{{site.baseurl}}/js/gh_link_helper.js"></script>
 
-
-  {% if page.module_slug %}
+  {% if page.module_slug or page.sidebar_context %}
   <script src="{{ site.baseurl }}/js/sidebar.js?v={{ site.time | date: '%s' }}"></script>
+  {% endif %}
+  {% if page.module_slug %}
   <script src="{{ site.baseurl }}/js/quiz.js"></script>
   {% endif %}
 

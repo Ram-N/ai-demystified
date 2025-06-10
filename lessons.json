@@ -1,4 +1,9 @@
-[
+[  {
+    "title": "Introduction to Generative AI",
+    "url": "/content/introduction/index.html",
+    "module_slug": "introduction-to-genai",
+    "topic_slug": "why-bother"
+  },
   {
     "title": "Introduction to Generative AI",
     "url": "/content/modules/introduction/index.html",

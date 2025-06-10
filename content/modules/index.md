@@ -3,8 +3,8 @@ layout: course_page
 title: Course Modules
 published: true
 section_slug: modules_section
+sidebar_context: open-first
 ---
-
 
 # Course Modules
 
