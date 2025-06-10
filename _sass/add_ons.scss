@@ -184,7 +184,6 @@
 
 /* --- ACTIVE/OPEN STATES --- */
 
-/* --- ACTIVE/OPEN STATES --- */
 
 /* Style the lessons list when its module is active */
 .module.is-active .module__lessons {
@@ -229,7 +228,8 @@
 /* Lesson link styling */
 .module__lessons a {
   display: block;
-  padding: 10px 0;
+  padding: 10px 8px;
+  margin: 2px 0;
   color: #4a5568;
   text-decoration: none;
   font-size: 0.95rem;
@@ -238,7 +238,8 @@
   
   &:hover {
     color: #0056b3;
-    background-color: #f8f9fa;
-    padding-left: 8px;
+    text-decoration: none;
+    padding-left: 12px;
+    border-left: 2px solid currentColor;
   }
 }
