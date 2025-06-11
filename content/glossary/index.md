@@ -1,8 +1,10 @@
 ---
-layout: course_page
+layout: glossary_index
 title: Glossary of AI Terms
 published: true
 section_slug: glossary
+sidebar_glossary: open-none
+
 ---
 
 # Glossary: Understanding Generative AI

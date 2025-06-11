@@ -1,0 +1,107 @@
+[
+  {
+    "slug":"algorithm",
+    "title":"Algorithm",
+    "url":"\/content\/glossary\/algorithm"
+  },
+  {
+    "slug":"artificial-intelligence-ai",
+    "title":"Artificial Intelligence (AI)",
+    "url":"\/content\/glossary\/artificial-intelligence-ai"
+  },
+  {
+    "slug":"bias-in-ai",
+    "title":"Bias (in AI)",
+    "url":"\/content\/glossary\/bias-in-ai"
+  },
+  {
+    "slug":"chatbot",
+    "title":"Chatbot",
+    "url":"\/content\/glossary\/chatbot"
+  },
+  {
+    "slug":"data",
+    "title":"Data",
+    "url":"\/content\/glossary\/data"
+  },
+  {
+    "slug":"deep-learning",
+    "title":"Deep Learning",
+    "url":"\/content\/glossary\/deep-learning"
+  },
+  {
+    "slug":"ethics-in-ai",
+    "title":"Ethics (in AI)",
+    "url":"\/content\/glossary\/ethics-in-ai"
+  },
+  {
+    "slug":"generative-ai",
+    "title":"Generative AI",
+    "url":"\/content\/glossary\/generative-ai"
+  },
+  {
+    "slug":"hallucination-ai",
+    "title":"Hallucination (AI)",
+    "url":"\/content\/glossary\/hallucination-ai"
+  },
+  {
+    "slug":"image-generation",
+    "title":"Image Generation",
+    "url":"\/content\/glossary\/image-generation"
+  },
+  {
+    "slug":"input",
+    "title":"Input",
+    "url":"\/content\/glossary\/input"
+  },
+  {
+    "slug":"large-language-model-llm",
+    "title":"Large Language Model (LLM)",
+    "url":"\/content\/glossary\/large-language-model-llm"
+  },
+  {
+    "slug":"machine-learning-ml",
+    "title":"Machine Learning (ML)",
+    "url":"\/content\/glossary\/machine-learning-ml"
+  },
+  {
+    "slug":"model-ai-model",
+    "title":"Model (AI Model)",
+    "url":"\/content\/glossary\/model-ai-model"
+  },
+  {
+    "slug":"natural-language-processing-nlp",
+    "title":"Natural Language Processing (NLP)",
+    "url":"\/content\/glossary\/natural-language-processing-nlp"
+  },
+  {
+    "slug":"neural-network",
+    "title":"Neural Network",
+    "url":"\/content\/glossary\/neural-network"
+  },
+  {
+    "slug":"output-or-generation",
+    "title":"Output (or Generation)",
+    "url":"\/content\/glossary\/output-or-generation"
+  },
+  {
+    "slug":"prompt",
+    "title":"Prompt",
+    "url":"\/content\/glossary\/prompt"
+  },
+  {
+    "slug":"prompt-engineering",
+    "title":"Prompt Engineering",
+    "url":"\/content\/glossary\/prompt-engineering"
+  },
+  {
+    "slug":"token",
+    "title":"Token",
+    "url":"\/content\/glossary\/token"
+  },
+  {
+    "slug":"training-ai-training",
+    "title":"Training (AI Training)",
+    "url":"\/content\/glossary\/training-ai-training"
+  }
+]

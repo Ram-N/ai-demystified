@@ -11,12 +11,16 @@ layout: base
         <h1>{{ page.title }}</h1>
 
         <!-- Glossary Definition Section -->
+        {% if page.definition %}
         <div class="glossary-definition">
           <h2>Definition</h2>
           <div>
-            {{ content }}
+            {{ page.definition | markdownify }}
           </div>
         </div>
+        {% endif %}
+
+        {{ content }}
 
         <!-- Visual Example Section -->
         {% if page.visual_example %}
@@ -54,7 +58,7 @@ layout: base
           <h2>Further Reading</h2>
           <ul>
             {% for link in page.further_reading %}
-              <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+            <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
             {% endfor %}
           </ul>
         </div>
@@ -67,7 +71,7 @@ layout: base
           <div>
             <ul>
               {% for term in page.related_terms %}
-                <li><a href="{{ term.url }}">{{ term.title }}</a></li>
+              <li><a href="{{ term.url }}">{{ term.title }}</a></li>
               {% endfor %}
             </ul>
           </div>

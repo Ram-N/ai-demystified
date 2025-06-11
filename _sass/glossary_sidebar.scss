@@ -1,0 +1,235 @@
+/* Glossary Sidebar Styles */
+
+.glossary-section {
+  margin-bottom: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  transition: box-shadow 0.2s ease;
+}
+
+.glossary-section:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.glossary-section.is-active {
+  border-color: #007acc;
+}
+
+/* Section Headers (Letter Groups) */
+.glossary-section__header {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: #f8f9fa;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+  transition: background-color 0.2s ease;
+}
+
+.glossary-section__header:hover {
+  background: #e9ecef;
+}
+
+.glossary-section.is-active .glossary-section__header {
+  background: #007acc;
+  color: white;
+  border-bottom-color: #0066aa;
+}
+
+/* Section Header Icon */
+.glossary-section__icon {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid currentColor;
+  transition: transform 0.2s ease;
+}
+
+.glossary-section__header[aria-expanded="false"] .glossary-section__icon {
+  transform: rotate(-90deg);
+}
+
+/* Entries Container */
+.glossary-section__entries {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.glossary-section.is-active .glossary-section__entries,
+.glossary-section__header[aria-expanded="true"] + .glossary-section__entries {
+  max-height: 1000px; /* Adjust based on your content */
+}
+
+/* Individual Glossary Entry Links */
+.glossary-section__entries li {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.glossary-section__entries li:last-child {
+  border-bottom: none;
+}
+
+.glossary-section__entries a {
+  display: block;
+  padding: 0.6rem 1rem;
+  color: #555;
+  text-decoration: none;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+}
+
+.glossary-section__entries a:hover {
+  background: #f8f9fa;
+  color: #007acc;
+  border-left-color: #007acc;
+  padding-left: 1.2rem;
+}
+
+/* Current Entry Highlighting */
+.glossary-section__entries a.is-current-entry {
+  background: #e3f2fd;
+  color: #007acc;
+  border-left-color: #007acc;
+  font-weight: 500;
+  padding-left: 1.2rem;
+}
+
+.glossary-section__entries a.is-current-entry::before {
+  content: "→ ";
+  font-weight: bold;
+}
+
+/* Alternative: Simple List Layout Styles */
+/* Uncomment these if you switch to the simple list option */
+
+/*
+.glossary-list {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+}
+
+.glossary-entries {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.glossary-entries li {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.glossary-entries li:last-child {
+  border-bottom: none;
+}
+
+.glossary-entries a {
+  display: block;
+  padding: 0.7rem 1rem;
+  color: #555;
+  text-decoration: none;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+}
+
+.glossary-entries a:hover {
+  background: #f8f9fa;
+  color: #007acc;
+  border-left-color: #007acc;
+  padding-left: 1.2rem;
+}
+
+.glossary-entries a.is-current-entry {
+  background: #e3f2fd;
+  color: #007acc;
+  border-left-color: #007acc;
+  font-weight: 500;
+  padding-left: 1.2rem;
+}
+
+.glossary-entries a.is-current-entry::before {
+  content: "→ ";
+  font-weight: bold;
+}
+*/
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .glossary-section {
+    margin-bottom: 0.5rem;
+  }
+  
+  .glossary-section__header {
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+  }
+  
+  .glossary-section__entries a {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .glossary-section__entries a:hover,
+  .glossary-section__entries a.is-current-entry {
+    padding-left: 1rem;
+  }
+}
+
+/* Dark Mode Support (Optional) */
+@media (prefers-color-scheme: dark) {
+  .glossary-section {
+    background: #2d3748;
+    border-color: #4a5568;
+  }
+  
+  .glossary-section__header {
+    background: #1a202c;
+    color: #e2e8f0;
+    border-bottom-color: #4a5568;
+  }
+  
+  .glossary-section__header:hover {
+    background: #2d3748;
+  }
+  
+  .glossary-section.is-active .glossary-section__header {
+    background: #3182ce;
+    border-bottom-color: #2c5aa0;
+  }
+  
+  .glossary-section__entries li {
+    border-bottom-color: #4a5568;
+  }
+  
+  .glossary-section__entries a {
+    color: #cbd5e0;
+  }
+  
+  .glossary-section__entries a:hover {
+    background: #2d3748;
+    color: #63b3ed;
+  }
+  
+  .glossary-section__entries a.is-current-entry {
+    background: #2a4a6b;
+    color: #63b3ed;
+  }
+}

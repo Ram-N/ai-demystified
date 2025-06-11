@@ -8,6 +8,9 @@ sidebar_context: open-none
 
 ---
 
+### About This Course
+AI Demystified is designed for anyone curious about how today’s AI tools actually work. Whether you're a student (ages 12–18), a teacher, a parent, or just someone trying to understand what all the buzz around ChatGPT and generative AI is about — this course is for you. You don’t need to know any coding or math. We’ll break down the big ideas behind tools like language models and image generators in a clear, creative, and engaging way. You’ll learn what AI can do, where its limits are, and how to use it thoughtfully — not just as a consumer, but as a creator.
+
 ## Should you bother to learn this material?
 
 I created this content for the **"AI-Curious" Beginner** which is anyone feeling a bit overwhelmed by the AI hype and wanting a clear, friendly, and practical introduction to using AI tools effectively in everyday creative and learning tasks.

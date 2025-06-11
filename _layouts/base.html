@@ -26,6 +26,9 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/p2pustrap-custom.css" />
   <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css" />
   <link rel="stylesheet" href="{{ site.baseurl }}/css/quiz.css" />
+  {% if page.layout == 'glossary_index' or page.layout == 'glossary' %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/glossary.css" />
+  {% endif %}
   {% if page.extra_css %}
   {% for css in page.extra_css %}
   <link rel="stylesheet" href="{{ site.baseurl }}{{ css }}" />
@@ -38,7 +41,6 @@
     window.BASEURL = '{{ site.baseurl }}';
   </script>
 </head>
-
 
 <body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}" {% endif %}{% if page.module_slug %}
   data-module-slug="{{ page.module_slug }}" {% endif %}{% if page.sidebar_context %}
@@ -59,15 +61,17 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
-  <script src="{{site.baseurl}}/js/gh_link_helper.js"></script>
 
   {% if page.module_slug or page.sidebar_context %}
   <script src="{{ site.baseurl }}/js/sidebar.js?v={{ site.time | date: '%s' }}"></script>
   {% endif %}
-  {% if page.module_slug %}
-  <script src="{{ site.baseurl }}/js/quiz.js"></script>
+  {% if page.layout == 'glossary_index' or page.layout == 'glossary' %}
+  <script src="{{ site.baseurl }}/js/glossarySidebar.js" defer></script>
   {% endif %}
-
+  {% if page.layout == 'course_page' %}
+  <script src="{{ site.baseurl }}/js/quiz.js"></script>
+  <script src="{{ site.baseurl }}/js/moduleNavigation.js"></script>
+  {% endif %}
 
   {% if page.extra_js %}
   {% for js in page.extra_js %}
