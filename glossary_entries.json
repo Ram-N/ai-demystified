@@ -1,107 +1,392 @@
 [
   {
-    "slug":"algorithm",
-    "title":"Algorithm",
-    "url":"\/content\/glossary\/algorithm"
+    "slug": "agentive",
+    "title": "Agentive",
+    "url": "/content/glossary/agentive"
   },
   {
-    "slug":"artificial-intelligence-ai",
-    "title":"Artificial Intelligence (AI)",
-    "url":"\/content\/glossary\/artificial-intelligence-ai"
+    "slug": "ai-ethics",
+    "title": "AI Ethics",
+    "url": "/content/glossary/ethics-in-ai"
   },
   {
-    "slug":"bias-in-ai",
-    "title":"Bias (in AI)",
-    "url":"\/content\/glossary\/bias-in-ai"
+    "slug": "ai_glossary_3col",
+    "title": "Ai Glossary 3Col",
+    "url": "/content/glossary/ai_glossary_3col"
   },
   {
-    "slug":"chatbot",
-    "title":"Chatbot",
-    "url":"\/content\/glossary\/chatbot"
+    "slug": "ai-safety",
+    "title": "Ai Safety",
+    "url": "/content/glossary/ai-safety"
   },
   {
-    "slug":"data",
-    "title":"Data",
-    "url":"\/content\/glossary\/data"
+    "slug": "algorithm",
+    "title": "Algorithm",
+    "url": "/content/glossary/algorithm"
   },
   {
-    "slug":"deep-learning",
-    "title":"Deep Learning",
-    "url":"\/content\/glossary\/deep-learning"
+    "slug": "alignment",
+    "title": "Alignment",
+    "url": "/content/glossary/alignment"
   },
   {
-    "slug":"ethics-in-ai",
-    "title":"Ethics (in AI)",
-    "url":"\/content\/glossary\/ethics-in-ai"
+    "slug": "anthropomorphism",
+    "title": "Anthropomorphism",
+    "url": "/content/glossary/anthropomorphism"
   },
   {
-    "slug":"generative-ai",
-    "title":"Generative AI",
-    "url":"\/content\/glossary\/generative-ai"
+    "slug": "artificial-general-intelligence-agi",
+    "title": "Artificial General Intelligence Agi",
+    "url": "/content/glossary/artificial-general-intelligence-agi"
   },
   {
-    "slug":"hallucination-ai",
-    "title":"Hallucination (AI)",
-    "url":"\/content\/glossary\/hallucination-ai"
+    "slug": "artificial-intelligence-ai",
+    "title": "Artificial Intelligence (AI)",
+    "url": "/content/glossary/artificial-intelligence-ai"
   },
   {
-    "slug":"image-generation",
-    "title":"Image Generation",
-    "url":"\/content\/glossary\/image-generation"
+    "slug": "artificial_intelligence_ai",
+    "title": "Artificial Intelligence Ai",
+    "url": "/content/glossary/artificial_intelligence_ai"
   },
   {
-    "slug":"input",
-    "title":"Input",
-    "url":"\/content\/glossary\/input"
+    "slug": "autonomous-agents",
+    "title": "Autonomous Agents",
+    "url": "/content/glossary/autonomous-agents"
   },
   {
-    "slug":"large-language-model-llm",
-    "title":"Large Language Model (LLM)",
-    "url":"\/content\/glossary\/large-language-model-llm"
+    "slug": "bias",
+    "title": "Bias",
+    "url": "/content/glossary/bias"
   },
   {
-    "slug":"machine-learning-ml",
-    "title":"Machine Learning (ML)",
-    "url":"\/content\/glossary\/machine-learning-ml"
+    "slug": "bias-in-ai",
+    "title": "Bias (in AI)",
+    "url": "/content/glossary/bias-in-ai"
   },
   {
-    "slug":"model-ai-model",
-    "title":"Model (AI Model)",
-    "url":"\/content\/glossary\/model-ai-model"
+    "slug": "bias_in_ai",
+    "title": "Bias In Ai",
+    "url": "/content/glossary/bias_in_ai"
   },
   {
-    "slug":"natural-language-processing-nlp",
-    "title":"Natural Language Processing (NLP)",
-    "url":"\/content\/glossary\/natural-language-processing-nlp"
+    "slug": "chatbot",
+    "title": "Chatbot",
+    "url": "/content/glossary/chatbot"
   },
   {
-    "slug":"neural-network",
-    "title":"Neural Network",
-    "url":"\/content\/glossary\/neural-network"
+    "slug": "chatbot2",
+    "title": "Chatbot2",
+    "url": "/content/glossary/chatbot2"
   },
   {
-    "slug":"output-or-generation",
-    "title":"Output (or Generation)",
-    "url":"\/content\/glossary\/output-or-generation"
+    "slug": "chatgpt",
+    "title": "Chatgpt",
+    "url": "/content/glossary/chatgpt"
   },
   {
-    "slug":"prompt",
-    "title":"Prompt",
-    "url":"\/content\/glossary\/prompt"
+    "slug": "cognitive-computing",
+    "title": "Cognitive Computing",
+    "url": "/content/glossary/cognitive-computing"
   },
   {
-    "slug":"prompt-engineering",
-    "title":"Prompt Engineering",
-    "url":"\/content\/glossary\/prompt-engineering"
+    "slug": "data",
+    "title": "Data",
+    "url": "/content/glossary/data"
   },
   {
-    "slug":"token",
-    "title":"Token",
-    "url":"\/content\/glossary\/token"
+    "slug": "data-augmentation",
+    "title": "Data Augmentation",
+    "url": "/content/glossary/data-augmentation"
   },
   {
-    "slug":"training-ai-training",
-    "title":"Training (AI Training)",
-    "url":"\/content\/glossary\/training-ai-training"
+    "slug": "dataset",
+    "title": "Dataset",
+    "url": "/content/glossary/dataset"
+  },
+  {
+    "slug": "deep-learning",
+    "title": "Deep Learning",
+    "url": "/content/glossary/deep-learning"
+  },
+  {
+    "slug": "deep_learning",
+    "title": "Deep Learning",
+    "url": "/content/glossary/deep_learning"
+  },
+  {
+    "slug": "diffusion",
+    "title": "Diffusion",
+    "url": "/content/glossary/diffusion"
+  },
+  {
+    "slug": "emergent-behavior",
+    "title": "Emergent Behavior",
+    "url": "/content/glossary/emergent-behavior"
+  },
+  {
+    "slug": "end-to-end-learning-e2e",
+    "title": "End To End Learning E2E",
+    "url": "/content/glossary/end-to-end-learning-e2e"
+  },
+  {
+    "slug": "ethical-considerations",
+    "title": "Ethical Considerations",
+    "url": "/content/glossary/ethical-considerations"
+  },
+  {
+    "slug": "ethics-in-ai",
+    "title": "Ethics (in AI)",
+    "url": "/content/glossary/ethics-in-ai"
+  },
+  {
+    "slug": "ethics_in_ai",
+    "title": "Ethics In Ai",
+    "url": "/content/glossary/ethics_in_ai"
+  },
+  {
+    "slug": "foom",
+    "title": "Foom",
+    "url": "/content/glossary/foom"
+  },
+  {
+    "slug": "generative-adversarial-networks-gans",
+    "title": "Generative Adversarial Networks Gans",
+    "url": "/content/glossary/generative-adversarial-networks-gans"
+  },
+  {
+    "slug": "generative-ai",
+    "title": "Generative AI",
+    "url": "/content/glossary/generative-ai"
+  },
+  {
+    "slug": "generative_ai",
+    "title": "Generative Ai",
+    "url": "/content/glossary/generative_ai"
+  },
+  {
+    "slug": "google-gemini",
+    "title": "Google Gemini",
+    "url": "/content/glossary/google-gemini"
+  },
+  {
+    "slug": "guardrails",
+    "title": "Guardrails",
+    "url": "/content/glossary/guardrails"
+  },
+  {
+    "slug": "hallucination",
+    "title": "Hallucination",
+    "url": "/content/glossary/hallucination"
+  },
+  {
+    "slug": "hallucination-ai",
+    "title": "Hallucination (AI)",
+    "url": "/content/glossary/hallucination-ai"
+  },
+  {
+    "slug": "hallucination_ai",
+    "title": "Hallucination Ai",
+    "url": "/content/glossary/hallucination_ai"
+  },
+  {
+    "slug": "image-generation",
+    "title": "Image Generation",
+    "url": "/content/glossary/image-generation"
+  },
+  {
+    "slug": "image_generation",
+    "title": "Image Generation",
+    "url": "/content/glossary/image_generation"
+  },
+  {
+    "slug": "inference",
+    "title": "Inference",
+    "url": "/content/glossary/inference"
+  },
+  {
+    "slug": "input",
+    "title": "Input",
+    "url": "/content/glossary/input"
+  },
+  {
+    "slug": "large-language-model-llm",
+    "title": "Large Language Model (LLM)",
+    "url": "/content/glossary/large-language-model-llm"
+  },
+  {
+    "slug": "large_language_model_llm",
+    "title": "Large Language Model Llm",
+    "url": "/content/glossary/large_language_model_llm"
+  },
+  {
+    "slug": "latency",
+    "title": "Latency",
+    "url": "/content/glossary/latency"
+  },
+  {
+    "slug": "machine_learning_ml",
+    "title": "Machine Learning Ml",
+    "url": "/content/glossary/machine_learning_ml"
+  },
+  {
+    "slug": "microsoft-bing",
+    "title": "Microsoft Bing",
+    "url": "/content/glossary/microsoft-bing"
+  },
+  {
+    "slug": "model-ai-model",
+    "title": "Model (AI Model)",
+    "url": "/content/glossary/model-ai-model"
+  },
+  {
+    "slug": "multimodal-ai",
+    "title": "Multimodal AI",
+    "url": "/content/glossary/multimodal-ai"
+  },
+  {
+    "slug": "natural-language-processing-nlp",
+    "title": "Natural Language Processing (NLP)",
+    "url": "/content/glossary/natural-language-processing-nlp"
+  },
+  {
+    "slug": "neural-network",
+    "title": "Neural Network",
+    "url": "/content/glossary/neural-network"
+  },
+  {
+    "slug": "neural_network",
+    "title": "Neural Network",
+    "url": "/content/glossary/neural_network"
+  },
+  {
+    "slug": "output-or-generation",
+    "title": "Output (or Generation)",
+    "url": "/content/glossary/output-or-generation"
+  },
+  {
+    "slug": "output_or_generation",
+    "title": "Output Or Generation",
+    "url": "/content/glossary/output_or_generation"
+  },
+  {
+    "slug": "overfitting",
+    "title": "Overfitting",
+    "url": "/content/glossary/overfitting"
+  },
+  {
+    "slug": "paperclips",
+    "title": "Paperclips",
+    "url": "/content/glossary/paperclips"
+  },
+  {
+    "slug": "parameters",
+    "title": "Parameters",
+    "url": "/content/glossary/parameters"
+  },
+  {
+    "slug": "perplexity",
+    "title": "Perplexity",
+    "url": "/content/glossary/perplexity"
+  },
+  {
+    "slug": "prompt",
+    "title": "Prompt",
+    "url": "/content/glossary/prompt"
+  },
+  {
+    "slug": "prompt-chaining",
+    "title": "Prompt Chaining",
+    "url": "/content/glossary/prompt-chaining"
+  },
+  {
+    "slug": "prompt-engineering",
+    "title": "Prompt Engineering",
+    "url": "/content/glossary/prompt-engineering"
+  },
+  {
+    "slug": "prompt_engineering",
+    "title": "Prompt Engineering",
+    "url": "/content/glossary/prompt_engineering"
+  },
+  {
+    "slug": "prompt2",
+    "title": "Prompt2",
+    "url": "/content/glossary/prompt2"
+  },
+  {
+    "slug": "quantization",
+    "title": "Quantization",
+    "url": "/content/glossary/quantization"
+  },
+  {
+    "slug": "stochastic-parrot",
+    "title": "Stochastic Parrot",
+    "url": "/content/glossary/stochastic-parrot"
+  },
+  {
+    "slug": "style-transfer",
+    "title": "Style Transfer",
+    "url": "/content/glossary/style-transfer"
+  },
+  {
+    "slug": "temperature",
+    "title": "Temperature",
+    "url": "/content/glossary/temperature"
+  },
+  {
+    "slug": "text-to-image-generation",
+    "title": "Text To Image Generation",
+    "url": "/content/glossary/text-to-image-generation"
+  },
+  {
+    "slug": "token",
+    "title": "Token",
+    "url": "/content/glossary/token"
+  },
+  {
+    "slug": "tokens",
+    "title": "Tokens",
+    "url": "/content/glossary/tokens"
+  },
+  {
+    "slug": "training-ai-training",
+    "title": "Training (AI Training)",
+    "url": "/content/glossary/training-ai-training"
+  },
+  {
+    "slug": "training_ai_training",
+    "title": "Training Ai Training",
+    "url": "/content/glossary/training_ai_training"
+  },
+  {
+    "slug": "training-data",
+    "title": "Training Data",
+    "url": "/content/glossary/training-data"
+  },
+  {
+    "slug": "transformer-model",
+    "title": "Transformer Model",
+    "url": "/content/glossary/transformer-model"
+  },
+  {
+    "slug": "turing-test",
+    "title": "Turing Test",
+    "url": "/content/glossary/turing-test"
+  },
+  {
+    "slug": "unsupervised-learning",
+    "title": "Unsupervised Learning",
+    "url": "/content/glossary/unsupervised-learning"
+  },
+  {
+    "slug": "weak-ai",
+    "title": "Weak AI",
+    "url": "/content/glossary/weak-ai"
+  },
+  {
+    "slug": "zero-shot-learning",
+    "title": "Zero Shot Learning",
+    "url": "/content/glossary/zero-shot-learning"
   }
 ]
