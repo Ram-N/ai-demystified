@@ -10,13 +10,8 @@
     "url": "/content/glossary/ethics-in-ai"
   },
   {
-    "slug": "ai_glossary_3col",
-    "title": "Ai Glossary 3Col",
-    "url": "/content/glossary/ai_glossary_3col"
-  },
-  {
     "slug": "ai-safety",
-    "title": "Ai Safety",
+    "title": "AI Safety",
     "url": "/content/glossary/ai-safety"
   },
   {
@@ -45,19 +40,9 @@
     "url": "/content/glossary/artificial-intelligence-ai"
   },
   {
-    "slug": "artificial_intelligence_ai",
-    "title": "Artificial Intelligence Ai",
-    "url": "/content/glossary/artificial_intelligence_ai"
-  },
-  {
     "slug": "autonomous-agents",
     "title": "Autonomous Agents",
     "url": "/content/glossary/autonomous-agents"
-  },
-  {
-    "slug": "bias",
-    "title": "Bias",
-    "url": "/content/glossary/bias"
   },
   {
     "slug": "bias-in-ai",
@@ -65,19 +50,9 @@
     "url": "/content/glossary/bias-in-ai"
   },
   {
-    "slug": "bias_in_ai",
-    "title": "Bias In Ai",
-    "url": "/content/glossary/bias_in_ai"
-  },
-  {
     "slug": "chatbot",
     "title": "Chatbot",
     "url": "/content/glossary/chatbot"
-  },
-  {
-    "slug": "chatbot2",
-    "title": "Chatbot2",
-    "url": "/content/glossary/chatbot2"
   },
   {
     "slug": "chatgpt",
@@ -110,11 +85,6 @@
     "url": "/content/glossary/deep-learning"
   },
   {
-    "slug": "deep_learning",
-    "title": "Deep Learning",
-    "url": "/content/glossary/deep_learning"
-  },
-  {
     "slug": "diffusion",
     "title": "Diffusion",
     "url": "/content/glossary/diffusion"
@@ -140,13 +110,8 @@
     "url": "/content/glossary/ethics-in-ai"
   },
   {
-    "slug": "ethics_in_ai",
-    "title": "Ethics In Ai",
-    "url": "/content/glossary/ethics_in_ai"
-  },
-  {
     "slug": "foom",
-    "title": "Foom",
+    "title": "FOOM",
     "url": "/content/glossary/foom"
   },
   {
@@ -158,11 +123,6 @@
     "slug": "generative-ai",
     "title": "Generative AI",
     "url": "/content/glossary/generative-ai"
-  },
-  {
-    "slug": "generative_ai",
-    "title": "Generative Ai",
-    "url": "/content/glossary/generative_ai"
   },
   {
     "slug": "google-gemini",
