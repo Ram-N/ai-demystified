@@ -7,7 +7,12 @@ sidebar_glossary: open-none
 
 ---
 
-# Glossary: Understanding Generative AI
+TODO: Placeholder for one single flash-card.
+It will show a random term.
+When clicked it will swivel to reveal its short definition.
+A subtle button below it to get another card circle-arrow.
+
+# Generative AI Glossary
 
 Here are some common words and phrases you'll hear when learning about Generative AI, with simple explanations to help you understand them. Click on any term to learn more!
 
