@@ -1,0 +1,20 @@
+/*
+ * The image you want to rotate.
+ * It's best to target the ID for specificity.
+*/
+#rotating-pie-chart {
+  /* This is the magic part. It tells the browser to animate any
+     change to the 'transform' property over 2 seconds. */
+  transition: transform 2s ease-in-out;
+
+  /* This ensures the image rotates around its true center. */
+  transform-origin: center;
+}
+
+/*
+ * This is the class we will add with JavaScript.
+ * When this class is on the image, it will be rotated.
+*/
+#rotating-pie-chart.rotate {
+  transform: rotate(360deg);
+}

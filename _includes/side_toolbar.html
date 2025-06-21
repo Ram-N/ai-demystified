@@ -20,7 +20,7 @@
         <div class="title">
           Previous section:
         </div>
-        <a rel="prev" class="prev" href="{{ site.baseurl }}/sections/{{ prev_section_slug | replace: '_section', '' }}/">
+        <a rel="prev" class="prev" href="{{ site.baseurl }}/content/{{ prev_section_slug | replace: '_section', '' }}/>">
           {{ prev_section_slug | replace: '_section', '' | replace: '-', ' ' | capitalize }}
         </a>
       </div>
@@ -50,7 +50,7 @@
             <div class="title">
               Previous topic:
             </div>
-            <a rel="prev" class="prev" href="{{ site.baseurl }}/sections/modules/{{ prev_topic_slug }}/">
+            <a rel="prev" class="prev" href="{{ site.baseurl }}/content/modules/{{ prev_topic_slug }}/>">
               {{ prev_topic_slug | replace: '-', ' ' | capitalize }}
             </a>
           </div>
@@ -74,7 +74,7 @@
             <div class="title">
               Next topic:
             </div>
-            <a rel="next" class="next" href="{{ site.baseurl }}/sections/modules/{{ next_topic_slug }}/">
+            <a rel="next" class="next" href="{{ site.baseurl }}/content/modules/{{ next_topic_slug }}/">
               {{ next_topic_slug | replace: '-', ' ' | capitalize }}
             </a>
           </div>
@@ -105,7 +105,7 @@
           <div class="title">
             Next section:
           </div>
-          <a rel="next" class="next" href="{{ site.baseurl }}/sections/{{ next_section_slug | replace: '_section', '' }}/">
+          <a rel="next" class="next" href="{{ site.baseurl }}/content/{{ next_section_slug | replace: '_section', '' }}/">
             {{ next_section_slug | replace: '_section', '' | replace: '-', ' ' | capitalize }}
           </a>
         </div>

@@ -14,6 +14,7 @@
 // Add your custom styles import here, typically at the end
 @import "add_ons"; //RN
 @import "glossary_sidebar"; //RN
+@import "page_effects"; //RN
 
 {% if site.jumbotron_color %}
 	$jumbotron-color: {{ site.jumbotron_color }};

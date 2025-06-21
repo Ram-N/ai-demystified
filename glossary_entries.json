@@ -135,29 +135,14 @@
     "url": "/content/glossary/guardrails"
   },
   {
-    "slug": "hallucination",
-    "title": "Hallucination",
-    "url": "/content/glossary/hallucination"
-  },
-  {
     "slug": "hallucination-ai",
     "title": "Hallucination (AI)",
     "url": "/content/glossary/hallucination-ai"
   },
   {
-    "slug": "hallucination_ai",
-    "title": "Hallucination Ai",
-    "url": "/content/glossary/hallucination_ai"
-  },
-  {
     "slug": "image-generation",
     "title": "Image Generation",
     "url": "/content/glossary/image-generation"
-  },
-  {
-    "slug": "image_generation",
-    "title": "Image Generation",
-    "url": "/content/glossary/image_generation"
   },
   {
     "slug": "inference",
@@ -175,19 +160,14 @@
     "url": "/content/glossary/large-language-model-llm"
   },
   {
-    "slug": "large_language_model_llm",
-    "title": "Large Language Model Llm",
-    "url": "/content/glossary/large_language_model_llm"
-  },
-  {
     "slug": "latency",
     "title": "Latency",
     "url": "/content/glossary/latency"
   },
   {
     "slug": "machine_learning_ml",
-    "title": "Machine Learning Ml",
-    "url": "/content/glossary/machine_learning_ml"
+    "title": "Machine Learning (ML)",
+    "url": "/content/glossary/machine-learning-ml"
   },
   {
     "slug": "microsoft-bing",
@@ -215,19 +195,9 @@
     "url": "/content/glossary/neural-network"
   },
   {
-    "slug": "neural_network",
-    "title": "Neural Network",
-    "url": "/content/glossary/neural_network"
-  },
-  {
     "slug": "output-or-generation",
     "title": "Output (or Generation)",
     "url": "/content/glossary/output-or-generation"
-  },
-  {
-    "slug": "output_or_generation",
-    "title": "Output Or Generation",
-    "url": "/content/glossary/output_or_generation"
   },
   {
     "slug": "overfitting",
@@ -265,16 +235,6 @@
     "url": "/content/glossary/prompt-engineering"
   },
   {
-    "slug": "prompt_engineering",
-    "title": "Prompt Engineering",
-    "url": "/content/glossary/prompt_engineering"
-  },
-  {
-    "slug": "prompt2",
-    "title": "Prompt2",
-    "url": "/content/glossary/prompt2"
-  },
-  {
     "slug": "quantization",
     "title": "Quantization",
     "url": "/content/glossary/quantization"
@@ -305,19 +265,9 @@
     "url": "/content/glossary/token"
   },
   {
-    "slug": "tokens",
-    "title": "Tokens",
-    "url": "/content/glossary/tokens"
-  },
-  {
     "slug": "training-ai-training",
     "title": "Training (AI Training)",
     "url": "/content/glossary/training-ai-training"
-  },
-  {
-    "slug": "training_ai_training",
-    "title": "Training Ai Training",
-    "url": "/content/glossary/training_ai_training"
   },
   {
     "slug": "training-data",

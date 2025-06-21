@@ -64,7 +64,7 @@ exclude: [Gemfile, Gemfile.lock, README.md]
 defaults:
   -
     scope:
-      path: "modules" # an empty string here means all files in the project
+      path: "content/modules" # path to content modules
     values:
       layout: "course_page"
 

@@ -26,8 +26,11 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/p2pustrap-custom.css" />
   <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css" />
   <link rel="stylesheet" href="{{ site.baseurl }}/css/quiz.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/page_effects.css" />
+
   {% if page.layout == 'glossary_index' or page.layout == 'glossary' %}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/glossary.css" />
+
   {% endif %}
   {% if page.extra_css %}
   {% for css in page.extra_css %}
@@ -88,6 +91,14 @@
   {% if page.module_slug %}
   <script src="{{ site.baseurl }}/js/moduleNavigation.js"></script>
   {% endif %}
+
+{% comment %}
+  This is our new block. It will only add the script tag
+  on pages where `use_image_rotator: true` is in the front matter.
+{% endcomment %}
+{% if page.has_page_effects %}
+  <script src="{{ site.baseurl }}/js/page_effects.js"></script>
+{% endif %}
 
 </body>
 
