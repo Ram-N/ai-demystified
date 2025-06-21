@@ -5,3 +5,43 @@ _site
 _themes/
 scripts/
 CLAUDE.md
+
+# Ignore backup or old HTML files
+_includes/*.old
+js/*.old
+
+# Ignore admin and docs folders
+admin/
+docs/
+
+# Ignore glossary draft or working docs
+content/glossary/glossary_docs/
+
+# Ignore Windows Zone.Identifier metadata files
+*.Zone.Identifier
+
+# Ignore new/temporary quiz feedback files
+*.new
+*.newest
+
+# Ignore specs or test folders
+specs/
+
+# Ignore images in modules/images if not needed in git
+
+content/modules/images/*.Zone.Identifier
+content/modules/images/*:Zone.Identifier
+ 
+# Ignore all .DS_Store files
+.DS_Store
+
+
+# Ignore all .log files
+*.log
+
+# Ignore VSCode settings
+.vscode/
+
+specs
+
+content/modules/images/*.Zone.Identifier
