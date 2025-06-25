@@ -1,0 +1,521 @@
+{
+  "quiz_id_whatisgenai_001": {
+    "id": "quiz_id_whatisgenai_001",
+    "type": "multiple_choice",
+    "topic": "Generative AI Basics",
+    "subtopic": "Definition",
+    "difficulty": 3,
+    "question": "What is the key characteristic that distinguishes Generative AI from other types of artificial intelligence?",
+    "options": [
+      { "value": "A", "text": "A. It only answers questions very quickly." },
+      { "value": "B", "text": "B. It can recognize faces in photos." },
+      { "value": "C", "C. It can actually create new things like stories or music." },
+      { "value": "D", "text": "D. It helps you organize your computer files." }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": { "correct": false, "text": "While AI can answer questions quickly, the unique feature of Generative AI is creation." },
+      "B": { "correct": false, "text": "Face recognition is a type of AI, but not what defines Generative AI." },
+      "C": { "correct": true, "text": "Yes! The term 'generative' means it creates new things, such as writing a story, drawing a picture, or making up a song." },
+      "D": { "correct": false, "text": "Organizing files is a functional task, not a creative output of Generative AI." }
+    },
+    "tags": ["Generative AI", "definition", "creativity"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_002": {
+    "id": "quiz_id_whatisgenai_002",
+    "type": "fill_blank",
+    "topic": "Generative AI Mechanism",
+    "subtopic": "Learning Process",
+    "difficulty": 4,
+    "prompt": "Generative AI creates new content by learning from huge collections of examples and spotting ______.",
+    "correctAnswer": "patterns",
+    "feedback": {
+      "text": "Generative AI learns from vast amounts of data to spot patterns, which it then uses to predict and create new content."
+    },
+    "tags": ["Generative AI", "learning", "data"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_003": {
+    "id": "quiz_id_whatisgenai_003",
+    "type": "multiple_choice",
+    "topic": "Generative AI vs. Human Creativity",
+    "subtopic": "Understanding",
+    "difficulty": 5,
+    "question": "An important difference between Generative AI and humans is that Generative AI doesn’t understand ideas the way humans do. How does it produce seemingly 'smart' or 'artistic' results?",
+    "options": [
+      { "value": "A", "text": "A. It has feelings and a true creative imagination." },
+      { "value": "B", "text": "B. It's really good at predicting what content 'fits' based on what it has seen before." },
+      { "value": "C", "C. It invents things from scratch with no prior knowledge." },
+      { "value": "D", "text": "D. It randomly combines pieces of information until something looks good." }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "The material explicitly states that Generative AI doesn't feel creative or know what it's saying." },
+      "B": { "correct": true, "text": "Yes! Generative AI excels at predicting patterns and combining learned pieces in impressive ways, making the results seem smart or artistic." },
+      "C": { "correct": false, "text": "Generative AI is described as a 'remix artist' that combines existing knowledge, rather than inventing from scratch." },
+      "D": { "correct": false, "text": "Its process is based on clever pattern recognition, not random combination." }
+    },
+    "tags": ["Generative AI", "human vs AI", "understanding"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_004": {
+    "id": "quiz_id_whatisgenai_004",
+    "type": "multiple_select",
+    "topic": "Generative AI Examples",
+    "subtopic": "Applications",
+    "difficulty": 3,
+    "question": "According to the text, which of the following tasks can Generative AI help with? Select all that apply.",
+    "options": [
+      { "value": "A", "text": "A. Brainstorming ideas for a project." },
+      { "value": "B", "text": "B. Answering questions about facts." },
+      { "value": "C", "C. Building new mobile applications." },
+      { "value": "D", "text": "D. Composing music." },
+      { "value": "E", "text": "E. Drawing pictures." }
+    ],
+    "correctAnswer": ["A", "B", "C", "D", "E"],
+    "feedback": {
+      "A": { "correct": true, "text": "People are using Generative AI to brainstorm ideas." },
+      "B": { "correct": true, "text": "People are using Generative AI to answer questions." },
+      "C": { "correct": true, "text": "People are using Generative AI to build apps." },
+      "D": { "correct": true, "text": "Generative AI can make up a song." },
+      "E": { "correct": true, "text": "Generative AI can draw a picture." }
+    },
+    "tags": ["Generative AI", "applications", "uses"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_005": {
+    "id": "quiz_id_whatisgenai_005",
+    "type": "multiple_choice",
+    "topic": "Generative AI Societal Impact",
+    "subtopic": "Questions Raised",
+    "difficulty": 4,
+    "question": "The rise of Generative AI is raising big questions. Which of the following is NOT mentioned as a question people are asking about it?",
+    "options": [
+      { "value": "A", "text": "A. Can we trust what it generates?" },
+      { "value": "B", "text": "B. Will it replace jobs or just change how we work?" },
+      { "value": "C", "C. How do we make sure it’s being used in fair and helpful ways?" },
+      { "value": "D", "text": "D. Will it become self-aware and take over the world?" }
+    ],
+    "correctAnswer": "D",
+    "feedback": {
+      "A": { "correct": true, "text": "This is mentioned as a big question about Generative AI." },
+      "B": { "correct": true, "text": "This is mentioned as a big question about Generative AI." },
+      "C": { "correct": true, "text": "This is mentioned as a big question about Generative AI." },
+      "D": { "correct": false, "text": "While a common sci-fi trope, this specific question is not mentioned in the text regarding Generative AI's impact." }
+    },
+    "tags": ["Generative AI", "societal impact", "ethics"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_006": {
+    "id": "quiz_id_whatisgenai_006",
+    "type": "multiple_choice",
+    "topic": "Generative AI Historical Context",
+    "subtopic": "Invention Comparison",
+    "difficulty": 4,
+    "question": "The text compares Generative AI to the invention of the camera and the calculator. What is the main point of this comparison?",
+    "options": [
+      { "value": "A", "text": "A. These tools eventually replaced human creativity and thinking." },
+      { "value": "B", "text": "B. These tools are much older than Generative AI." },
+      { "value": "C", "C. These tools didn’t remove creativity or thinking, but changed how we do those things." },
+      { "value": "D", "text": "D. Generative AI is less impactful than cameras or calculators." }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": { "correct": false, "text": "The text explicitly states that these tools 'didn’t remove creativity or thinking'." },
+      "B": { "correct": false, "text": "While true, this is not the main point of the comparison." },
+      "C": { "correct": true, "text": "Yes! The analogy shows that new tools often change methods, rather than eliminating human capabilities." },
+      "D": { "correct": false, "text": "The comparison is about the nature of change, not relative impact." }
+    },
+    "tags": ["Generative AI", "history", "analogy"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_007": {
+    "id": "quiz_id_whatisgenai_007",
+    "type": "multiple_choice",
+    "topic": "Generative AI vs. Traditional AI",
+    "subtopic": "Functionality",
+    "difficulty": 3,
+    "question": "In the analogy, if 'Friend 1' (traditional AI) is good at looking up facts, what is 'Friend 2' (Generative AI) capable of doing?",
+    "options": [
+      { "value": "A", "text": "A. Only translating languages." },
+      { "value": "B", "text": "B. Making things like stories, pictures, or songs from your ideas." },
+      { "value": "C", "C. Organizing large databases of information." },
+      { "value": "D", "text": "D. Giving recommendations for what to watch next." }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "Translating is a function of traditional AI or specific AI applications, not the core generative capability mentioned here." },
+      "B": { "correct": true, "text": "Yes! Generative AI is described as being able to 'make things — stories, pictures, songs — just from your ideas'." },
+      "C": { "correct": false, "text": "Organizing databases is a traditional AI task." },
+      "D": { "correct": false, "text": "Recommendations are typically a function of traditional AI." }
+    },
+    "tags": ["Generative AI", "Traditional AI", "comparison"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_008": {
+    "id": "quiz_id_whatisgenai_008",
+    "type": "fill_blank",
+    "topic": "Generative AI vs. Traditional AI",
+    "subtopic": "Analogy",
+    "difficulty": 4,
+    "prompt": "Traditional AI is like a librarian who helps you find an exact book or answer. Generative AI is more like an _______, who creates something new.",
+    "correctAnswer": "author",
+    "feedback": {
+      "text": "The analogy compares traditional AI to a librarian and Generative AI to an author."
+    },
+    "tags": ["Generative AI", "Traditional AI", "analogy"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_009": {
+    "id": "quiz_id_whatisgenai_009",
+    "type": "multiple_choice",
+    "topic": "Generative AI Evolution",
+    "subtopic": "Recent Advancements",
+    "difficulty": 3,
+    "question": "What is one reason why Generative AI tools like ChatGPT, DALL·E, and Suno have amazed people recently?",
+    "options": [
+      { "value": "A", "text": "A. They have become less powerful over time." },
+      { "value": "B", "text": "B. They only work on very simple tasks." },
+      { "value": "C", "C. They have grown super powerful and create things very well." },
+      { "value": "D", "text": "D. They require very little data to learn." }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": { "correct": false, "text": "The text states they 'have grown super powerful'." },
+      "B": { "correct": false, "text": "They are noted for their advanced capabilities." },
+      "C": { "correct": true, "text": "Yes! Models like ChatGPT, DALL·E, and Suno have amazed people with how well they create things because they have grown super powerful." },
+      "D": { "correct": false, "text": "Generative AI learns from 'huge collections of examples'." }
+    },
+    "tags": ["Generative AI", "advancements", "tools"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_010": {
+    "id": "quiz_id_whatisgenai_010",
+    "type": "multiple_choice",
+    "topic": "Generative AI Core Concept",
+    "subtopic": "Prompting",
+    "difficulty": 3,
+    "question": "What does Generative AI use to create new content after learning from examples?",
+    "options": [
+      { "value": "A", "text": "A. Random guessing without any input." },
+      { "value": "B", "text": "B. A 'prompt' given by the user." },
+      { "value": "C", "C. Its own feelings and desires." },
+      { "value": "D", "text": "D. Only predefined answers from its database." }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "Generative AI uses patterns and prompts, not random guessing." },
+      "B": { "correct": true, "text": "Yes! When you give it a prompt, it uses learned patterns to predict what would make sense next." },
+      "C": { "correct": false, "text": "Generative AI does not have feelings or desires." },
+      "D": { "correct": false, "text": "It creates new content, not just retrieving predefined answers." }
+    },
+    "tags": ["Generative AI", "prompt", "creation"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_011": {
+    "id": "quiz_id_whatisgenai_011",
+    "type": "multiple_select",
+    "topic": "Generative AI Outputs",
+    "subtopic": "Creative Forms",
+    "difficulty": 3,
+    "question": "What are some examples of 'new things' that Generative AI can create?",
+    "options": [
+      { "value": "A", "text": "A. Writing a story." },
+      { "value": "B", "text": "B. Drawing a picture." },
+      { "value": "C", "C. Making up a song." },
+      { "value": "D", "text": "D. Helping you write code." },
+      { "value": "E", "text": "E. Calculating complex math problems." }
+    ],
+    "correctAnswer": ["A", "B", "C", "D"],
+    "feedback": {
+      "A": { "correct": true, "text": "Writing a story is explicitly mentioned as a creative output." },
+      "B": { "correct": true, "text": "Drawing a picture is explicitly mentioned as a creative output." },
+      "C": { "correct": true, "text": "Making up a song is explicitly mentioned as a creative output." },
+      "D": { "correct": true, "text": "Helping write code is explicitly mentioned as a creative output." },
+      "E": { "correct": false, "text": "While AI can calculate, this is a traditional AI function and not the 'new thing' that Generative AI is primarily known for." }
+    },
+    "tags": ["Generative AI", "outputs", "creativity"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_012": {
+    "id": "quiz_id_whatisgenai_012",
+    "type": "multiple_choice",
+    "topic": "Generative AI vs. Traditional AI",
+    "subtopic": "Core Function",
+    "difficulty": 3,
+    "question": "What is the fundamental difference in function between older AIs and Generative AI?",
+    "options": [
+      { "value": "A", "text": "A. Older AIs were about creating new content, while Generative AI is about finding existing answers." },
+      { "value": "B", "text": "B. Older AIs were mostly about rules or finding the right answer, while Generative AI creates something new." },
+      { "value": "C", "C. Older AIs could only play games, while Generative AI can write code." },
+      { "value": "D", "text": "D. There is no real fundamental difference; they do the same things." }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "This statement reverses the definitions of older AI and Generative AI." },
+      "B": { "correct": true, "text": "Yes! Older AIs focused on rules or finding answers, while Generative AI's core function is creating new content." },
+      "C": { "correct": false, "text": "The distinction is broader than just playing games vs. writing code." },
+      "D": { "correct": false, "text": "The text clearly outlines fundamental differences between them." }
+    },
+    "tags": ["Generative AI", "Traditional AI", "difference"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_013": {
+    "id": "quiz_id_whatisgenai_013",
+    "type": "fill_blank",
+    "topic": "Generative AI Functionality",
+    "subtopic": "Process",
+    "difficulty": 3,
+    "prompt": "Generative AI works like a supercharged _______ that can generate an entire paragraph, image, or song based on your request.",
+    "correctAnswer": "autocomplete",
+    "feedback": {
+      "text": "The text compares Generative AI to 'supercharged autocomplete' because it can generate extensive content beyond just finishing a sentence."
+    },
+    "tags": ["Generative AI", "function", "autocomplete"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_014": {
+    "id": "quiz_id_whatisgenai_014",
+    "type": "multiple_choice",
+    "topic": "Generative AI Analogy",
+    "subtopic": "Remix Artist",
+    "difficulty": 4,
+    "question": "The text compares Generative AI to a 'remix artist'. What does this analogy mean?",
+    "options": [
+      { "value": "A", "text": "A. It only copies existing art exactly as it is." },
+      { "value": "B", "text": "B. It invents entirely new concepts without any prior knowledge." },
+      { "value": "C", "C. It combines pieces of what it’s learned in surprising and impressive ways to create new things." },
+      { "value": "D", "text": "D. It strictly follows a set of rules to produce identical outputs every time." }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": { "correct": false, "text": "The analogy emphasizes creation and combination, not exact copying." },
+      "B": { "correct": false, "text": "The text states it 'doesn’t invent things from scratch'." },
+      "C": { "correct": true, "text": "Yes! A remix artist combines existing elements into something new, similar to how Generative AI processes learned data." },
+      "D": { "correct": false, "text": "The results are described as 'surprising and impressive', implying novelty, not identical outputs." }
+    },
+    "tags": ["Generative AI", "analogy", "remix"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_015": {
+    "id": "quiz_id_whatisgenai_015",
+    "type": "multiple_choice",
+    "topic": "Generative AI Impact",
+    "subtopic": "Societal Reach",
+    "difficulty": 2,
+    "question": "Why does Generative AI feel almost magical and is 'suddenly everywhere'?",
+    "options": [
+      { "value": "A", "text": "A. Because it's a new type of internet browser." },
+      { "value": "B", "text": "B. Because it can do things that, until recently, only humans could." },
+      { "value": "C", "C. Because it's a new way to send text messages." },
+      { "value": "D", "text": "D. Because it helps with simple calculations faster than a calculator." }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "It's an AI technology, not a browser." },
+      "B": { "correct": true, "text": "Yes! Its ability to perform human-like creative tasks makes it feel magical and widespread." },
+      "C": { "correct": false, "text": "Sending text messages is not its primary 'magical' feature." },
+      "D": { "correct": false, "text": "Faster calculations are more a feature of traditional computing, not what makes Generative AI 'magical'." }
+    },
+    "tags": ["Generative AI", "impact", "ubiquity"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_016": {
+    "id": "quiz_id_whatisgenai_016",
+    "type": "fill_blank",
+    "topic": "Generative AI Tools",
+    "subtopic": "Examples",
+    "difficulty": 2,
+    "prompt": "Examples of powerful Generative AI models mentioned in the text include ChatGPT, DALL·E, and ______.",
+    "correctAnswer": "Suno",
+    "feedback": {
+      "text": "The text lists ChatGPT, DALL·E, and Suno as examples of powerful Generative AI models."
+    },
+    "tags": ["Generative AI", "tools", "examples"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_017": {
+    "id": "quiz_id_whatisgenai_017",
+    "type": "multiple_choice",
+    "topic": "Generative AI Impact",
+    "subtopic": "Work and Learning",
+    "difficulty": 3,
+    "question": "The text states that the power of Generative AI 'changes how we work, learn, and play'. What does this imply about its influence?",
+    "options": [
+      { "value": "A", "text": "A. It only affects people in creative jobs." },
+      { "value": "B", "text": "B. It has a broad impact across many aspects of daily life." },
+      { "value": "C", "C. Its influence is limited to academic settings." },
+      { "value": "D", "text": "D. It only changes how we use our phones." }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "The text implies a wider impact than just creative jobs, mentioning schools and workplaces." },
+      "B": { "correct": true, "text": "Yes! By impacting how we work, learn, and play, Generative AI demonstrates a broad societal influence." },
+      "C": { "correct": false, "text": "Its impact extends to the news and workplace, not just schools." },
+      "D": { "correct": false, "text": "The influence is much broader than just phone usage." }
+    },
+    "tags": ["Generative AI", "impact", "society"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_018": {
+    "id": "quiz_id_whatisgenai_018",
+    "type": "multiple_choice",
+    "topic": "Generative AI Learning",
+    "subtopic": "Data Source",
+    "difficulty": 3,
+    "question": "Where does Generative AI get the 'huge collections of examples' it learns from?",
+    "options": [
+      { "value": "A", "text": "A. From its own personal experiences and memories." },
+      { "value": "B", "text": "B. From millions of books, images, sounds, or pieces of text." },
+      { "value": "C", "C. From human teachers directly inputting every rule." },
+      { "value": "D", "text": "D. From other AI models that create new information." }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "Generative AI doesn't have personal experiences or memories like humans." },
+      "B": { "correct": true, "text": "Yes! It learns from 'millions of books, images, sounds, or pieces of text'." },
+      "C": { "correct": false, "text": "While humans train it, the learning is from vast datasets, not direct rule input." },
+      "D": { "correct": false, "text": "It learns from human-created content to generate its own." }
+    },
+    "tags": ["Generative AI", "learning", "data"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_019": {
+    "id": "quiz_id_whatisgenai_019",
+    "type": "multiple_choice",
+    "topic": "Generative AI Understanding",
+    "subtopic": "Cognition",
+    "difficulty": 5,
+    "question": "When Generative AI produces content that seems smart or artistic, how does it achieve this, according to the text?",
+    "options": [
+      { "value": "A", "text": "A. By truly understanding the meaning and emotion behind the content." },
+      { "value": "B", "text": "B. By being the product of clever pattern recognition." },
+      { "value": "C", "C. By having a conscious desire to be creative." },
+      { "value": "D", "text": "D. By receiving real-time feedback from human critics for every output." }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "The text states it 'doesn’t understand ideas the way humans do'." },
+      "B": { "correct": true, "text": "Yes! The results are 'really just the product of clever pattern recognition'." },
+      "C": { "correct": false, "text": "It 'doesn’t feel creative'." },
+      "D": { "correct": false, "text": "While feedback is part of training, it's not described as a real-time process for every output to achieve 'smart' results." }
+    },
+    "tags": ["Generative AI", "cognition", "pattern recognition"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  },
+  "quiz_id_whatisgenai_020": {
+    "id": "quiz_id_whatisgenai_020",
+    "type": "fill_blank",
+    "topic": "Generative AI Current State",
+    "subtopic": "Future Outlook",
+    "difficulty": 3,
+    "prompt": "Generative AI is powerful and new, and we are still figuring out how to use it ______.",
+    "correctAnswer": "wisely",
+    "feedback": {
+      "text": "The text concludes by stating that we are 'still figuring out how to use it wisely'."
+    },
+    "tags": ["Generative AI", "future", "ethics"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1
+  }
+}

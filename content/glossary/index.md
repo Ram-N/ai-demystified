@@ -7,10 +7,27 @@ sidebar_glossary: open-none
 
 ---
 
-TODO: Placeholder for one single flash-card.
-It will show a random term.
-When clicked it will swivel to reveal its short definition.
-A subtle button below it to get another card circle-arrow.
+<div class="glossary-card-nav" style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+  <span class="glossary-card-arrow glossary-card-arrow-left" tabindex="0" role="button">&#60;</span>
+  <div class="glossary-card">
+    <div class="glossary-card-content">
+      <div class="glossary-card-front">
+        Front
+      </div>
+      <div class="glossary-card-back">
+        Back!
+      </div>
+    </div>
+  </div>
+  <span class="glossary-card-arrow glossary-card-arrow-right" tabindex="0" role="button">&#62;</span>
+</div>
+
+<div style="text-align: center; margin-top: 10px;">
+  <button id="shuffle-button" class="shuffle-button" aria-label="Get new random card">
+    <i class="fas fa-random"></i>
+  </button>
+</div>
+
 
 # Generative AI Glossary
 
@@ -90,3 +107,6 @@ In Large Language Models, text is broken down into smaller pieces called tokens.
 
 **[Training (AI Training)](./ai-training.html)**
 The process of "teaching" an AI model by feeding it lots of data. During training, the model learns to find patterns, make connections, and understand how to perform its task.
+
+
+<script src="{{ site.baseurl }}/js/glossary_index.js"></script>

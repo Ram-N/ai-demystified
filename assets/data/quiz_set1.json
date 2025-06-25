@@ -1,0 +1,694 @@
+{
+  "multiple_choice_92e38049": {
+    "id": "multiple_choice_92e38049",
+    "type": "multiple_choice",
+    "topic": "Generative AI",
+    "subtopic": "Traditional vs Generative AI",
+    "difficulty": 3,
+    "question": "How is Generative AI different from traditional AI?",
+    "tags": [
+      "genai",
+      "differences",
+      "basics"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "options": [
+      {
+        "value": "A",
+        "text": "A. It uses code instead of data"
+      },
+      {
+        "value": "B",
+        "text": "B. It only answers factual questions"
+      },
+      {
+        "value": "C",
+        "text": "C. It creates new content like images or stories"
+      },
+      {
+        "value": "D",
+        "text": "D. It works without any training data"
+      }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": {
+        "correct": false,
+        "text": "Incorrect\u2014Generative AI still learns from data."
+      },
+      "B": {
+        "correct": false,
+        "text": "Incorrect\u2014That's more like traditional AI."
+      },
+      "C": {
+        "correct": true,
+        "text": "Correct\u2014Generative AI creates new content based on prompts."
+      },
+      "D": {
+        "correct": false,
+        "text": "Incorrect\u2014It does require training data."
+      }
+    }
+  },
+  "multiple_select_053b4b55": {
+    "id": "multiple_select_053b4b55",
+    "type": "multiple_select",
+    "topic": "Generative AI",
+    "subtopic": "What it can create",
+    "difficulty": 3,
+    "question": "Which of the following can Generative AI create?",
+    "tags": [
+      "genai",
+      "applications",
+      "creative"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "options": [
+      {
+        "value": "A",
+        "text": "A. A poem about cats"
+      },
+      {
+        "value": "B",
+        "text": "B. A video game level"
+      },
+      {
+        "value": "C",
+        "text": "C. A list of local restaurants"
+      },
+      {
+        "value": "D",
+        "text": "D. A painting of a castle in space"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "feedback": {
+      "A": {
+        "correct": true,
+        "text": "Correct\u2014GenAI can generate poems based on prompts."
+      },
+      "B": {
+        "correct": true,
+        "text": "Correct\u2014With the right tools, GenAI can help design game elements."
+      },
+      "C": {
+        "correct": false,
+        "text": "Incorrect\u2014That's more of a search task, not generative."
+      },
+      "D": {
+        "correct": true,
+        "text": "Correct\u2014It can generate imaginative images."
+      }
+    }
+  },
+  "fill_blank_1ac36e7a": {
+    "id": "fill_blank_1ac36e7a",
+    "type": "fill_blank",
+    "topic": "Generative AI",
+    "subtopic": "Understanding with analogies",
+    "difficulty": 2,
+    "question": "Traditional AI is like a librarian, but Generative AI is like an ______.",
+    "tags": [
+      "genai",
+      "analogy"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "correctAnswer": "author",
+    "feedback": "Generative AI creates new things, like an author writing a story."
+  },
+  "multiple_choice_5d613ad7": {
+    "id": "multiple_choice_5d613ad7",
+    "type": "multiple_choice",
+    "topic": "Generative AI",
+    "subtopic": "Core technology",
+    "difficulty": 4,
+    "question": "How does the course describe the core technology of Generative AI?",
+    "tags": [
+      "genai",
+      "analogy",
+      "core"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "options": [
+      {
+        "value": "A",
+        "text": "A. Like a smartphone with many apps"
+      },
+      {
+        "value": "B",
+        "text": "B. Like a toolbox with versatile tools"
+      },
+      {
+        "value": "C",
+        "text": "C. Like a finished movie ready to watch"
+      },
+      {
+        "value": "D",
+        "text": "D. Like a question-answer machine"
+      }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": {
+        "correct": false,
+        "text": "Not quite\u2014smartphones use apps but aren't the analogy used."
+      },
+      "B": {
+        "correct": true,
+        "text": "Correct\u2014GenAI is compared to a versatile toolbox."
+      },
+      "C": {
+        "correct": false,
+        "text": "No\u2014this suggests no generative process."
+      },
+      "D": {
+        "correct": false,
+        "text": "No\u2014question-answer is more like traditional AI."
+      }
+    }
+  },
+  "multiple_choice_63d74ad4": {
+    "id": "multiple_choice_63d74ad4",
+    "type": "multiple_choice",
+    "topic": "Generative AI",
+    "subtopic": "How it works",
+    "difficulty": 4,
+    "question": "What role does a 'prompt' play in Generative AI?",
+    "tags": [
+      "prompt",
+      "generation",
+      "how-it-works"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "options": [
+      {
+        "value": "A",
+        "text": "A. It stores past responses"
+      },
+      {
+        "value": "B",
+        "text": "B. It tells the AI what to create next"
+      },
+      {
+        "value": "C",
+        "text": "C. It helps the AI download data"
+      },
+      {
+        "value": "D",
+        "text": "D. It trains the AI from scratch"
+      }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": {
+        "correct": false,
+        "text": "No, past responses are not stored in prompts."
+      },
+      "B": {
+        "correct": true,
+        "text": "Correct\u2014prompts guide the AI in generating outputs."
+      },
+      "C": {
+        "correct": false,
+        "text": "Incorrect\u2014downloading isn't related to prompting."
+      },
+      "D": {
+        "correct": false,
+        "text": "Incorrect\u2014training happens separately."
+      }
+    }
+  },
+  "multiple_choice_4863e3f8": {
+    "id": "multiple_choice_4863e3f8",
+    "type": "multiple_choice",
+    "topic": "Generative AI",
+    "subtopic": "Analogy and Creativity",
+    "difficulty": 3,
+    "question": "Why is Generative AI compared to a remix artist?",
+    "tags": [
+      "genai",
+      "analogy",
+      "remix"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "options": [
+      {
+        "value": "A",
+        "text": "A. Because it copies things exactly"
+      },
+      {
+        "value": "B",
+        "text": "B. Because it understands music"
+      },
+      {
+        "value": "C",
+        "text": "C. Because it combines existing patterns to make new content"
+      },
+      {
+        "value": "D",
+        "text": "D. Because it performs live"
+      }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": {
+        "correct": false,
+        "text": "No, GenAI doesn't just copy\u2014it's generative."
+      },
+      "B": {
+        "correct": false,
+        "text": "Not relevant to its function."
+      },
+      "C": {
+        "correct": true,
+        "text": "Correct\u2014GenAI mixes learned patterns to generate new things."
+      },
+      "D": {
+        "correct": false,
+        "text": "Incorrect\u2014GenAI is not a performer."
+      }
+    }
+  },
+  "multiple_choice_b361953c": {
+    "id": "multiple_choice_b361953c",
+    "type": "multiple_choice",
+    "topic": "Generative AI",
+    "subtopic": "Cultural Impact",
+    "difficulty": 3,
+    "question": "Why is Generative AI in the news, schools, and workplaces?",
+    "tags": [
+      "genai",
+      "impact",
+      "news"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "options": [
+      {
+        "value": "A",
+        "text": "A. It runs on very old technology"
+      },
+      {
+        "value": "B",
+        "text": "B. It replaces humans completely"
+      },
+      {
+        "value": "C",
+        "text": "C. It can do creative tasks that only humans could do before"
+      },
+      {
+        "value": "D",
+        "text": "D. It only works on smartphones"
+      }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": {
+        "correct": false,
+        "text": "Incorrect\u2014it uses modern, powerful tech."
+      },
+      "B": {
+        "correct": false,
+        "text": "Incorrect\u2014AI doesn't fully replace people."
+      },
+      "C": {
+        "correct": true,
+        "text": "Correct\u2014this is what makes GenAI feel magical."
+      },
+      "D": {
+        "correct": false,
+        "text": "Incorrect\u2014it can work on many platforms."
+      }
+    }
+  },
+  "fill_blank_26894f1d": {
+    "id": "fill_blank_26894f1d",
+    "type": "fill_blank",
+    "topic": "Generative AI",
+    "subtopic": "AI evolution",
+    "difficulty": 3,
+    "question": "ChatGPT, DALL\u00b7E, and Suno are all examples of ________ AI tools.",
+    "tags": [
+      "genai",
+      "examples"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "correctAnswer": "generative",
+    "feedback": "They are all generative AI models that create text, images, and music."
+  },
+  "multiple_choice_e7793f34": {
+    "id": "multiple_choice_e7793f34",
+    "type": "multiple_choice",
+    "topic": "Generative AI",
+    "subtopic": "Analogy",
+    "difficulty": 2,
+    "question": "Which analogy best explains how Generative AI works?",
+    "tags": [
+      "genai",
+      "analogy",
+      "cooking"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "options": [
+      {
+        "value": "A",
+        "text": "A. A vending machine that gives candy"
+      },
+      {
+        "value": "B",
+        "text": "B. A calculator that solves math"
+      },
+      {
+        "value": "C",
+        "text": "C. A chef creating new dishes from known recipes"
+      },
+      {
+        "value": "D",
+        "text": "D. A mirror reflecting an image"
+      }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": {
+        "correct": false,
+        "text": "No\u2014vending machines do not combine or create."
+      },
+      "B": {
+        "correct": false,
+        "text": "No\u2014calculators don't generate new content."
+      },
+      "C": {
+        "correct": true,
+        "text": "Correct\u2014GenAI uses learned ingredients to create new outputs."
+      },
+      "D": {
+        "correct": false,
+        "text": "Incorrect\u2014a mirror doesn\u2019t generate anything new."
+      }
+    }
+  },
+  "multiple_select_334e21a7": {
+    "id": "multiple_select_334e21a7",
+    "type": "multiple_select",
+    "topic": "Generative AI",
+    "subtopic": "Uses",
+    "difficulty": 3,
+    "question": "How might a student use Generative AI in a school project?",
+    "tags": [
+      "genai",
+      "school",
+      "applications"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "options": [
+      {
+        "value": "A",
+        "text": "A. To brainstorm creative ideas"
+      },
+      {
+        "value": "B",
+        "text": "B. To generate a melody for a presentation"
+      },
+      {
+        "value": "C",
+        "text": "C. To physically build a robot"
+      },
+      {
+        "value": "D",
+        "text": "D. To draw an illustration for a story"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "feedback": {
+      "A": {
+        "correct": true,
+        "text": "Correct\u2014brainstorming is a common use."
+      },
+      "B": {
+        "correct": true,
+        "text": "Correct\u2014GenAI tools can compose music."
+      },
+      "C": {
+        "correct": false,
+        "text": "Incorrect\u2014physical robot building is not generative."
+      },
+      "D": {
+        "correct": true,
+        "text": "Correct\u2014image generation is a strength of GenAI."
+      }
+    }
+  },
+  "fill_blank_04d1c315": {
+    "id": "fill_blank_04d1c315",
+    "type": "fill_blank",
+    "topic": "Generative AI",
+    "subtopic": "Technology",
+    "difficulty": 4,
+    "question": "The kind of data a GenAI model learns from is called its ________.",
+    "tags": [
+      "genai",
+      "training",
+      "data"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "correctAnswer": "training data",
+    "feedback": "Training data is what the AI uses to learn patterns before generating new content."
+  },
+  "multiple_choice_91e08023": {
+    "id": "multiple_choice_91e08023",
+    "type": "multiple_choice",
+    "topic": "Generative AI",
+    "subtopic": "Core Function",
+    "difficulty": 3,
+    "question": "What is the main ability that makes Generative AI 'generative'?",
+    "tags": [
+      "genai",
+      "definition"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "options": [
+      {
+        "value": "A",
+        "text": "A. Answering true/false questions"
+      },
+      {
+        "value": "B",
+        "text": "B. Creating new content based on patterns"
+      },
+      {
+        "value": "C",
+        "text": "C. Running apps on a smartphone"
+      },
+      {
+        "value": "D",
+        "text": "D. Correcting grammar mistakes"
+      }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": {
+        "correct": false,
+        "text": "No\u2014that's basic logic, not generation."
+      },
+      "B": {
+        "correct": true,
+        "text": "Correct\u2014it generates new things like stories and images."
+      },
+      "C": {
+        "correct": false,
+        "text": "Not relevant to the concept of generation."
+      },
+      "D": {
+        "correct": false,
+        "text": "This is helpful but not the core trait."
+      }
+    }
+  },
+  "multiple_select_ff3ed73f": {
+    "id": "multiple_select_ff3ed73f",
+    "type": "multiple_select",
+    "topic": "Generative AI",
+    "subtopic": "Capabilities",
+    "difficulty": 4,
+    "question": "Which tools or platforms use Generative AI technology?",
+    "tags": [
+      "genai",
+      "examples",
+      "tools"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "options": [
+      {
+        "value": "A",
+        "text": "A. DALL\u00b7E"
+      },
+      {
+        "value": "B",
+        "text": "B. Google Translate"
+      },
+      {
+        "value": "C",
+        "text": "C. ChatGPT"
+      },
+      {
+        "value": "D",
+        "text": "D. Suno"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "feedback": {
+      "A": {
+        "correct": true,
+        "text": "Correct\u2014DALL\u00b7E creates images from text."
+      },
+      "B": {
+        "correct": false,
+        "text": "Incorrect\u2014Google Translate is more traditional AI."
+      },
+      "C": {
+        "correct": true,
+        "text": "Correct\u2014ChatGPT generates human-like text."
+      },
+      "D": {
+        "correct": true,
+        "text": "Correct\u2014Suno generates music using GenAI."
+      }
+    }
+  },
+  "multiple_choice_6090c909": {
+    "id": "multiple_choice_6090c909",
+    "type": "multiple_choice",
+    "topic": "Generative AI",
+    "subtopic": "Limitations",
+    "difficulty": 4,
+    "question": "What is a limitation of Generative AI?",
+    "tags": [
+      "genai",
+      "limits"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "options": [
+      {
+        "value": "A",
+        "text": "A. It can feel emotions like humans"
+      },
+      {
+        "value": "B",
+        "text": "B. It always knows if its output is true"
+      },
+      {
+        "value": "C",
+        "text": "C. It cannot create music"
+      },
+      {
+        "value": "D",
+        "text": "D. It doesn\u2019t actually understand what it creates"
+      }
+    ],
+    "correctAnswer": "D",
+    "feedback": {
+      "A": {
+        "correct": false,
+        "text": "No\u2014AI cannot feel emotions."
+      },
+      "B": {
+        "correct": false,
+        "text": "Incorrect\u2014it may generate false info."
+      },
+      "C": {
+        "correct": false,
+        "text": "Incorrect\u2014AI like Suno can generate music."
+      },
+      "D": {
+        "correct": true,
+        "text": "Correct\u2014it predicts based on patterns, not understanding."
+      }
+    }
+  },
+  "fill_blank_9abb9fef": {
+    "id": "fill_blank_9abb9fef",
+    "type": "fill_blank",
+    "topic": "Generative AI",
+    "subtopic": "Output",
+    "difficulty": 3,
+    "question": "Generative AI predicts what would make sense ______.",
+    "tags": [
+      "genai",
+      "prediction"
+    ],
+    "source": {
+      "module": "introduction-to-genai"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "correctAnswer": "next",
+    "feedback": "Generative AI is like supercharged autocomplete\u2014it predicts what comes next based on patterns."
+  }
+}

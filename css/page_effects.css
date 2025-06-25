@@ -1,0 +1,117 @@
+.glossary-card {
+  position: relative;
+  margin: 40px auto;
+  width: 520px;
+  height: 300px;
+  perspective: 800px;
+  display: block;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+}
+
+.glossary-card-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  border-radius: 18px;
+}
+
+.glossary-card:hover .glossary-card-content {
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+.glossary-card-front,
+.glossary-card-back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 220px;
+  color: #03446A;
+  text-align: center;
+  font-size: 38px;
+  border-radius: 18px;
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+.glossary-card-front {
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 32px;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.glossary-card-back {
+  background: #03446A;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*
+ * The image you want to rotate.
+ * It's best to target the ID for specificity.
+*/
+#rotating-pie-chart {
+  /* This is the magic part. It tells the browser to animate any
+     change to the 'transform' property over 2 seconds. */
+  transition: transform 2s ease-in-out;
+
+  /* This ensures the image rotates around its true center. */
+  transform-origin: center;
+}
+
+/*
+ * This is the class we will add with JavaScript.
+ * When this class is on the image, it will be rotated.
+*/
+#rotating-pie-chart.rotate {
+  transform: rotate(360deg);
+}
+
+.glossary-card-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  margin-bottom: 32px;
+}
+
+.glossary-card-arrow {
+  font-size: 48px;
+  color: #03446A;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.2s, transform 0.2s;
+  padding: 0 6px;
+  border-radius: 50%;
+  outline: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.glossary-card-arrow:hover, .glossary-card-arrow:focus {
+  color: #1e90ff;
+  background: #e6f0fa;
+  transform: scale(1.15);
+}
+
+/* Responsive font size for long titles */
+.glossary-card-front.shrink {
+  font-size: 28px !important;
+}

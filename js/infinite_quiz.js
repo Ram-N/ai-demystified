@@ -8,7 +8,7 @@ let totalQuestions = 5; // default quiz length
 let hasSubmitted = {}; // tracks whether answer has been submitted for scoring
 
 const baseurl = window.BASEURL || '/ai-demystified';
-const quizBankUrl = `${baseurl}/assets/data/quiz_bank.json`;
+const quizManifestUrl = `${baseurl}/assets/data/quiz_manifest.json`;
 const modulesUrl = `${baseurl}/modules.json`;
 const lessonsUrl = `${baseurl}/lessons.json`;
 
@@ -75,18 +75,27 @@ if (lessonSelect) {
   lessonSelect.addEventListener('change', resetQuizState);
 }
 
-// Load quiz data
-fetch(quizBankUrl)
-  .then(res => {
-    console.log("Quiz data response:", res);
-    return res.json();
+// Load quiz data from all files listed in the manifest
+fetch(quizManifestUrl)
+  .then(res => res.json())
+  .then(fileList => {
+    return Promise.all(
+      fileList.map(filename =>
+        fetch(`${baseurl}/assets/data/${filename}`)
+          .then(res => res.json())
+          .catch(err => {
+            console.error("Error loading quiz data from", filename, err);
+            return {};
+          })
+      )
+    );
   })
-  .then(data => {
-    console.log("Quiz data loaded:", data);
-    quizData = Object.values(data);
+  .then(allData => {
+    quizData = allData.flatMap(data => Object.values(data));
+    console.log("Combined quiz data loaded:", quizData);
   })
   .catch(err => {
-    console.error("Error loading quiz data:", err, "URL was:", quizBankUrl);
+    console.error("Error loading quiz manifest or quiz data:", err, "URL was:", quizManifestUrl);
   });
 
 // Function to reset quiz state
@@ -396,4 +405,4 @@ function shuffle(array) {
   return array.sort(() => Math.random() - 0.5);
 }
 // Debug output for quiz loading
-console.log("Quiz bank URL:", quizBankUrl);
+console.log("Quiz manifest URL:", quizManifestUrl);

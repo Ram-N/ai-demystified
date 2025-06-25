@@ -1,0 +1,218 @@
+{
+  "humans_ai_q_006": {
+    "id": "humans_ai_q_006",
+    "type": "multiple_choice",
+    "topic": "AI Capabilities",
+    "subtopic": "Feelings & Emotions",
+    "difficulty": 2,
+    "question": "What does the lesson say about AI and emotions?",
+    "options": [
+      {
+        "value": "A",
+        "text": "A. AI can feel sadness and joy"
+      },
+      {
+        "value": "B",
+        "text": "B. AI only feels what humans tell it to feel"
+      },
+      {
+        "value": "C",
+        "text": "C. AI doesn\u2019t have feelings like humans do"
+      },
+      {
+        "value": "D",
+        "text": "D. AI creates emotions through music"
+      }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": {
+        "correct": false,
+        "text": "AI doesn\u2019t feel anything."
+      },
+      "B": {
+        "correct": false,
+        "text": "AI doesn\u2019t actually feel emotions at all."
+      },
+      "C": {
+        "correct": true,
+        "text": "Correct! AI doesn\u2019t have feelings or imagination."
+      },
+      "D": {
+        "correct": false,
+        "text": "AI might generate music, but it doesn\u2019t feel emotions."
+      }
+    },
+    "tags": [
+      "ai",
+      "emotion",
+      "limits"
+    ],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans and AI - Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1
+  },
+  "humans_ai_q_007": {
+    "id": "humans_ai_q_007",
+    "type": "multiple_choice",
+    "topic": "Metaphors",
+    "subtopic": "AI Comparison",
+    "difficulty": 3,
+    "question": "In the lesson, AI is compared to what kind of performer?",
+    "options": [
+      {
+        "value": "A",
+        "text": "A. A solo singer"
+      },
+      {
+        "value": "B",
+        "text": "B. A dancer"
+      },
+      {
+        "value": "C",
+        "text": "C. A super-fast DJ"
+      },
+      {
+        "value": "D",
+        "text": "D. A magician"
+      }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": {
+        "correct": false,
+        "text": "No, the comparison used was a DJ."
+      },
+      "B": {
+        "correct": false,
+        "text": "Interesting guess, but not the lesson's metaphor."
+      },
+      "C": {
+        "correct": true,
+        "text": "Correct! AI was compared to a DJ remixing tracks."
+      },
+      "D": {
+        "correct": false,
+        "text": "Magician is not the analogy used."
+      }
+    },
+    "tags": [
+      "metaphor",
+      "ai",
+      "creativity"
+    ],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans and AI - Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1
+  },
+  "humans_ai_q_008": {
+    "id": "humans_ai_q_008",
+    "type": "fill_blank",
+    "topic": "Collaboration",
+    "subtopic": "Musicians & AI",
+    "difficulty": 3,
+    "prompt": "Musicians might use AI to generate _______ tracks to help spark ideas.",
+    "correctAnswer": "background",
+    "feedback": {
+      "background": "Right! AI often generates background tracks to support musicians."
+    },
+    "tags": [
+      "music",
+      "ai",
+      "fill_blank"
+    ],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans and AI - Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1
+  },
+  "humans_ai_q_009": {
+    "id": "humans_ai_q_009",
+    "type": "multiple_select",
+    "topic": "AI Role",
+    "subtopic": "Support vs Replace",
+    "difficulty": 4,
+    "question": "According to the lesson, what are the right ways to use AI in creative projects?",
+    "options": [
+      {
+        "value": "A",
+        "text": "A. Use AI to brainstorm or kickstart ideas"
+      },
+      {
+        "value": "B",
+        "text": "B. Let AI create everything without checking"
+      },
+      {
+        "value": "C",
+        "text": "C. Use AI to experiment with different tones or styles"
+      },
+      {
+        "value": "D",
+        "text": "D. Use AI-generated outputs as final work without review"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "C"
+    ],
+    "feedback": {
+      "A": {
+        "correct": true,
+        "text": "AI is great for getting ideas flowing!"
+      },
+      "B": {
+        "correct": false,
+        "text": "That\u2019s risky. AI needs human review."
+      },
+      "C": {
+        "correct": true,
+        "text": "Yes! Trying different tones is a great use."
+      },
+      "D": {
+        "correct": false,
+        "text": "Always review and guide what AI produces."
+      }
+    },
+    "tags": [
+      "creativity",
+      "ai",
+      "guidance"
+    ],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans and AI - Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1
+  },
+  "humans_ai_q_010": {
+    "id": "humans_ai_q_010",
+    "type": "fill_blank",
+    "topic": "Core Message",
+    "subtopic": "Human + AI",
+    "difficulty": 2,
+    "prompt": "The formula given in the lesson is: Human originality + AI _______ = Power.",
+    "correctAnswer": "speed",
+    "feedback": {
+      "speed": "Correct! The blend of human creativity and AI\u2019s speed creates great results."
+    },
+    "tags": [
+      "formula",
+      "key_idea"
+    ],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans and AI - Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1
+  }
+}
