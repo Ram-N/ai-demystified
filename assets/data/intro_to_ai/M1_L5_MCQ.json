@@ -1,0 +1,80 @@
+[
+  {
+    "id": "MCQ_M01-L05_Q001",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "Humans + AI: Better Together?",
+    "topic": "Humans and AI",
+    "subtopic": "Collaboration Benefits",
+    "difficulty": 3,
+    "keywords": ["AI", "creativity", "collaboration"],
+    "question_text": "According to the course material, what is the main purpose of AI in creative tasks?",
+    "options": [
+      { "value": "A", "text": "A. To take over human creativity completely" },
+      { "value": "B", "text": "B. To enhance human creativity and provide new ideas" },
+      { "value": "C", "text": "C. To replace artists and writers with robots" },
+      { "value": "D", "text": "D. To act alone without human direction" }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "The material states AI is not here to take over human creativity, but to enhance it." },
+      "B": { "correct": true, "text": "Yes! The text emphasizes that AI enhances human creativity by providing ideas and directions." },
+      "C": { "correct": false, "text": "The material clarifies that AI doesn't have feelings or imaginations like humans, so it's not designed to replace artists." },
+      "D": { "correct": false, "text": "The material explicitly states that AI needs human ideas, direction, and feedback." }
+    },
+    "tags": ["AI", "creativity", "collaboration"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans + AI: Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": ["B"],
+    "explanation": "AI's main role is to support and enhance human creativity, not replace it.",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": 30,
+    "active": true,
+    "legacy_id": "quiz_id_hum_ai_001"
+  },
+  {
+    "id": "MCQ_M01-L05_Q002",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "Humans + AI: Better Together?",
+    "topic": "Humans and AI",
+    "subtopic": "Human Role",
+    "difficulty": 2,
+    "keywords": ["human touch", "creativity", "uniqueness"],
+    "question_text": "What is considered the 'real magic' that humans bring to the collaboration with AI?",
+    "options": [
+      { "value": "A", "text": "A. The ability to process data faster than AI" },
+      { "value": "B", "text": "B. Their unique experiences, emotions, and perspective" },
+      { "value": "C", "text": "C. The power to generate ideas automatically" },
+      { "value": "D", "text": "D. The capacity to store more information than AI" }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "AI is designed for speed in processing data." },
+      "B": { "correct": true, "text": "Correct! The material states that your unique experiences, emotions, and perspective make your creativity special." },
+      "C": { "correct": false, "text": "AI can generate ideas, but it's human guidance that makes them truly creative." },
+      "D": { "correct": false, "text": "AI can access and process vast amounts of information." }
+    },
+    "tags": ["human touch", "creativity", "uniqueness"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans + AI: Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": ["B"],
+    "explanation": "Human creativity and unique perspective is the 'magic' in AI collaborations.",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": 30,
+    "active": true,
+    "legacy_id": "quiz_id_hum_ai_004"
+  }
+]

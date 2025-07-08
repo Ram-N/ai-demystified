@@ -1,0 +1,70 @@
+[
+  {
+    "id": "SelectAll_M01-L03_Q001",
+    "type": "SelectAll",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Capabilities",
+    "subtopic": "Types of Creations",
+    "difficulty": 4,
+    "question_text": "Which of the following creative outputs are specifically mentioned as things Generative AI can create? Select all that apply.",
+    "options": [
+      { "value": "A", "text": "A. Cooking new recipes from scratch." },
+      { "value": "B", "text": "B. Composing music in different styles." },
+      { "value": "C", "text": "C. Generating images, from photorealistic to abstract." },
+      { "value": "D", "text": "D. Writing stories, poems, and scripts." },
+      { "value": "E", "text": "E. Repairing physical machines." }
+    ],
+    "correctAnswer": ["B", "C", "D"],
+    "feedback": {
+      "A": { "correct": false, "text": "While AI can use recipes, the text doesn't say it can physically cook new ones." },
+      "B": { "correct": true, "text": "Yes! Generative AI can compose tunes in different styles." },
+      "C": { "correct": true, "text": "Yes! Generative AI can generate all sorts of images." },
+      "D": { "correct": true, "text": "Yes! Generative AI can write stories, poems, and scripts." },
+      "E": { "correct": false, "text": "Repairing physical machines is not listed as a creative output of generative AI." }
+    },
+    "tags": ["Generative AI", "Outputs", "Creativity"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["B", "C", "D"],
+    "legacy_id": "quiz_id_genai_002"
+  },
+  {
+    "id": "SelectAll_M01-L03_Q002",
+    "type": "SelectAll",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Impact",
+    "subtopic": "User Benefits",
+    "difficulty": 3,
+    "question_text": "How can Generative AI be a helpful tool for users?",
+    "options": [
+      { "value": "A", "text": "A. By removing the need for human thought entirely." },
+      { "value": "B", "text": "B. By helping brainstorm ideas." },
+      { "value": "C", "text": "C. By providing inspiration for creative projects." },
+      { "value": "D", "text": "D. By speeding up certain tasks." },
+      { "value": "E", "text": "E. By performing all complex calculations automatically." }
+    ],
+    "correctAnswer": ["B", "C", "D"],
+    "feedback": {
+      "A": { "correct": false, "text": "The text implies AI as a tool to *help* human thought, not remove it." },
+      "B": { "correct": true, "text": "Yes! Generative AI can help brainstorm ideas." },
+      "C": { "correct": true, "text": "Yes! Generative AI can help you get inspired." },
+      "D": { "correct": true, "text": "Yes! Generative AI can speed up tasks." },
+      "E": { "correct": false, "text": "While AI can do calculations, this isn't listed as a creative benefit in the text." }
+    },
+    "tags": ["Generative AI", "Benefits", "Applications"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["B", "C", "D"],
+    "legacy_id": "quiz_id_genai_013"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "MCQ_M01-L05_Q001",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "Humans and AI - Better Together?",
+    "topic": "AI Capabilities",
+    "subtopic": "Feelings & Emotions",
+    "difficulty": 2,
+    "keywords": ["ai", "emotion", "limits"],
+    "question_text": "What does the lesson say about AI and emotions?",
+    "options": [
+      { "value": "A", "text": "A. AI can feel sadness and joy" },
+      { "value": "B", "text": "B. AI only feels what humans tell it to feel" },
+      { "value": "C", "text": "C. AI doesn’t have feelings like humans do" },
+      { "value": "D", "text": "D. AI creates emotions through music" }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": { "correct": false, "text": "AI doesn’t feel anything." },
+      "B": { "correct": false, "text": "AI doesn’t actually feel emotions at all." },
+      "C": { "correct": true, "text": "Correct! AI doesn’t have feelings or imagination." },
+      "D": { "correct": false, "text": "AI might generate music, but it doesn’t feel emotions." }
+    },
+    "tags": ["ai", "emotion", "limits"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans and AI - Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": ["C"],
+    "explanation": "AI doesn't have feelings or emotions like humans.",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": 30,
+    "active": true,
+    "legacy_id": "humans_ai_q_006"
+  },
+  {
+    "id": "MCQ_M01-L05_Q002",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "Humans and AI - Better Together?",
+    "topic": "Metaphors",
+    "subtopic": "AI Comparison",
+    "difficulty": 3,
+    "keywords": ["metaphor", "ai", "creativity"],
+    "question_text": "In the lesson, AI is compared to what kind of performer?",
+    "options": [
+      { "value": "A", "text": "A. A solo singer" },
+      { "value": "B", "text": "B. A dancer" },
+      { "value": "C", "text": "C. A super-fast DJ" },
+      { "value": "D", "text": "D. A magician" }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": { "correct": false, "text": "No, the comparison used was a DJ." },
+      "B": { "correct": false, "text": "Interesting guess, but not the lesson's metaphor." },
+      "C": { "correct": true, "text": "Correct! AI was compared to a DJ remixing tracks." },
+      "D": { "correct": false, "text": "Magician is not the analogy used." }
+    },
+    "tags": ["metaphor", "ai", "creativity"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans and AI - Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": ["C"],
+    "explanation": "AI is compared to a DJ who remixes tracks quickly.",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": 30,
+    "active": true,
+    "legacy_id": "humans_ai_q_007"
+  }
+]

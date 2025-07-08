@@ -1,0 +1,44 @@
+[
+  {
+    "id": "MATCH_M01-L01_Q001",
+    "legacy_id": "matching_77618808",
+    "type": "matching",
+    "module": "introduction-to-genai",
+    "lesson": "",
+    "topic": "Generative AI",
+    "subtopic": "Examples",
+    "difficulty": 3,
+    "keywords": ["genai", "tools", "matching"],
+    "question_text": "Match each Generative AI tool with what it creates.",
+    "options": [],
+    "pairs": {
+      "ChatGPT": "Writes essays and answers questions",
+      "DALL·E": "Creates images from text prompts",
+      "Suno": "Generates music",
+      "GitHub Copilot": "Helps write code"
+    },
+    "correctAnswer": {
+      "ChatGPT": "Writes essays and answers questions",
+      "DALL·E": "Creates images from text prompts",
+      "Suno": "Generates music",
+      "GitHub Copilot": "Helps write code"
+    },
+    "feedback": {
+      "ChatGPT": "Correct—It generates human-like text.",
+      "DALL·E": "Correct—It turns words into pictures.",
+      "Suno": "Correct—It creates music with AI.",
+      "GitHub Copilot": "Correct—It suggests code snippets."
+    },
+    "tags": ["genai", "tools", "matching"],
+    "source": { "module": "introduction-to-genai" },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": [],
+    "explanation": "",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": "",
+    "active": true
+  }
+]

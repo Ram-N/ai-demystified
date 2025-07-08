@@ -91,8 +91,29 @@ fetch(quizManifestUrl)
     );
   })
   .then(allData => {
-    quizData = allData.flatMap(data => Object.values(data));
-    console.log("Combined quiz data loaded:", quizData);
+    quizData = allData.flatMap((data, fileIndex) => {
+      const questions = Array.isArray(data) ? data : Object.values(data);
+      console.log("Processing quiz file", fileIndex, "with", questions.length, "questions");
+      
+      // Validate and make IDs unique by adding file prefix
+      questions.forEach((q, qIndex) => {
+        if (!q.id || !q.type || !q.question_text) {
+          console.warn("Invalid question schema:", q);
+        }
+        
+        // Make ID unique by prefixing with file index
+        const originalId = q.id;
+        q.id = `file${fileIndex}_${q.id}`;
+        
+        if (originalId !== q.id) {
+          console.log("Made ID unique:", originalId, "→", q.id);
+        }
+      });
+      
+      return questions;
+    });
+    console.log("Combined quiz data loaded:", quizData.length, "total questions");
+    console.log("Sample question structure:", quizData[0]);
   })
   .catch(err => {
     console.error("Error loading quiz manifest or quiz data:", err, "URL was:", quizManifestUrl);
@@ -218,18 +239,29 @@ startQuizBtn.addEventListener('click', () => {
   console.log("Available quiz data:", quizData);
   
   currentQuiz = quizData.filter(q => {
-    // ONLY include multiple_choice questions and exclude multiple_select
-    if (q.type !== 'multiple_choice') {
+    // Filter out inactive questions
+    if (q.active === false) {
+      console.log("Skipping inactive question:", q.id);
+      return false;
+    }
+    
+    // Map question type to internal format
+    const mappedType = mapQuestionType(q.type);
+    
+    // ONLY include multiple_choice questions and exclude multiple_select for now
+    if (mappedType !== 'multiple_choice') {
       return false;
     }
     
     // Ensure it has options array for rendering
     if (!q.options || !Array.isArray(q.options) || q.options.length === 0) {
+      console.warn("Question missing options array:", q.id);
       return false;
     }
     
-    // Check difficulty range
-    const diffMatch = q.difficulty >= minDiff && q.difficulty <= maxDiff;
+    // Convert difficulty to numeric and check range
+    const numericDifficulty = getDifficultyNumeric(q.difficulty);
+    const diffMatch = numericDifficulty >= minDiff && numericDifficulty <= maxDiff;
     
     // For module matching, first try direct match, if not, try to convert format
     let modMatch = true;
@@ -251,15 +283,48 @@ startQuizBtn.addEventListener('click', () => {
       lessonMatch = directMatch || fuzzyMatch;
     }
     
+    // Enhanced keyword/tag matching
+    let keywordMatch = true;
+    const searchTerms = [moduleSlug, lessonSlug].filter(Boolean);
+    
+    if (searchTerms.length > 0) {
+      // Check keywords array
+      const keywordMatches = q.keywords?.some(keyword => 
+        searchTerms.some(term => 
+          keyword.toLowerCase().includes(term.toLowerCase()) ||
+          term.toLowerCase().includes(keyword.toLowerCase())
+        )
+      );
+      
+      // Check tags array  
+      const tagMatches = q.tags?.some(tag =>
+        searchTerms.some(term =>
+          tag.toLowerCase().includes(term.toLowerCase()) ||
+          term.toLowerCase().includes(tag.toLowerCase())
+        )
+      );
+      
+      // Enhanced match if we have keyword/tag matches
+      if (keywordMatches || tagMatches) {
+        keywordMatch = true;
+      }
+    }
+    
     console.log("Question filtering:", {
       id: q.id,
       type: q.type,
-      difficulty: q.difficulty, 
+      mappedType: mappedType,
+      difficulty: q.difficulty,
+      numericDifficulty: numericDifficulty,
       diffMatch,
+      active: q.active,
       module: q.source?.module,
       modMatch,
       lesson: q.source?.lesson,
-      lessonMatch
+      lessonMatch,
+      keywords: q.keywords,
+      tags: q.tags,
+      keywordMatch
     });
     
     return diffMatch && (moduleSlug ? modMatch : true) && (lessonSlug ? lessonMatch : true);
@@ -285,7 +350,25 @@ startQuizBtn.addEventListener('click', () => {
 function renderQuestion() {
   quizContainer.innerHTML = '';
   const q = currentQuiz[currentQuestionIndex];
-  if (!q) return;
+  if (!q) {
+    console.error("No question found at index:", currentQuestionIndex);
+    return;
+  }
+  
+  console.log("Rendering question:", q.id, "Index:", currentQuestionIndex, "Already submitted:", hasSubmitted[q.id]);
+  
+  // Validate question structure
+  if (!q.question_text && !q.question) {
+    console.error("Question missing question_text field:", q);
+    quizContainer.innerHTML = '<p>Error: Question text is missing</p>';
+    return;
+  }
+  
+  if (!q.options || !Array.isArray(q.options)) {
+    console.error("Question missing valid options array:", q);
+    quizContainer.innerHTML = '<p>Error: Question options are missing</p>';
+    return;
+  }
 
   // Update progress counter as soon as question is displayed
   updateProgress();
@@ -295,7 +378,7 @@ function renderQuestion() {
   form.className = 'quiz-form';
 
   const questionP = document.createElement('p');
-  questionP.innerHTML = `<strong>Q${currentQuestionIndex + 1}:</strong> ${q.question}`;
+  questionP.innerHTML = `<strong>Q${currentQuestionIndex + 1}:</strong> ${q.question_text || q.question}`;
   form.appendChild(questionP);
 
   // Track if any option is selected
@@ -309,12 +392,6 @@ function renderQuestion() {
     input.value = option.value;
     input.addEventListener('change', () => {
       handleOptionChange(q, form, input);
-      
-      // Enable submit button once an option is selected
-      if (!hasSubmitted[q.id]) {
-        const submitBtn = form.querySelector('.submit-btn');
-        if (submitBtn) submitBtn.disabled = false;
-      }
     });
     label.appendChild(input);
     label.appendChild(document.createTextNode(` ${option.text}`));
@@ -328,7 +405,7 @@ function renderQuestion() {
   submitBtn.type = 'button';
   submitBtn.className = 'submit-btn';
   submitBtn.textContent = 'Submit';
-  submitBtn.disabled = true; // Disabled initially until selection
+  submitBtn.disabled = true; // Disabled initially until option selected
   submitBtn.addEventListener('click', () => handleSubmit(q, form));
   buttonsDiv.appendChild(submitBtn);
   
@@ -343,9 +420,11 @@ function renderQuestion() {
     nextBtn.textContent = 'Next Question';
   }
   
-  nextBtn.disabled = true; // Disabled initially
+  nextBtn.disabled = true; // Disabled initially until submitted
   nextBtn.addEventListener('click', () => moveToNextQuestion());
   buttonsDiv.appendChild(nextBtn);
+  
+  console.log("Button states for question", q.id, "- Submit disabled:", submitBtn.disabled, "Next disabled:", nextBtn.disabled);
   
   form.appendChild(buttonsDiv);
 
@@ -353,19 +432,45 @@ function renderQuestion() {
   resultDiv.className = 'quiz-result';
   form.appendChild(resultDiv);
 
+  // Check if this question was already submitted and show feedback
+  if (hasSubmitted[q.id]) {
+    console.log("Question", q.id, "was already submitted, showing previous feedback");
+    const selectedInput = form.querySelector('input[type="radio"]:checked');
+    if (selectedInput) {
+      const feedback = q.feedback?.[selectedInput.value];
+      if (feedback) {
+        const icon = feedback.correct ? '✅' : '❌';
+        resultDiv.innerHTML = `${icon} <span>${feedback.text}</span>`;
+        submitBtn.disabled = true;
+        nextBtn.disabled = false;
+      }
+    }
+  }
+
   quizContainer.appendChild(form);
 }
 
 function handleOptionChange(q, form, input) {
+  console.log("Option changed for question:", q.id, "selected:", input.value, "submitted:", hasSubmitted[q.id]);
+  
   // If already submitted, just show feedback for learning
   if (hasSubmitted[q.id]) {
     const selected = input.value;
-    const feedback = q.feedback[selected];
+    const feedback = q.feedback?.[selected];
     const resultDiv = form.querySelector('.quiz-result');
     
     if (feedback) {
       const icon = feedback.correct ? '✅' : '❌';
       resultDiv.innerHTML = `${icon} <span>${feedback.text}</span>`;
+    } else {
+      console.warn("No feedback found for option:", selected, "in question:", q.id);
+    }
+  } else {
+    // Question not yet submitted - enable submit button
+    const submitBtn = form.querySelector('.submit-btn');
+    if (submitBtn) {
+      submitBtn.disabled = false;
+      console.log("Submit button enabled for question:", q.id);
     }
   }
 }
@@ -387,10 +492,17 @@ function handleSubmit(q, form) {
 
   // Handle multiple choice questions only
   const selected = [...form.elements].find(el => el.checked);
-  if (!selected) return;
+  if (!selected) {
+    console.warn("No option selected for question:", q.id);
+    return;
+  }
   
-  const feedback = q.feedback[selected.value];
-  if (!feedback) return;
+  const feedback = q.feedback?.[selected.value];
+  if (!feedback) {
+    console.error("No feedback found for option:", selected.value, "in question:", q.id);
+    resultDiv.innerHTML = '<span>Error: Feedback not available</span>';
+    return;
+  }
   
   isCorrect = feedback.correct;
   const icon = feedback.correct ? '✅' : '❌';
@@ -419,6 +531,33 @@ function showFinalScore() {
 
 function shuffle(array) {
   return array.sort(() => Math.random() - 0.5);
+}
+
+// Convert string difficulty to numeric value for filtering
+function getDifficultyNumeric(difficulty) {
+  if (typeof difficulty === 'number') {
+    return difficulty; // Already numeric (legacy format)
+  }
+  
+  const diffStr = difficulty?.toLowerCase();
+  switch (diffStr) {
+    case 'easy': return 2; // Middle of 1-3 range
+    case 'medium': return 5.5; // Middle of 4-7 range  
+    case 'hard': return 8.5; // Middle of 7-10 range
+    default: 
+      console.warn("Unknown difficulty value:", difficulty);
+      return 5; // Default to medium
+  }
+}
+
+// Map new question types to internal types
+function mapQuestionType(type) {
+  switch (type) {
+    case 'MCQ': return 'multiple_choice';
+    case 'FITB': return 'fill_blank';
+    case 'SelectAll': return 'multiple_select';
+    default: return type; // Keep as is for legacy
+  }
 }
 // Debug output for quiz loading
 console.log("Quiz manifest URL:", quizManifestUrl);

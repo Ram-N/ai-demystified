@@ -1,0 +1,64 @@
+[
+  {
+    "id": "FITB_M01-L05_Q001",
+    "type": "FillBlank",
+    "module": "Introduction to GenAI",
+    "lesson": "Humans + AI: Better Together?",
+    "topic": "Humans and AI",
+    "subtopic": "AI Functionality",
+    "difficulty": 4,
+    "keywords": ["AI", "how it works", "data"],
+    "question_text": "AI is like a super-smart parrot because it learns from huge amounts of data and figures out how to _____ patterns, rather than having feelings or imagination.",
+    "options": [],
+    "correctAnswer": "remix",
+    "feedback": {
+      "text": "The material compares AI to a DJ who remixes patterns from existing information, not one with feelings or imagination."
+    },
+    "tags": ["AI", "how it works", "data"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans + AI: Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": ["remix"],
+    "explanation": "AI remixes patterns based on large data sets, not original imagination.",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": 30,
+    "active": true,
+    "legacy_id": "quiz_id_hum_ai_002"
+  },
+  {
+    "id": "FITB_M01-L05_Q002",
+    "type": "FillBlank",
+    "module": "Introduction to GenAI",
+    "lesson": "Humans + AI: Better Together?",
+    "topic": "Humans and AI",
+    "subtopic": "Takeaway Formula",
+    "difficulty": 3,
+    "keywords": ["formula", "synergy", "takeaway"],
+    "question_text": "The simple formula for powerful results when combining human and AI efforts is: Human originality + AI _____ = Power.",
+    "options": [],
+    "correctAnswer": "speed",
+    "feedback": {
+      "text": "The takeaway formula highlighted in the text is 'Human originality + AI speed = Power'."
+    },
+    "tags": ["formula", "synergy", "takeaway"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans + AI: Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": ["speed"],
+    "explanation": "The formula is about combining strengths: originality and speed.",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": 30,
+    "active": true,
+    "legacy_id": "quiz_id_hum_ai_005"
+  }
+]

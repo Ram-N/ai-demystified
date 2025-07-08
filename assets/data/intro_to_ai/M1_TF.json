@@ -1,0 +1,31 @@
+[
+  {
+    "id": "TF_M01-L01_Q001",
+    "legacy_id": "true_false_7af5613b",
+    "type": "true_false",
+    "module": "introduction-to-genai",
+    "lesson": "",
+    "topic": "Generative AI",
+    "subtopic": "Understanding",
+    "difficulty": 2,
+    "keywords": ["genai", "limits", "understanding"],
+    "question_text": "Generative AI understands ideas and emotions like a human.",
+    "options": [],
+    "correctAnswer": false,
+    "feedback": {
+      "True": "Incorrect—Generative AI doesn't truly understand meaning; it predicts based on patterns.",
+      "False": "Correct—It doesn't understand concepts the way humans do."
+    },
+    "tags": ["genai", "limits", "understanding"],
+    "source": { "module": "introduction-to-genai" },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": [],
+    "explanation": "",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": "",
+    "active": true
+  }
+]

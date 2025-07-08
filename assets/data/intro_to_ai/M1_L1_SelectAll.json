@@ -1,0 +1,70 @@
+[
+  {
+    "id": "SelectAll_M01-L01_Q001",
+    "type": "SelectAll",
+    "module": "Introduction to GenAI",
+    "lesson": "What Is Generative AI?",
+    "topic": "Generative AI Examples",
+    "subtopic": "Applications",
+    "difficulty": 3,
+    "question_text": "According to the text, which of the following tasks can Generative AI help with? Select all that apply.",
+    "options": [
+      { "value": "A", "text": "A. Brainstorming ideas for a project." },
+      { "value": "B", "text": "B. Answering questions about facts." },
+      { "value": "C", "text": "C. Building new mobile applications." },
+      { "value": "D", "text": "D. Composing music." },
+      { "value": "E", "text": "E. Drawing pictures." }
+    ],
+    "correctAnswer": ["A", "B", "C", "D", "E"],
+    "feedback": {
+      "A": { "correct": true, "text": "People are using Generative AI to brainstorm ideas." },
+      "B": { "correct": true, "text": "People are using Generative AI to answer questions." },
+      "C": { "correct": true, "text": "People are using Generative AI to build apps." },
+      "D": { "correct": true, "text": "Generative AI can make up a song." },
+      "E": { "correct": true, "text": "Generative AI can draw a picture." }
+    },
+    "tags": ["Generative AI", "applications", "uses"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["A", "B", "C", "D", "E"],
+    "legacy_id": "quiz_id_whatisgenai_004"
+  },
+  {
+    "id": "SelectAll_M01-L01_Q002",
+    "type": "SelectAll",
+    "module": "Introduction to GenAI",
+    "lesson": "What Is Generative AI?",
+    "topic": "Generative AI Outputs",
+    "subtopic": "Creative Forms",
+    "difficulty": 3,
+    "question_text": "What are some examples of 'new things' that Generative AI can create?",
+    "options": [
+      { "value": "A", "text": "A. Writing a story." },
+      { "value": "B", "text": "B. Drawing a picture." },
+      { "value": "C", "text": "C. Making up a song." },
+      { "value": "D", "text": "D. Helping you write code." },
+      { "value": "E", "text": "E. Calculating complex math problems." }
+    ],
+    "correctAnswer": ["A", "B", "C", "D"],
+    "feedback": {
+      "A": { "correct": true, "text": "Writing a story is explicitly mentioned as a creative output." },
+      "B": { "correct": true, "text": "Drawing a picture is explicitly mentioned as a creative output." },
+      "C": { "correct": true, "text": "Making up a song is explicitly mentioned as a creative output." },
+      "D": { "correct": true, "text": "Helping write code is explicitly mentioned as a creative output." },
+      "E": { "correct": false, "text": "While AI can calculate, this is a traditional AI function and not the 'new thing' that Generative AI is primarily known for." }
+    },
+    "tags": ["Generative AI", "outputs", "creativity"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["A", "B", "C", "D"],
+    "legacy_id": "quiz_id_whatisgenai_011"
+  }
+]

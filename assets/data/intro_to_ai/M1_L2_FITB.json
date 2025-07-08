@@ -1,0 +1,117 @@
+[
+  {
+    "id": "FITB_M01-L01_Q001",
+    "type": "FITB",
+    "module": "Introduction to GenAI",
+    "lesson": "What Is Generative AI?",
+    "topic": "Generative AI Mechanism",
+    "subtopic": "Learning Process",
+    "difficulty": 4,
+    "question_text": "Generative AI creates new content by learning from huge collections of examples and spotting ______.",
+    "correctAnswer": "patterns",
+    "feedback": {
+      "text": "Generative AI learns from vast amounts of data to spot patterns, which it then uses to predict and create new content."
+    },
+    "tags": ["Generative AI", "learning", "data"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["patterns"],
+    "legacy_id": "quiz_id_whatisgenai_002"
+  },
+  {
+    "id": "FITB_M01-L01_Q002",
+    "type": "FITB",
+    "module": "Introduction to GenAI",
+    "lesson": "What Is Generative AI?",
+    "topic": "Generative AI vs. Traditional AI",
+    "subtopic": "Analogy",
+    "difficulty": 4,
+    "question_text": "Traditional AI is like a librarian who helps you find an exact book or answer. Generative AI is more like an _______, who creates something new.",
+    "correctAnswer": "author",
+    "feedback": {
+      "text": "The analogy compares traditional AI to a librarian and Generative AI to an author."
+    },
+    "tags": ["Generative AI", "Traditional AI", "analogy"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["author"],
+    "legacy_id": "quiz_id_whatisgenai_008"
+  },
+  {
+    "id": "FITB_M01-L01_Q003",
+    "type": "FITB",
+    "module": "Introduction to GenAI",
+    "lesson": "What Is Generative AI?",
+    "topic": "Generative AI Functionality",
+    "subtopic": "Process",
+    "difficulty": 3,
+    "question_text": "Generative AI works like a supercharged _______ that can generate an entire paragraph, image, or song based on your request.",
+    "correctAnswer": "autocomplete",
+    "feedback": {
+      "text": "The text compares Generative AI to 'supercharged autocomplete' because it can generate extensive content beyond just finishing a sentence."
+    },
+    "tags": ["Generative AI", "function", "autocomplete"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["autocomplete"],
+    "legacy_id": "quiz_id_whatisgenai_013"
+  },
+  {
+    "id": "FITB_M01-L01_Q004",
+    "type": "FITB",
+    "module": "Introduction to GenAI",
+    "lesson": "What Is Generative AI?",
+    "topic": "Generative AI Tools",
+    "subtopic": "Examples",
+    "difficulty": 2,
+    "question_text": "Examples of powerful Generative AI models mentioned in the text include ChatGPT, DALL·E, and ______.",
+    "correctAnswer": "Suno",
+    "feedback": {
+      "text": "The text lists ChatGPT, DALL·E, and Suno as examples of powerful Generative AI models."
+    },
+    "tags": ["Generative AI", "tools", "examples"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["Suno"],
+    "legacy_id": "quiz_id_whatisgenai_016"
+  },
+  {
+    "id": "FITB_M01-L01_Q005",
+    "type": "FITB",
+    "module": "Introduction to GenAI",
+    "lesson": "What Is Generative AI?",
+    "topic": "Generative AI Current State",
+    "subtopic": "Future Outlook",
+    "difficulty": 3,
+    "question_text": "Generative AI is powerful and new, and we are still figuring out how to use it ______.",
+    "correctAnswer": "wisely",
+    "feedback": {
+      "text": "The text concludes by stating that we are 'still figuring out how to use it wisely'."
+    },
+    "tags": ["Generative AI", "future", "ethics"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Is Generative AI?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["wisely"],
+    "legacy_id": "quiz_id_whatisgenai_020"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "SelectAll_M01-L05_Q001",
+    "type": "SelectAll",
+    "module": "Introduction to GenAI",
+    "lesson": "Humans and AI - Better Together?",
+    "topic": "AI Role",
+    "subtopic": "Support vs Replace",
+    "difficulty": 4,
+    "keywords": ["creativity", "ai", "guidance"],
+    "question_text": "According to the lesson, what are the right ways to use AI in creative projects?",
+    "options": [
+      { "value": "A", "text": "A. Use AI to brainstorm or kickstart ideas" },
+      { "value": "B", "text": "B. Let AI create everything without checking" },
+      { "value": "C", "text": "C. Use AI to experiment with different tones or styles" },
+      { "value": "D", "text": "D. Use AI-generated outputs as final work without review" }
+    ],
+    "correctAnswer": ["A", "C"],
+    "feedback": {
+      "A": { "correct": true, "text": "AI is great for getting ideas flowing!" },
+      "B": { "correct": false, "text": "That’s risky. AI needs human review." },
+      "C": { "correct": true, "text": "Yes! Trying different tones is a great use." },
+      "D": { "correct": false, "text": "Always review and guide what AI produces." }
+    },
+    "tags": ["creativity", "ai", "guidance"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans and AI - Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": ["A", "C"],
+    "explanation": "Use AI for brainstorming and creative support, not full automation.",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": 45,
+    "active": true,
+    "legacy_id": "humans_ai_q_009"
+  }
+]

@@ -1,0 +1,450 @@
+[
+  {
+    "id": "MCQ_M01-L03_Q001",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Capabilities",
+    "subtopic": "Creative Outputs",
+    "difficulty": 3,
+    "question_text": "Unlike 'regular AI' that might suggest videos, what new ability does Generative AI possess?",
+    "options": [
+      { "value": "A", "text": "A. It can only translate languages faster." },
+      { "value": "B", "text": "B. It can actually create original content." },
+      { "value": "C", "text": "C. It is better at figuring out what you like to watch." },
+      { "value": "D", "text": "D. It helps organize your files more efficiently." }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "Translating languages is a function of regular AI, not the new ability of generative AI mentioned." },
+      "B": { "correct": true, "text": "Yes! Generative AI takes it a step further by creating content like stories, music, and art." },
+      "C": { "correct": false, "text": "Suggesting videos is a task for regular AI, not generative AI's unique creative ability." },
+      "D": { "correct": false, "text": "File organization is not a creative function of generative AI." }
+    },
+    "tags": ["Generative AI", "Creativity", "Capabilities"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["B"],
+    "legacy_id": "quiz_id_genai_001"
+  },
+  {
+    "id": "MCQ_M01-L03_Q002",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Metaphors",
+    "subtopic": "Limitations",
+    "difficulty": 4,
+    "question_text": "The text compares AI to a chef with the world's biggest recipe book. What does this analogy highlight about AI?",
+    "options": [
+      { "value": "A", "text": "A. AI can create anything without any prior knowledge." },
+      { "value": "B", "text": "B. AI can only create new things from ingredients (data) it has seen before." },
+      { "value": "C", "text": "C. AI is better at cooking than humans." },
+      { "value": "D", "text": "D. AI can invent completely new ingredients." }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "The analogy implies a limitation, not boundless creation." },
+      "B": { "correct": true, "text": "Yes! Just like a chef needs ingredients, AI needs data it has seen before to create new things." },
+      "C": { "correct": false, "text": "The analogy is about creation process, not culinary skills." },
+      "D": { "correct": false, "text": "The analogy specifies using 'ingredients it’s seen before'." }
+    },
+    "tags": ["Analogy", "Generative AI", "Limitations"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["B"],
+    "legacy_id": "quiz_id_genai_004"
+  },
+  {
+    "id": "MCQ_M01-L03_Q003",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Technology",
+    "subtopic": "Core Technology",
+    "difficulty": 5,
+    "question_text": "What is the 'secret' behind different Generative AIs being able to do many varied creative tasks, like writing essays and creating images?",
+    "options": [
+      { "value": "A", "text": "A. Each task requires a completely different and unique AI technology." },
+      { "value": "B", "text": "B. A lot of the magic comes from the same core technology, just with different training data and output formats." },
+      { "value": "C", "text": "C. It's because there are a million different AIs, each specialized for one thing." },
+      { "value": "D", "text": "D. They are all controlled by a single, giant, do-it-all tool." }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "The text states it's often the 'same core technology'." },
+      "B": { "correct": true, "text": "Correct! The text explains that it's the same basic engine, but built and tuned differently based on training data and output format." },
+      "C": { "correct": false, "text": "The text says 'a lot of this magic comes from the same core technology'." },
+      "D": { "correct": false, "text": "The text explicitly states it's 'not one giant, do-it-all tool'." }
+    },
+    "tags": ["Generative AI", "Technology", "Core Concepts"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["B"],
+    "legacy_id": "quiz_id_genai_005"
+  },
+  {
+    "id": "MCQ_M01-L03_Q004",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Examples",
+    "subtopic": "Specific Tools",
+    "difficulty": 3,
+    "question_text": "Which AI tool is mentioned for creating images from words?",
+    "options": [
+      { "value": "A", "text": "A. ChatGPT" },
+      { "value": "B", "text": "B. Suno" },
+      { "value": "C", "text": "C. DALL·E" },
+      { "value": "D", "text": "D. GitHub Copilot" }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": { "correct": false, "text": "ChatGPT is mentioned for writing, not images." },
+      "B": { "correct": false, "text": "Suno is mentioned for composing music." },
+      "C": { "correct": true, "text": "Yes! DALL·E is given as an example of an AI creating images from words." },
+      "D": { "correct": false, "text": "GitHub Copilot is for writing code." }
+    },
+    "tags": ["AI Tools", "Image Generation", "DALL·E"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["C"],
+    "legacy_id": "quiz_id_genai_007"
+  },
+  {
+    "id": "MCQ_M01-L03_Q005",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Examples",
+    "subtopic": "Specific Tools",
+    "difficulty": 3,
+    "question_text": "Which AI tool is mentioned for helping write a simple game in Python?",
+    "options": [
+      { "value": "A", "text": "A. DALL·E" },
+      { "value": "B", "text": "B. Suno" },
+      { "value": "C", "text": "C. ChatGPT" },
+      { "value": "D", "text": "D. GitHub Copilot" }
+    ],
+    "correctAnswer": "D",
+    "feedback": {
+      "A": { "correct": false, "text": "DALL·E creates images." },
+      "B": { "correct": false, "text": "Suno composes music." },
+      "C": { "correct": false, "text": "ChatGPT writes text." },
+      "D": { "correct": true, "text": "Yes! GitHub Copilot is mentioned for helping write code." }
+    },
+    "tags": ["AI Tools", "Code Generation", "GitHub Copilot"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["D"],
+    "legacy_id": "quiz_id_genai_008"
+  },
+  {
+    "id": "MCQ_M01-L03_Q006",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Examples",
+    "subtopic": "Specific Tools",
+    "difficulty": 3,
+    "question_text": "Which AI tool is mentioned for composing original music?",
+    "options": [
+      { "value": "A", "text": "A. ChatGPT" },
+      { "value": "B", "text": "B. DALL·E" },
+      { "value": "C", "text": "C. Suno or Udio" },
+      { "value": "D", "text": "D. GitHub Copilot" }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": { "correct": false, "text": "ChatGPT is for writing." },
+      "B": { "correct": false, "text": "DALL·E is for images." },
+      "C": { "correct": true, "text": "Yes! Suno or Udio are examples given for composing music." },
+      "D": { "correct": false, "text": "GitHub Copilot is for code." }
+    },
+    "tags": ["AI Tools", "Music Generation", "Suno", "Udio"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["C"],
+    "legacy_id": "quiz_id_genai_009"
+  },
+  {
+    "id": "MCQ_M01-L03_Q007",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Metaphors",
+    "subtopic": "Versatility",
+    "difficulty": 4,
+    "question_text": "The text compares Generative AI to an 'engine for vehicles'. What does this analogy explain about Generative AI?",
+    "options": [
+      { "value": "A", "text": "A. Generative AI is only useful for transportation." },
+      { "value": "B", "text": "B. Different Generative AIs are completely unrelated technologies." },
+      { "value": "C", "text": "C. The same core Generative AI technology can be 'tuned' for different tasks with different data and output formats." },
+      { "value": "D", "text": "D. Generative AI always needs a human driver to function." }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": { "correct": false, "text": "The analogy is about versatility, not limited use." },
+      "B": { "correct": false, "text": "The analogy suggests a common core, not unrelated technologies." },
+      "C": { "correct": true, "text": "Yes! Just like an engine can be in a race car or a truck, the same core AI can be adapted for stories, drawings, or songs." },
+      "D": { "correct": false, "text": "While human input is important, this specific analogy explains the underlying technology's adaptability." }
+    },
+    "tags": ["Analogy", "Generative AI", "Versatility"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["C"],
+    "legacy_id": "quiz_id_genai_010"
+  },
+  {
+    "id": "MCQ_M01-L03_Q008",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Benefits",
+    "subtopic": "User Applications",
+    "difficulty": 2,
+    "question_text": "If you are stuck on how to start a story, how can Generative AI help you?",
+    "options": [
+      { "value": "A", "text": "A. It can write the entire story for you without any input." },
+      { "value": "B", "text": "B. It can provide prompts to help you brainstorm ideas." },
+      { "value": "C", "text": "C. It can only translate your story into another language." },
+      { "value": "D", "text": "D. It will suggest a video for you to watch instead." }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "The text says AI can help brainstorm, not write the whole story." },
+      "B": { "correct": true, "text": "Yes! The material suggests asking AI for prompts to help brainstorm ideas." },
+      "C": { "correct": false, "text": "Translating is a function of regular AI, not how generative AI helps with story starting." },
+      "D": { "correct": false, "text": "Suggesting videos is a function of regular AI, not how generative AI assists with creative blocks." }
+    },
+    "tags": ["Generative AI", "Brainstorming", "Writing"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["B"],
+    "legacy_id": "quiz_id_genai_011"
+  },
+  {
+    "id": "MCQ_M01-L03_Q009",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI vs. Regular AI",
+    "subtopic": "Distinction",
+    "difficulty": 3,
+    "question_text": "What is the primary difference between 'regular AI' and 'Generative AI' as described in the text?",
+    "options": [
+      { "value": "A", "text": "A. Regular AI is better at creativity, while Generative AI is better at calculations." },
+      { "value": "B", "text": "B. Regular AI can only process existing information, while Generative AI can create new content." },
+      { "value": "C", "text": "C. Generative AI is a newer version of regular AI with no real difference in function." },
+      { "value": "D", "text": "D. Regular AI suggests things, while Generative AI only translates languages." }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "The text states Generative AI has creative abilities, unlike regular AI." },
+      "B": { "correct": true, "text": "Correct! Regular AI figures things out or suggests, while Generative AI creates new stuff." },
+      "C": { "correct": false, "text": "The text highlights a significant functional difference: creation." },
+      "D": { "correct": false, "text": "Generative AI can do more than just translate; it creates." }
+    },
+    "tags": ["AI Types", "Distinction", "Generative AI"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["B"],
+    "legacy_id": "quiz_id_genai_014"
+  },
+  {
+    "id": "MCQ_M01-L03_Q010",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Analogy",
+    "subtopic": "Recipe Book",
+    "difficulty": 3,
+    "question_text": "When comparing AI to a chef with the world's biggest recipe book, what do the 'ingredients' represent for AI?",
+    "options": [
+      { "value": "A", "text": "A. The emotions of the AI." },
+      { "value": "B", "text": "B. The new ideas that AI invents on its own." },
+      { "value": "C", "text": "C. The data that AI has been trained on and seen before." },
+      { "value": "D", "text": "D. The final creative output of the AI." }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": { "correct": false, "text": "The text states AI doesn't have feelings or imaginations." },
+      "B": { "correct": false, "text": "The analogy emphasizes using what it 'seen before'." },
+      "C": { "correct": true, "text": "Yes! The analogy states AI 'can whip up something new, but only from ingredients it’s seen before'." },
+      "D": { "correct": false, "text": "The output is the 'something new' created, not the ingredients." }
+    },
+    "tags": ["Analogy", "Data", "Training"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["C"],
+    "legacy_id": "quiz_id_genai_016"
+  },
+  {
+    "id": "MCQ_M01-L03_Q011",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Output",
+    "subtopic": "Visual Creativity",
+    "difficulty": 2,
+    "question_text": "An AI image generator drawing 'a castle made of candy in space' is an example of AI generating what type of content?",
+    "options": [
+      { "value": "A", "text": "A. Music" },
+      { "value": "B", "text": "B. Code" },
+      { "value": "C", "text": "C. Art/Images" },
+      { "value": "D", "text": "D. Stories" }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": { "correct": false, "text": "This is a visual example, not musical." },
+      "B": { "correct": false, "text": "This is an image, not programming code." },
+      "C": { "correct": true, "text": "Yes! This is given as a specific example of an AI image generator." },
+      "D": { "correct": false, "text": "This describes a visual, not a narrative." }
+    },
+    "tags": ["Generative AI", "Art", "Images"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["C"],
+    "legacy_id": "quiz_id_genai_017"
+  },
+  {
+    "id": "MCQ_M01-L03_Q012",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Output",
+    "subtopic": "Textual Creativity",
+    "difficulty": 2,
+    "question_text": "ChatGPT writing 'a poem based on a student’s favorite animal' is an example of AI generating what type of content?",
+    "options": [
+      { "value": "A", "text": "A. Images" },
+      { "value": "B", "text": "B. Music" },
+      { "value": "C", "text": "C. Written content" },
+      { "value": "D", "text": "D. Videos" }
+    ],
+    "correctAnswer": "C",
+    "feedback": {
+      "A": { "correct": false, "text": "Poems are written, not images." },
+      "B": { "correct": false, "text": "Poems are not musical compositions." },
+      "C": { "correct": true, "text": "Yes! This is given as an example of ChatGPT writing." },
+      "D": { "correct": false, "text": "This is a written piece, not a video." }
+    },
+    "tags": ["Generative AI", "Writing", "ChatGPT"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["C"],
+    "legacy_id": "quiz_id_genai_018"
+  },
+  {
+    "id": "MCQ_M01-L03_Q013",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Output",
+    "subtopic": "Audio Creativity",
+    "difficulty": 2,
+    "question_text": "AI composing 'a tune based on a few hummed notes' is an example of AI generating what type of content?",
+    "options": [
+      { "value": "A", "text": "A. Stories" },
+      { "value": "B", "text": "B. Music" },
+      { "value": "C", "text": "C. Code" },
+      { "value": "D", "text": "D. Images" }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "Tunes are musical, not stories." },
+      "B": { "correct": true, "text": "Yes! This is given as an example of AI composing a tune." },
+      "C": { "correct": false, "text": "This is a sound example, not programming code." },
+      "D": { "correct": false, "text": "This is an audio example, not visual." }
+    },
+    "tags": ["Generative AI", "Music", "Audio"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["B"],
+    "legacy_id": "quiz_id_genai_019"
+  },
+  {
+    "id": "MCQ_M01-L03_Q014",
+    "type": "MCQ",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Tools Analogy",
+    "subtopic": "Versatile Toolbox",
+    "difficulty": 4,
+    "question_text": "The text describes Generative AI not as one giant, do-it-all tool, but more like a 'super versatile toolbox'. What does this imply?",
+    "options": [
+      { "value": "A", "text": "A. Each Generative AI tool can only do one specific thing." },
+      { "value": "B", "text": "B. There are many different specialized Generative AI tools, all built on similar principles." },
+      { "value": "C", "text": "C. Generative AI tools are difficult to use and require many different tools." },
+      { "value": "D", "text": "D. Generative AI tools are designed to replace physical toolboxes." }
+    ],
+    "correctAnswer": "B",
+    "feedback": {
+      "A": { "correct": false, "text": "The 'versatile toolbox' implies a range of abilities from common principles." },
+      "B": { "correct": true, "text": "Yes! It means there are specialized tools within the generative AI realm, sharing common underlying technology." },
+      "C": { "correct": false, "text": "The analogy is about variety of function from a core, not difficulty of use." },
+      "D": { "correct": false, "text": "This is a metaphorical comparison, not a literal replacement." }
+    },
+    "tags": ["Generative AI", "Tools", "Analogy"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["B"],
+    "legacy_id": "quiz_id_genai_020"
+  }
+]

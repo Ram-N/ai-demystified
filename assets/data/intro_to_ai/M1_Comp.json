@@ -1,0 +1,66 @@
+[
+  {
+    "id": "COMP_M01-L01_Q001",
+    "legacy_id": "comprehension_12014688",
+    "type": "comprehension",
+    "module": "introduction-to-genai",
+    "lesson": "",
+    "topic": "Generative AI",
+    "subtopic": "Creative Uses",
+    "difficulty": 4,
+    "keywords": ["genai", "comprehension", "creativity"],
+    "question_text": "",
+    "options": [],
+    "passage": "Generative AI is changing how we think about creativity. Instead of only humans writing stories or drawing pictures, AI can now help too. For example, a student might use a tool like DALL·E to make an illustration for a school report, or use ChatGPT to brainstorm ideas for a story. But even though AI can create amazing things, it’s not truly creative—it relies on patterns it has learned from large datasets.",
+    "subquestions": [
+      {
+        "id": "MCQ_M01-L01_Q001",
+        "type": "multiple_choice",
+        "question": "What is the main way Generative AI creates new content?",
+        "options": [
+          { "value": "A", "text": "A. It copies other people's work directly" },
+          { "value": "B", "text": "B. It uses patterns it has learned" },
+          { "value": "C", "text": "C. It writes code from scratch" },
+          { "value": "D", "text": "D. It randomly generates ideas" }
+        ],
+        "correctAnswer": "B",
+        "feedback": {
+          "A": { "correct": false, "text": "No—it doesn’t directly copy." },
+          "B": { "correct": true, "text": "Yes—it uses patterns learned from data." },
+          "C": { "correct": false, "text": "That's a use case, not the method." },
+          "D": { "correct": false, "text": "AI predictions are based on learned data, not randomness." }
+        }
+      },
+      {
+        "id": "MCQ_M01-L01_Q002",
+        "type": "multiple_choice",
+        "question": "Which of the following is a real example from the passage?",
+        "options": [
+          { "value": "A", "text": "A. AI painted the Mona Lisa" },
+          { "value": "B", "text": "B. A student used ChatGPT to design a robot" },
+          { "value": "C", "text": "C. A student used DALL·E to make an illustration" },
+          { "value": "D", "text": "D. AI wrote a report about itself" }
+        ],
+        "correctAnswer": "C",
+        "feedback": {
+          "A": { "correct": false, "text": "That wasn’t mentioned." },
+          "B": { "correct": false, "text": "No robot design was described." },
+          "C": { "correct": true, "text": "Yes—DALL·E was used for an illustration." },
+          "D": { "correct": false, "text": "Not in the passage." }
+        }
+      }
+    ],
+    "feedback": "",
+    "tags": ["genai", "comprehension", "creativity"],
+    "source": { "module": "introduction-to-genai" },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": [],
+    "explanation": "",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": "",
+    "active": true
+  }
+]

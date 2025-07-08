@@ -1,8 +1,8 @@
 [
-  "quiz_bank.json",
-  "genai_quiz_questions_full.json",
-  "humans_plus_ai_quiz_questions.json",
-  "quiz_gem_lesson_1_1.json",
-  "quiz_gem_lesson_1_3.json",
-  "quiz_gem_lesson_1_5.json"
+  "intro_to_ai/M1_L2A_MCQ.json",
+  "intro_to_ai/M1_L3_MCQ.json",
+  "intro_to_ai/M1_L5_MCQ.json",
+  "intro_to_ai/M1_L2_MCQ.json",
+  "intro_to_ai/M1_L5_A_MCQ.json",
+  "intro_to_ai/M1_L1_MCQ.json"
 ]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "SelectAll_M01-L01_Q001",
+    "type": "SelectAll",
+    "module": "introduction-to-genai",
+    "lesson": "",
+    "topic": "Generative AI",
+    "subtopic": "What it can create",
+    "difficulty": 3,
+    "keywords": ["genai", "applications", "creative"],
+    "question_text": "Which of the following can Generative AI create?",
+    "options": [
+      { "value": "A", "text": "A. A poem about cats" },
+      { "value": "B", "text": "B. A video game level" },
+      { "value": "C", "text": "C. A list of local restaurants" },
+      { "value": "D", "text": "D. A painting of a castle in space" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "feedback": {
+      "A": { "correct": true, "text": "Correct—GenAI can generate poems based on prompts." },
+      "B": { "correct": true, "text": "Correct—With the right tools, GenAI can help design game elements." },
+      "C": { "correct": false, "text": "Incorrect—That's more of a search task, not generative." },
+      "D": { "correct": true, "text": "Correct—It can generate imaginative images." }
+    },
+    "tags": ["genai", "applications", "creative"],
+    "source": { "module": "introduction-to-genai" },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": ["A", "B", "D"],
+    "explanation": "",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": 45,
+    "active": true,
+    "legacy_id": "multiple_select_053b4b55"
+  },
+  {
+    "id": "SelectAll_M01-L01_Q002",
+    "type": "SelectAll",
+    "module": "introduction-to-genai",
+    "lesson": "",
+    "topic": "Generative AI",
+    "subtopic": "Uses",
+    "difficulty": 3,
+    "keywords": ["genai", "school", "applications"],
+    "question_text": "How might a student use Generative AI in a school project?",
+    "options": [
+      { "value": "A", "text": "A. To brainstorm creative ideas" },
+      { "value": "B", "text": "B. To generate a melody for a presentation" },
+      { "value": "C", "text": "C. To physically build a robot" },
+      { "value": "D", "text": "D. To draw an illustration for a story" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "feedback": {
+      "A": { "correct": true, "text": "Correct—brainstorming is a common use." },
+      "B": { "correct": true, "text": "Correct—GenAI tools can compose music." },
+      "C": { "correct": false, "text": "Incorrect—physical robot building is not generative." },
+      "D": { "correct": true, "text": "Correct—image generation is a strength of GenAI." }
+    },
+    "tags": ["genai", "school", "applications"],
+    "source": { "module": "introduction-to-genai" },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": ["A", "B", "D"],
+    "explanation": "",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": 45,
+    "active": true,
+    "legacy_id": "multiple_select_334e21a7"
+  },
+  {
+    "id": "SelectAll_M01-L01_Q003",
+    "type": "SelectAll",
+    "module": "introduction-to-genai",
+    "lesson": "",
+    "topic": "Generative AI",
+    "subtopic": "Capabilities",
+    "difficulty": 4,
+    "keywords": ["genai", "examples", "tools"],
+    "question_text": "Which tools or platforms use Generative AI technology?",
+    "options": [
+      { "value": "A", "text": "A. DALL·E" },
+      { "value": "B", "text": "B. Google Translate" },
+      { "value": "C", "text": "C. ChatGPT" },
+      { "value": "D", "text": "D. Suno" }
+    ],
+    "correctAnswer": ["A", "C", "D"],
+    "feedback": {
+      "A": { "correct": true, "text": "Correct—DALL·E creates images from text." },
+      "B": { "correct": false, "text": "Incorrect—Google Translate is more traditional AI." },
+      "C": { "correct": true, "text": "Correct—ChatGPT generates human-like text." },
+      "D": { "correct": true, "text": "Correct—Suno generates music using GenAI." }
+    },
+    "tags": ["genai", "examples", "tools"],
+    "source": { "module": "introduction-to-genai" },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": ["A", "C", "D"],
+    "explanation": "",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": 45,
+    "active": true,
+    "legacy_id": "multiple_select_ff3ed73f"
+  }
+]

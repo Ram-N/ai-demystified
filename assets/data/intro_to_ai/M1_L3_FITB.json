@@ -1,0 +1,94 @@
+[
+  {
+    "id": "FITB_M01-L03_Q001",
+    "type": "FITB",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Applications",
+    "subtopic": "Assistance for Users",
+    "difficulty": 3,
+    "question_text": "Generative AI can help you _______ ideas, get inspired, and speed up tasks.",
+    "correctAnswer": "brainstorm",
+    "feedback": {
+      "text": "The text states that Generative AI can help you 'Brainstorm ideas'."
+    },
+    "tags": ["Generative AI", "Assistance", "Brainstorming"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["brainstorm"],
+    "legacy_id": "quiz_id_genai_003"
+  },
+  {
+    "id": "FITB_M01-L03_Q002",
+    "type": "FITB",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Technology",
+    "subtopic": "Key Differences",
+    "difficulty": 4,
+    "question_text": "The real difference in how a generative AI creates different types of output (like a story or a drawing) is what information it learns from, which is its _______ data, and what kind of stuff it's asked to make, which is the output format.",
+    "correctAnswer": "training",
+    "feedback": {
+      "text": "The text highlights that the difference is about what information it learns from (its 'training data') and what it's asked to make (the 'output format')."
+    },
+    "tags": ["Generative AI", "Training Data", "Output Format"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["training"],
+    "legacy_id": "quiz_id_genai_006"
+  },
+  {
+    "id": "FITB_M01-L03_Q003",
+    "type": "FITB",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Definition",
+    "subtopic": "Key Capability",
+    "difficulty": 3,
+    "question_text": "Generative AI can actually _______ stuff, a capability that used to be totally in the human zone.",
+    "correctAnswer": "create",
+    "feedback": {
+      "text": "The material states that Generative AI can 'create' stuff, distinguishing it from regular AI."
+    },
+    "tags": ["Generative AI", "Definition", "Creativity"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["create"],
+    "legacy_id": "quiz_id_genai_012"
+  },
+  {
+    "id": "FITB_M01-L03_Q004",
+    "type": "FITB",
+    "module": "Introduction to GenAI",
+    "lesson": "What Can It Create?",
+    "topic": "Generative AI Outputs",
+    "subtopic": "Programming",
+    "difficulty": 4,
+    "question_text": "Generative AI can even write lines of computer _______ .",
+    "correctAnswer": "code",
+    "feedback": {
+      "text": "The text specifically mentions that Generative AI can write 'code'."
+    },
+    "tags": ["Generative AI", "Code", "Programming"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "What Can It Create?"
+    },
+    "created_by": "Gemini-2.5-Flash",
+    "version": 1,
+    "answers": ["code"],
+    "legacy_id": "quiz_id_genai_015"
+  }
+]

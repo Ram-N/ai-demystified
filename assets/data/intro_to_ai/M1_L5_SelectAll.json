@@ -1,0 +1,43 @@
+[
+  {
+    "id": "SelectAll_M01-L05_Q001",
+    "type": "SelectAll",
+    "module": "Introduction to GenAI",
+    "lesson": "Humans + AI: Better Together?",
+    "topic": "Humans and AI",
+    "subtopic": "Real-World Examples",
+    "difficulty": 5,
+    "keywords": ["collaboration", "real-world", "applications"],
+    "question_text": "Which of the following are examples of humans and AI collaborating in real-world scenarios, according to the provided text? Select all that apply.",
+    "options": [
+      { "value": "A", "text": "A. Musicians using AI to write entire songs from scratch without human input." },
+      { "value": "B", "text": "B. Designers using AI tools like DALL·E to generate visual ideas." },
+      { "value": "C", "text": "C. Programmers asking AI to fix or explain code and then reviewing it." },
+      { "value": "D", "text": "D. Writers using ChatGPT to rewrite drafts or explore different tones." },
+      { "value": "E", "text": "E. Students asking AI to complete their entire science fair project." }
+    ],
+    "correctAnswer": ["B", "C", "D"],
+    "feedback": {
+      "A": { "correct": false, "text": "The text mentions musicians using AI for background tracks, but not for writing entire songs without human input." },
+      "B": { "correct": true, "text": "Yes! Designers use AI to spark new ideas for their work." },
+      "C": { "correct": true, "text": "Yes! Coders use AI for suggestions and fixes, but always check the answers." },
+      "D": { "correct": true, "text": "Yes! Writers use AI as a creative editor or brainstorm buddy." },
+      "E": { "correct": false, "text": "The text says students might ask AI to brainstorm ideas, but not to complete the entire project." }
+    },
+    "tags": ["collaboration", "real-world", "applications"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans + AI: Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": ["B", "C", "D"],
+    "explanation": "Real-world human-AI collaborations involve creative and supportive tasks, not full automation.",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": 45,
+    "active": true,
+    "legacy_id": "quiz_id_hum_ai_003"
+  }
+]

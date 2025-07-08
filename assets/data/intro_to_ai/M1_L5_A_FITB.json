@@ -1,0 +1,64 @@
+[
+  {
+    "id": "FillBlank_M01-L05_Q001",
+    "type": "FillBlank",
+    "module": "Introduction to GenAI",
+    "lesson": "Humans and AI - Better Together?",
+    "topic": "Collaboration",
+    "subtopic": "Musicians & AI",
+    "difficulty": 3,
+    "keywords": ["music", "ai", "fill_blank"],
+    "question_text": "Musicians might use AI to generate _______ tracks to help spark ideas.",
+    "options": [],
+    "correctAnswer": "background",
+    "feedback": {
+      "background": "Right! AI often generates background tracks to support musicians."
+    },
+    "tags": ["music", "ai", "fill_blank"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans and AI - Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": ["background"],
+    "explanation": "Musicians use AI for background tracks to inspire ideas.",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": 30,
+    "active": true,
+    "legacy_id": "humans_ai_q_008"
+  },
+  {
+    "id": "FillBlank_M01-L05_Q002",
+    "type": "FillBlank",
+    "module": "Introduction to GenAI",
+    "lesson": "Humans and AI - Better Together?",
+    "topic": "Core Message",
+    "subtopic": "Human + AI",
+    "difficulty": 2,
+    "keywords": ["formula", "key_idea"],
+    "question_text": "The formula given in the lesson is: Human originality + AI _______ = Power.",
+    "options": [],
+    "correctAnswer": "speed",
+    "feedback": {
+      "speed": "Correct! The blend of human creativity and AI’s speed creates great results."
+    },
+    "tags": ["formula", "key_idea"],
+    "source": {
+      "module": "Introduction to GenAI",
+      "lesson": "Humans and AI - Better Together?"
+    },
+    "created_by": "LLM",
+    "version": 1,
+    "answers": ["speed"],
+    "explanation": "The lesson's formula: originality + speed = results.",
+    "author": "",
+    "created_at": "",
+    "updated_at": "",
+    "estimated_time_sec": 30,
+    "active": true,
+    "legacy_id": "humans_ai_q_010"
+  }
+]

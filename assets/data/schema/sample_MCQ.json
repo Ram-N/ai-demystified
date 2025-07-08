@@ -1,0 +1,50 @@
+{
+  "id": "MCQ_M01-L01_Q001",
+  "type": "MCQ",
+  "module": "LLMs Basics",
+  "lesson": "Prompt Engineering",
+  "topic": "Generative AI Tools",
+  "subtopic": "Usability",
+  "difficulty": "Medium",
+  "keywords": ["generative AI", "tools", "usability"],
+  "question_text": "Which statement best describes generative AI tools?",
+  "options": [
+    { "value": "A", "text": "They are only for expert programmers." },
+    { "value": "B", "text": "They are versatile and can be used by non-technical users too." },
+    { "value": "C", "text": "Generative AI tools are difficult to use and require many different tools." },
+    { "value": "D", "text": "They are limited to text generation tasks." }
+  ],
+  "correctAnswer": "B",
+  "feedback": {
+    "A": {
+      "correct": false,
+      "text": "Not quite. Many tools are designed for non-programmers too."
+    },
+    "B": {
+      "correct": true,
+      "text": "Yes! Generative AI tools are increasingly user-friendly and versatile."
+    },
+    "C": {
+      "correct": false,
+      "text": "This is outdated. Many tools now consolidate multiple capabilities."
+    },
+    "D": {
+      "correct": false,
+      "text": "They go beyond text, including image, audio, and video generation."
+    }
+  },
+  "tags": ["Generative AI", "Tools", "Analogy"],
+  "source": {
+    "module": "LLMs Basics",
+    "lesson": "Prompt Engineering"
+  },
+  "created_by": "Gemini-2.5-Flash",
+  "version": 1,
+  "answers": ["B"],
+  "explanation": "Generative AI tools are designed for broad use cases and are becoming more accessible to non-experts.",
+  "author": "Ram",
+  "created_at": "2025-07-05",
+  "updated_at": "2025-07-05",
+  "estimated_time_sec": 45,
+  "active": true
+}
