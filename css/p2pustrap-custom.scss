@@ -12,7 +12,9 @@
 @import "p2pu-theme/footer";
 @import "p2pu-theme/custom";
 // Add your custom styles import here, typically at the end
-@import "add_ons"; //RN
+@import "sidebar"; //RN
+@import "images"; //RN
+@import "content"; //RN
 @import "glossary_sidebar"; //RN
 
 {% if site.jumbotron_color %}

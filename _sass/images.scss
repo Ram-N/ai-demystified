@@ -1,0 +1,225 @@
+/* For floating image to the right */
+.float-right-image {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    max-width: 50%;
+    height: auto;
+}
+
+/* For floating image to the left */
+.float-left-image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 50%;
+    height: auto;
+}
+
+/* Floating Images for Obsidian - Span-based Solution (PDF Export Optimized) */
+
+/* Right floating images using span */
+img[alt*="float-right"],
+img[alt*="right"] {
+    float: right !important;
+    display: block !important;
+    margin-left: 20px !important;
+    margin-bottom: 20px !important;
+    margin-top: 10px !important;
+    max-width: 50% !important;
+    height: auto !important;
+    clear: right !important;
+}
+
+/* Left floating images using span */
+img[alt*="float-left"],
+img[alt*="left"] {
+    float: left !important;
+    display: block !important;
+    margin-right: 20px !important;
+    margin-bottom: 20px !important;
+    margin-top: 10px !important;
+    max-width: 50% !important;
+    height: auto !important;
+    clear: left !important;
+}
+
+/* Size variations */
+img[alt*="right-small"],
+img[alt*="left-small"] {
+    max-width: 25% !important;
+}
+
+img[alt*="right-large"],
+img[alt*="left-large"] {
+    max-width: 75% !important;
+}
+
+/* Pixel-based sizing - works great with spans */
+img[alt*="right"][width="100"],
+img[alt*="left"][width="100"] {
+    width: 100px !important;
+    max-width: 100px !important;
+}
+
+img[alt*="right"][width="150"],
+img[alt*="left"][width="150"] {
+    width: 150px !important;
+    max-width: 150px !important;
+}
+
+img[alt*="right"][width="200"],
+img[alt*="left"][width="200"] {
+    width: 200px !important;
+    max-width: 200px !important;
+}
+
+img[alt*="right"][width="250"],
+img[alt*="left"][width="250"] {
+    width: 250px !important;
+    max-width: 250px !important;
+}
+
+img[alt*="right"][width="300"],
+img[alt*="left"][width="300"] {
+    width: 300px !important;
+    max-width: 300px !important;
+}
+
+img[alt*="right"][width="350"],
+img[alt*="left"][width="350"] {
+    width: 350px !important;
+    max-width: 350px !important;
+}
+
+img[alt*="right"][width="400"],
+img[alt*="left"][width="400"] {
+    width: 400px !important;
+    max-width: 400px !important;
+}
+
+img[alt*="right"][width="450"],
+img[alt*="left"][width="450"] {
+    width: 450px !important;
+    max-width: 450px !important;
+}
+
+img[alt*="right"][width="500"],
+img[alt*="left"][width="500"] {
+    width: 500px !important;
+    max-width: 500px !important;
+}
+
+img[alt*="right"][width="600"],
+img[alt*="left"][width="600"] {
+    width: 600px !important;
+    max-width: 600px !important;
+}
+
+/* Wrapper span elements for better float behavior */
+span[style*="float: left"],
+span[style*="float:left"] {
+    display: block !important;
+    float: left !important;
+}
+
+span[style*="float: right"],
+span[style*="float:right"] {
+    display: block !important;
+    float: right !important;
+}
+
+/* Ensure images inside spans behave properly */
+span[style*="float"] img {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+}
+
+/* Fix Obsidian-specific paragraph behavior to allow text wrapping */
+.markdown-rendered p,
+.markdown-preview-view p {
+    overflow: visible !important;
+}
+
+/* Ensure proper text flow around floated elements */
+.markdown-rendered span[style*="float"] + *,
+.markdown-preview-view span[style*="float"] + * {
+    display: inline !important;
+}
+
+/* Clear floats */
+.clear-float {
+    clear: both !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    display: block !important;
+}
+
+.clearfix::after {
+    content: "" !important;
+    clear: both !important;
+    display: table !important;
+}
+
+/* PDF Export optimizations */
+@media print {
+    /* Ensure floats work in print/PDF */
+    img[alt*="float"],
+    img[alt*="left"],
+    img[alt*="right"],
+    span[style*="float"] {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+    
+    /* Better margins for print */
+    img[alt*="right"],
+    span[style*="float: right"] {
+        margin-left: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    
+    img[alt*="left"],
+    span[style*="float: left"] {
+        margin-right: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    
+    /* Prevent images from being too large on print */
+    img[alt*="float"],
+    img[alt*="left"],
+    img[alt*="right"],
+    span[style*="float"] img {
+        max-width: 60% !important;
+    }
+    
+    img[alt*="small"],
+    span[style*="float"] img[alt*="small"] {
+        max-width: 30% !important;
+    }
+    
+    img[alt*="large"],
+    span[style*="float"] img[alt*="large"] {
+        max-width: 70% !important;
+    }
+}
+
+/* Force clear after headings to prevent layout issues */
+h1, h2, h3, h4, h5, h6 {
+    clear: both !important;
+}
+
+/* Responsive behavior - stack on narrow screens */
+@media (max-width: 600px) {
+    img[alt*="float"],
+    img[alt*="left"],
+    img[alt*="right"],
+    span[style*="float"] {
+        float: none !important;
+        display: block !important;
+        margin: 20px auto !important;
+        max-width: 100% !important;
+        width: auto !important;
+    }
+}

@@ -218,6 +218,16 @@ startQuizBtn.addEventListener('click', () => {
   console.log("Available quiz data:", quizData);
   
   currentQuiz = quizData.filter(q => {
+    // ONLY include multiple_choice questions and exclude multiple_select
+    if (q.type !== 'multiple_choice') {
+      return false;
+    }
+    
+    // Ensure it has options array for rendering
+    if (!q.options || !Array.isArray(q.options) || q.options.length === 0) {
+      return false;
+    }
+    
     // Check difficulty range
     const diffMatch = q.difficulty >= minDiff && q.difficulty <= maxDiff;
     
@@ -243,6 +253,7 @@ startQuizBtn.addEventListener('click', () => {
     
     console.log("Question filtering:", {
       id: q.id,
+      type: q.type,
       difficulty: q.difficulty, 
       diffMatch,
       module: q.source?.module,
@@ -289,10 +300,11 @@ function renderQuestion() {
 
   // Track if any option is selected
   
+  // We only deal with multiple choice questions now
   q.options.forEach(option => {
     const label = document.createElement('label');
     const input = document.createElement('input');
-    input.type = q.type === 'multiple_select' ? 'checkbox' : 'radio';
+    input.type = 'radio'; // Always radio buttons for single-answer MCQs
     input.name = q.id;
     input.value = option.value;
     input.addEventListener('change', () => {
@@ -370,17 +382,21 @@ function moveToNextQuestion() {
 function handleSubmit(q, form) {
   if (hasSubmitted[q.id]) return; // Only first submission counts
 
+  const resultDiv = form.querySelector('.quiz-result');
+  let isCorrect = false;
+
+  // Handle multiple choice questions only
   const selected = [...form.elements].find(el => el.checked);
   if (!selected) return;
-
+  
   const feedback = q.feedback[selected.value];
-  const resultDiv = form.querySelector('.quiz-result');
   if (!feedback) return;
-
+  
+  isCorrect = feedback.correct;
   const icon = feedback.correct ? '✅' : '❌';
   resultDiv.innerHTML = `${icon} <span>${feedback.text}</span>`;
 
-  if (feedback.correct) score++;
+  if (isCorrect) score++;
   hasSubmitted[q.id] = true;
 
   // Enable the next button and disable submit button

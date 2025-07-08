@@ -1,0 +1,208 @@
+/* Content-specific styling for course materials */
+
+/* Highlighted text styling - smaller font for advanced content */
+mark,
+.highlight {
+    font-size: 0.85em;
+    line-height: 1.4;
+    background-color: #fff3cd;
+    padding: 0.1em 0.3em;
+    border-radius: 0.2em;
+    border-left: 3px solid #ffc107;
+}
+
+/* Alternative highlight styles for different content types */
+.highlight-advanced {
+    font-size: 0.8em;
+    line-height: 1.3;
+    background-color: #e8f4fd;
+    padding: 0.2em 0.4em;
+    border-radius: 0.3em;
+    border-left: 3px solid #007bff;
+    font-style: italic;
+}
+
+.highlight-technical {
+    font-size: 0.85em;
+    line-height: 1.4;
+    background-color: #f8f9fa;
+    padding: 0.2em 0.4em;
+    border-radius: 0.3em;
+    border-left: 3px solid #6c757d;
+    font-family: 'Monaco', 'Consolas', monospace;
+}
+
+/* Callout boxes for different content types with accordion behavior */
+.callout {
+    margin: 1.5em 0;
+    padding: 1em 1.2em 1em 2.5em;
+    border-radius: 0.5em;
+    border-left: 4px solid;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    &.callout-info {
+        background-color: #e8f4fd;
+        border-left-color: #007bff;
+        font-size: 0.9em;
+        
+        &:hover {
+            background-color: #d4e9fc;
+        }
+    }
+    
+    &.callout-warning {
+        background-color: #fff3cd;
+        border-left-color: #ffc107;
+        font-size: 0.9em;
+        
+        &:hover {
+            background-color: #ffeaa7;
+        }
+    }
+    
+    &.callout-advanced {
+        background-color: #f8f9fa;
+        border-left-color: #6c757d;
+        font-size: 0.85em;
+        font-style: italic;
+        
+        &:hover {
+            background-color: #e9ecef;
+        }
+    }
+    
+    /* Collapsed state - show only first 2 lines */
+    &.collapsed {
+        max-height: 4.5em;
+        overflow: hidden;
+        
+        &::after {
+            content: "...";
+            position: absolute;
+            bottom: 0.5em;
+            right: 1em;
+            padding-left: 0.5em;
+            font-weight: bold;
+            color: #6c757d;
+        }
+        
+        &.callout-info::after {
+            background-color: #e8f4fd;
+        }
+        
+        &.callout-warning::after {
+            background-color: #fff3cd;
+        }
+        
+        &.callout-advanced::after {
+            background-color: #f8f9fa;
+        }
+        
+        &.callout-info:hover::after {
+            background-color: #d4e9fc;
+        }
+        
+        &.callout-warning:hover::after {
+            background-color: #ffeaa7;
+        }
+        
+        &.callout-advanced:hover::after {
+            background-color: #e9ecef;
+        }
+    }
+    
+    /* Expanded state */
+    &.expanded {
+        max-height: none;
+        overflow: visible;
+    }
+    
+    /* Click indicator */
+    &::before {
+        content: "▼";
+        position: absolute;
+        top: 0.5em;
+        left: 0.5em;
+        font-size: 1.2em;
+        color: #6c757d;
+        transition: transform 0.3s ease;
+    }
+    
+    &.collapsed::before {
+        transform: rotate(-90deg);
+    }
+}
+
+/* Advanced content sections with accordion behavior */
+.advanced-content {
+    font-size: 0.9em;
+    line-height: 1.5;
+    background-color: #f8f9fa;
+    padding: 1em 1em 1em 2.5em;
+    border-radius: 0.5em;
+    border-left: 4px solid #6c757d;
+    margin: 1.5em 0;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    &:hover {
+        background-color: #e9ecef;
+    }
+    
+    /* Collapsed state - show only first 2 lines */
+    &.collapsed {
+        max-height: 4.5em;
+        overflow: hidden;
+        
+        &::after {
+            content: "...";
+            position: absolute;
+            bottom: 0.5em;
+            right: 1em;
+            background-color: #f8f9fa;
+            padding-left: 0.5em;
+            font-weight: bold;
+            color: #6c757d;
+        }
+        
+        &:hover::after {
+            background-color: #e9ecef;
+        }
+    }
+    
+    /* Expanded state */
+    &.expanded {
+        max-height: none;
+        overflow: visible;
+    }
+    
+    /* Click indicator */
+    &::before {
+        content: "▼";
+        position: absolute;
+        top: 0.5em;
+        left: 0.5em;
+        font-size: 1.2em;
+        color: #6c757d;
+        transition: transform 0.3s ease;
+    }
+    
+    &.collapsed::before {
+        transform: rotate(-90deg);
+    }
+}
+
+/* Technical details styling */
+.technical-details {
+    font-size: 0.85em;
+    line-height: 1.4;
+    background-color: #f1f3f4;
+    padding: 1em;
+    border-radius: 0.5em;
+    border-left: 4px solid #5f6368;
+    margin: 1.5em 0;
+    font-family: 'Monaco', 'Consolas', monospace;
+}

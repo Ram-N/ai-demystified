@@ -9,12 +9,13 @@ section_slug: modules_section
 
 
 # What Can AI Create?
-<br>
-
-<img src="../images/ai_artifacts_girl_student.png" alt="Descriptive Alt Text" width="50%" class="float-left-image">
 
 
 ## A New Kind of Creativity  
+
+
+<img src="../images/ai_artifacts_girl_student.png" alt="Descriptive Alt Text" width="50%" class="float-left-image">
+
 Think of it like this: regular AI is good at figuring things out, like suggesting what video you should watch next or translating languages. Generative AI takes it a step further. It can actually **create** stuff. We're talking about things that used to be totally in the human zone:
 
 * **Writing:** Stories, poems, even scripts!
@@ -47,10 +48,11 @@ Generative AI is a powerful tool, and like any tool, it can be used in lots of w
 ---
 
 
-<img src="../images/ai_swiss_army_knife.png" alt="Descriptive Alt Text" width="50%" class="float-right-image">
 
 
 ## One Tool, Many Talents  
+<img src="../images/ai_swiss_army_knife.png" alt="Descriptive Alt Text" width="50%" class="float-right-image">
+
 "So, you have already heard about AI writing essays, or seen AI creating awesome images, and listened to AI-generated music. It can feel like there are a million different AIs doing all these crazy thins. But here's an interesting secret: a lot of this magic comes from the *same core technology.*
 
 **Engine for vehicles** Think of it like this -- the engine in a car can be used for a race car, a truck, or even a speedboat – it’s the same basic engine, but it’s built and tuned differently for each job. 

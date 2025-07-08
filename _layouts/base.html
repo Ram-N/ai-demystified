@@ -44,6 +44,18 @@
   <script>
     window.BASEURL = '{{ site.baseurl }}';
   </script>
+  
+  <!-- MathJax for rendering mathematical expressions -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
 </head>
 
 <body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}" {% endif %}{% if page.module_slug %}
@@ -74,8 +86,9 @@
   {% endif %}
   {% if page.layout == 'course_page' %}
   <script src="{{ site.baseurl }}/js/quiz.js"></script>
-  <script src="{{ site.baseurl }}/js/infinite_quiz.js"></script>☻
+  <script src="{{ site.baseurl }}/js/infinite_quiz.js"></script>
   <script src="{{ site.baseurl }}/js/moduleNavigation.js"></script>
+  <script src="{{ site.baseurl }}/js/accordion.js"></script>
   {% endif %}
 
   {% if page.extra_js %}

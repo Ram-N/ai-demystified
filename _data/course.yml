@@ -1,6 +1,6 @@
 title: Generative AI Demystified
 description: An open-source online course on generative AI
-modules: ["introduction", "modules", "glossary", "quizzes", "resources"]
+modules: ["introduction", "quizzes", "modules", "glossary", "resources"]
 sections_order:
   - introduction
   - modules_section # Renamed from "modules" to be more specific
