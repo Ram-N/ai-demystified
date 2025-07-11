@@ -9,7 +9,7 @@
     "options": [
       { "value": "A", "text": "A. It only answers questions very quickly." },
       { "value": "B", "text": "B. It can recognize faces in photos." },
-      { "value": "C", "C. It can actually create new things like stories or music." },
+      { "value": "C", "text": "C. It can actually create new things like stories or music." },
       { "value": "D", "text": "D. It helps you organize your computer files." }
     ],
     "correctAnswer": "C",
@@ -56,7 +56,7 @@
     "options": [
       { "value": "A", "text": "A. It has feelings and a true creative imagination." },
       { "value": "B", "text": "B. It's really good at predicting what content 'fits' based on what it has seen before." },
-      { "value": "C", "C. It invents things from scratch with no prior knowledge." },
+      { "value": "C", "text": "C. It invents things from scratch with no prior knowledge." },
       { "value": "D", "text": "D. It randomly combines pieces of information until something looks good." }
     ],
     "correctAnswer": "B",
@@ -84,7 +84,7 @@
     "options": [
       { "value": "A", "text": "A. Brainstorming ideas for a project." },
       { "value": "B", "text": "B. Answering questions about facts." },
-      { "value": "C", "C. Building new mobile applications." },
+      { "value": "C", "text": "C. Building new mobile applications." },
       { "value": "D", "text": "D. Composing music." },
       { "value": "E", "text": "E. Drawing pictures." }
     ],
@@ -104,26 +104,6 @@
     "created_by": "Gemini-2.5-Flash",
     "version": 1
   },
-  "quiz_id_whatisgenai_005": {
-    "id": "quiz_id_whatisgenai_005",
-    "type": "multiple_choice",
-    "topic": "Generative AI Societal Impact",
-    "subtopic": "Questions Raised",
-    "difficulty": 4,
-    "question": "The rise of Generative AI is raising big questions. Which of the following is NOT mentioned as a question people are asking about it?",
-    "options": [
-      { "value": "A", "text": "A. Can we trust what it generates?" },
-      { "value": "B", "text": "B. Will it replace jobs or just change how we work?" },
-      { "value": "C", "C. How do we make sure it’s being used in fair and helpful ways?" },
-      { "value": "D", "text": "D. Will it become self-aware and take over the world?" }
-    ],
-    "correctAnswer": "D",
-    "feedback": {
-      "A": { "correct": true, "text": "This is mentioned as a big question about Generative AI." },
-      "B": { "correct": true, "text": "This is mentioned as a big question about Generative AI." },
-      "C": { "correct": true, "text": "This is mentioned as a big question about Generative AI." },
-      "D": { "correct": false, "text": "While a common sci-fi trope, this specific question is not mentioned in the text regarding Generative AI's impact." }
-    },
     "tags": ["Generative AI", "societal impact", "ethics"],
     "source": {
       "module": "Introduction to GenAI",

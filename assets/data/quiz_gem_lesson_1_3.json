@@ -9,7 +9,7 @@
     "options": [
       { "value": "A", "text": "A. It can only translate languages faster." },
       { "value": "B", "text": "B. It can actually create original content." },
-      { "value": "C", "C. It is better at figuring out what you like to watch." },
+      { "value": "C", "text": "C. It is better at figuring out what you like to watch." },
       { "value": "D", "text": "D. It helps organize your files more efficiently." }
     ],
     "correctAnswer": "B",
@@ -37,7 +37,7 @@
     "options": [
       { "value": "A", "text": "A. Cooking new recipes from scratch." },
       { "value": "B", "text": "B. Composing music in different styles." },
-      { "value": "C", "C. Generating images, from photorealistic to abstract." },
+      { "value": "C", "text": "C. Generating images, from photorealistic to abstract." },
       { "value": "D", "text": "D. Writing stories, poems, and scripts." },
       { "value": "E", "text": "E. Repairing physical machines." }
     ],
@@ -86,7 +86,7 @@
     "options": [
       { "value": "A", "text": "A. AI can create anything without any prior knowledge." },
       { "value": "B", "text": "B. AI can only create new things from ingredients (data) it has seen before." },
-      { "value": "C", "C. AI is better at cooking than humans." },
+      { "value": "C", "text": "C. AI is better at cooking than humans." },
       { "value": "D", "text": "D. AI can invent completely new ingredients." }
     ],
     "correctAnswer": "B",
@@ -114,7 +114,7 @@
     "options": [
       { "value": "A", "text": "A. Each task requires a completely different and unique AI technology." },
       { "value": "B", "text": "B. A lot of the magic comes from the same core technology, just with different training data and output formats." },
-      { "value": "C", "C. It's because there are a million different AIs, each specialized for one thing." },
+      { "value": "C", "text": "C. It's because there are a million different AIs, each specialized for one thing." },
       { "value": "D", "text": "D. They are all controlled by a single, giant, do-it-all tool." }
     ],
     "correctAnswer": "B",
@@ -161,7 +161,7 @@
     "options": [
       { "value": "A", "text": "A. ChatGPT" },
       { "value": "B", "text": "B. Suno" },
-      { "value": "C", "C. DALL·E" },
+      { "value": "C", "text": "C. DALL·E" },
       { "value": "D", "text": "D. GitHub Copilot" }
     ],
     "correctAnswer": "C",
@@ -189,7 +189,7 @@
     "options": [
       { "value": "A", "text": "A. DALL·E" },
       { "value": "B", "text": "B. Suno" },
-      { "value": "C", "C. ChatGPT" },
+      { "value": "C", "text": "C. ChatGPT" },
       { "value": "D", "text": "D. GitHub Copilot" }
     ],
     "correctAnswer": "D",
@@ -217,7 +217,7 @@
     "options": [
       { "value": "A", "text": "A. ChatGPT" },
       { "value": "B", "text": "B. DALL·E" },
-      { "value": "C", "C. Suno or Udio" },
+      { "value": "C", "text": "C. Suno or Udio" },
       { "value": "D", "text": "D. GitHub Copilot" }
     ],
     "correctAnswer": "C",
@@ -245,7 +245,7 @@
     "options": [
       { "value": "A", "text": "A. Generative AI is only useful for transportation." },
       { "value": "B", "text": "B. Different Generative AIs are completely unrelated technologies." },
-      { "value": "C", "C. The same core Generative AI technology can be 'tuned' for different tasks with different data and output formats." },
+      { "value": "C", "text": "C. The same core Generative AI technology can be 'tuned' for different tasks with different data and output formats." },
       { "value": "D", "text": "D. Generative AI always needs a human driver to function." }
     ],
     "correctAnswer": "C",
@@ -273,7 +273,7 @@
     "options": [
       { "value": "A", "text": "A. It can write the entire story for you without any input." },
       { "value": "B", "text": "B. It can provide prompts to help you brainstorm ideas." },
-      { "value": "C", "C. It can only translate your story into another language." },
+      { "value": "C", "text": "C. It can only translate your story into another language." },
       { "value": "D", "text": "D. It will suggest a video for you to watch instead." }
     ],
     "correctAnswer": "B",
@@ -320,7 +320,7 @@
     "options": [
       { "value": "A", "text": "A. By removing the need for human thought entirely." },
       { "value": "B", "text": "B. By helping brainstorm ideas." },
-      { "value": "C", "C. By providing inspiration for creative projects." },
+      { "value": "C", "text": "C. By providing inspiration for creative projects." },
       { "value": "D", "text": "D. By speeding up certain tasks." },
       { "value": "E", "text": "E. By performing all complex calculations automatically." }
     ],
@@ -350,7 +350,7 @@
     "options": [
       { "value": "A", "text": "A. Regular AI is better at creativity, while Generative AI is better at calculations." },
       { "value": "B", "text": "B. Regular AI can only process existing information, while Generative AI can create new content." },
-      { "value": "C", "C. Generative AI is a newer version of regular AI with no real difference in function." },
+      { "value": "C", "text": "C. Generative AI is a newer version of regular AI with no real difference in function." },
       { "value": "D", "text": "D. Regular AI suggests things, while Generative AI only translates languages." }
     ],
     "correctAnswer": "B",
@@ -397,7 +397,7 @@
     "options": [
       { "value": "A", "text": "A. The emotions of the AI." },
       { "value": "B", "text": "B. The new ideas that AI invents on its own." },
-      { "value": "C", "C. The data that AI has been trained on and seen before." },
+      { "value": "C", "text": "C. The data that AI has been trained on and seen before." },
       { "value": "D", "text": "D. The final creative output of the AI." }
     ],
     "correctAnswer": "C",
@@ -425,7 +425,7 @@
     "options": [
       { "value": "A", "text": "A. Music" },
       { "value": "B", "text": "B. Code" },
-      { "value": "C", "C. Art/Images" },
+      { "value": "C", "text": "C. Art/Images" },
       { "value": "D", "text": "D. Stories" }
     ],
     "correctAnswer": "C",
@@ -453,7 +453,7 @@
     "options": [
       { "value": "A", "text": "A. Images" },
       { "value": "B", "text": "B. Music" },
-      { "value": "C", "C. Written content" },
+      { "value": "C", "text": "C. Written content" },
       { "value": "D", "text": "D. Videos" }
     ],
     "correctAnswer": "C",
@@ -481,7 +481,7 @@
     "options": [
       { "value": "A", "text": "A. Stories" },
       { "value": "B", "text": "B. Music" },
-      { "value": "C", "C. Code" },
+      { "value": "C", "text": "C. Code" },
       { "value": "D", "text": "D. Images" }
     ],
     "correctAnswer": "B",
@@ -509,7 +509,7 @@
     "options": [
       { "value": "A", "text": "A. Each Generative AI tool can only do one specific thing." },
       { "value": "B", "text": "B. There are many different specialized Generative AI tools, all built on similar principles." },
-      { "value": "C", "C. Generative AI tools are difficult to use and require many different tools." },
+      { "value": "C", "text": "C. Generative AI tools are difficult to use and require many different tools." },
       { "value": "D", "text": "D. Generative AI tools are designed to replace physical toolboxes." }
     ],
     "correctAnswer": "B",

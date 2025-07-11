@@ -295,5 +295,129 @@
         "text": "It's not required, but it definitely improves the results."
       }
     }
+  },
+
+  "pop_quiz_model1": {
+    "question": "Which of the following best describes how a machine learning model differs from a traditional mathematical formula?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) A machine learning model is always smaller and easier to interpret than a traditional formula."
+      },
+      {
+        "value": "b",
+        "text": "B) A machine learning model is a fixed set of rules written by humans."
+      },
+      {
+        "value": "c",
+        "text": "C) A machine learning model has billions of parameters that are learned from data, not directly written by humans."
+      },
+      {
+        "value": "d",
+        "text": "D) A machine learning model can only process numbers, whereas traditional formulas can process words and images."
+      }
+    ],
+    "correctAnswer": "c",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Machine learning models are often very complex and can be difficult to interpret."
+      },
+      "b": {
+        "correct": false,
+        "text": "Unlike traditional formulas, machine learning models learn their rules from data, rather than having them explicitly programmed."
+      },
+      "c": {
+        "correct": true,
+        "text": "Correct! Machine learning models, especially large ones, have a vast number of parameters that are adjusted through training on data."
+      },
+      "d": {
+        "correct": false,
+        "text": "Machine learning models are highly versatile and can process various types of data, including text, images, and audio."
+      }
+    }
+  },
+  "pop_quiz_model2": {
+    "question": "Why can a machine learning model “inherit” biases from its training data?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Because the model is programmed to ignore all data except for biased examples."
+      },
+      {
+        "value": "b",
+        "text": "B) Because the model statistically reflects the patterns and flaws present in the data it is trained on."
+      },
+      {
+        "value": "c",
+        "text": "C) Because the model automatically corrects any errors in the data during training."
+      },
+      {
+        "value": "d",
+        "text": "D) Because the model only uses data that has been manually selected for fairness."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Models are not programmed to ignore data; they learn from all data provided."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! If the training data contains biases, the model will learn and reflect those biases in its outputs."
+      },
+      "c": {
+        "correct": false,
+        "text": "Models do not automatically correct errors or biases in the data; careful data preparation and model design are needed to address this."
+      },
+      "d": {
+        "correct": false,
+        "text": "Not all training data is manually selected for fairness, and even then, biases can still inadvertently be present."
+      }
+    }
+  },
+  "pop_quiz_model3": {
+    "question": "What is the main purpose of the feedback loop during a model's training process?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) To randomly change the model’s parameters and hope for better results."
+      },
+      {
+        "value": "b",
+        "text": "B) To make predictions, compare them to correct answers, and adjust parameters to reduce errors over time."
+      },
+      {
+        "value": "c",
+        "text": "C) To permanently lock the model’s parameters after the first round of training."
+      },
+      {
+        "value": "d",
+        "text": "D) To delete any data that the model gets wrong."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "While parameters are changed, it's not random; it's a calculated adjustment based on error."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! The feedback loop is essential for iterative improvement, allowing the model to learn from its mistakes and refine its predictions."
+      },
+      "c": {
+        "correct": false,
+        "text": "The feedback loop is about continuous adjustment, not locking parameters."
+      },
+      "d": {
+        "correct": false,
+        "text": "The feedback loop uses errors to adjust the model, not to delete data."
+      }
+    }
   }
 }

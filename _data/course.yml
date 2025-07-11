@@ -3,20 +3,18 @@ description: An open-source online course on generative AI
 modules: ["introduction", "quizzes", "modules", "glossary", "resources"]
 sections_order:
   - introduction
-  - modules_section # Renamed from "modules" to be more specific
+  - modules_section
   - glossary
   - quizzes
   - resources
 
-sections: # Renamed from modules_content
+sections:
   introduction:
     - title: Welcome to Generative AI
-      url: /modules/introduction/
+      url: /content/introduction/
   modules_section: # Added modules_section to contain topics
     introduction-to-genai:
-    - title: Introduction to Generative AI
-      url: /content/modules/introduction/index.html
-    - title: What Is Generative AI?
+    - title: What Is Generative AI
       url: /content/modules/introduction/1_what_is_genai.html
     - title: Why Is Everyone Talking About It?
       url: /content/modules/introduction/2_why_is_genai_a_big_deal.html

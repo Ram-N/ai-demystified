@@ -87,7 +87,7 @@
       { "value": "A", "text": "A. The ability to process data faster than AI" },
       { "value": "B", "text": "B. Their unique experiences, emotions, and perspective" },
       { "value": "C", "text": "C. The power to generate ideas automatically" },
-      { "value": "D", "D. The capacity to store more information than AI" }
+      { "value": "D", "text": "D. The capacity to store more information than AI" }
     ],
     "correctAnswer": "B",
     "feedback": {
