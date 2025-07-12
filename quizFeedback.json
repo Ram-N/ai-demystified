@@ -419,5 +419,130 @@
         "text": "The feedback loop uses errors to adjust the model, not to delete data."
       }
     }
-  }
+  },
+  "pop_quiz_thinking1": {
+      "question": "What does an artificial neural network primarily do when processing information?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "value": "a",
+          "text": "A) It thinks and understands like a human brain."
+        },
+        {
+          "value": "b",
+          "text": "B) It performs millions of mathematical calculations to find patterns and make predictions."
+        },
+        {
+          "value": "c",
+          "text": "C) It randomly generates answers without using any data."
+        },
+        {
+          "value": "d",
+          "text": "D) It memorizes every example it has ever seen."
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": {
+        "a": {
+          "correct": false,
+          "text": "Neural networks do not think or understand; they calculate using math."
+        },
+        "b": {
+          "correct": true,
+          "text": "Correct! Neural networks process information by performing fast, complex calculations to spot patterns and make predictions."
+        },
+        "c": {
+          "correct": false,
+          "text": "AI models rely on data and patterns, not random guessing."
+        },
+        "d": {
+          "correct": false,
+          "text": "While models learn from examples, they generalize patterns rather than memorizing every detail."
+        }
+      }
+    },
+
+    "pop_quiz_thinking2": {
+      "question": "How does an AI model like a language model 'learn' to generate text?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "value": "a",
+          "text": "A) By reading and truly understanding every sentence."
+        },
+        {
+          "value": "b",
+          "text": "B) By finding statistical patterns in huge amounts of text data."
+        },
+        {
+          "value": "c",
+          "text": "C) By copying and pasting sentences from its training data."
+        },
+        {
+          "value": "d",
+          "text": "D) By asking humans for the correct answer each time."
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": {
+        "a": {
+          "correct": false,
+          "text": "AI models do not understand text; they analyze patterns."
+        },
+        "b": {
+          "correct": true,
+          "text": "Correct! Language models learn by identifying statistical patterns in massive datasets."
+        },
+        "c": {
+          "correct": false,
+          "text": "AI generates new text based on patterns, not by copying directly."
+        },
+        "d": {
+          "correct": false,
+          "text": "AI models learn from data, not by asking humans during generation."
+        }
+      }
+    },
+    "pop_quiz_thinking3": {
+      "question": "What is the main difference between how AI and humans approach problem-solving?",
+      "type": "multiple-choice",
+      "options": [
+        {
+          "value": "a",
+          "text": "A) AI uses logic and math, while humans also use intuition and emotion."
+        },
+        {
+          "value": "b",
+          "text": "B) AI is always aware of the meaning behind its answers."
+        },
+        {
+          "value": "c",
+          "text": "C) Humans cannot make mistakes, but AI can."
+        },
+        {
+          "value": "d",
+          "text": "D) AI feels emotions just like humans do."
+        }
+      ],
+      "correctAnswer": "a",
+      "feedback": {
+        "a": {
+          "correct": true,
+          "text": "Correct! AI relies on logic and math, while humans bring intuition, emotion, and ethical reasoning."
+        },
+        "b": {
+          "correct": false,
+          "text": "AI does not have awareness or understanding of meaning."
+        },
+        "c": {
+          "correct": false,
+          "text": "Both AI and humans can make mistakes, but for different reasons."
+        },
+        "d": {
+          "correct": false,
+          "text": "AI does not experience emotions."
+        }
+      }
+    }
+  
 }
