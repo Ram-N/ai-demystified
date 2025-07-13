@@ -8,7 +8,7 @@ section_slug: modules_section
 
 # Articles in This Module: How Does AI Work?
 
-The topics in this foundational module bridge intuition and early technical understanding. Below are five article-style topics tailored for students aged 12–18. Each one aims to simplify core concepts behind how AI works — with stats, machine learning, and logic — using analogies and hands-on activities to build understanding.
+The topics in this foundational module bridge intuition and early technical understanding. Below are five article-style topics tailored for students of all ages. Each one aims to simplify core concepts behind how AI works — with stats, machine learning, and logic — using analogies and hands-on activities to build understanding.
 
 - [Guessing the Next Word: The Math Behind AI Magic](next_word_prediction.html)  
   How AI predicts what word comes next using patterns and probability.

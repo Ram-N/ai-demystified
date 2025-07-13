@@ -10,7 +10,7 @@ section_slug: modules_section
 
 What is Generative AI, and why has it suddenly become a topic of global conversation? This initial module sets the stage by defining Generative AI, distinguishing it from other types of artificial intelligence, and highlighting its significance in today’s technological world. We’ll touch upon the diverse applications of these tools and explore the exciting possibilities they unlock, preparing you for a deeper dive into how they actually work.
 
-The topics in this module are presented as blog-style lessons designed for students aged 12–18. Each one is structured with a clear focus, a relatable analogy, and an interactive activity.
+The topics in this module are presented as blog-style lessons designed for students of all ages. Each one is structured with a clear focus, a relatable analogy, and an interactive activity.
 
 ## Lessons
 

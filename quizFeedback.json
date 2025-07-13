@@ -543,6 +543,257 @@
           "text": "AI does not experience emotions."
         }
       }
+    },
+
+    
+  "pop_quiz_pattern_matching": {
+    "question": "Why does an AI often give generic answers when given a vague prompt?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Because AI tries to match the most common patterns it has seen in its training data."
+      },
+      {
+        "value": "b",
+        "text": "B) Because AI can read your mind and knows exactly what you want."
+      },
+      {
+        "value": "c",
+        "text": "C) Because AI refuses to answer unless the prompt is perfect."
+      },
+      {
+        "value": "d",
+        "text": "D) Because AI is programmed to ignore vague questions."
+      }
+    ],
+    "correctAnswer": "a",
+    "feedback": {
+      "a": {
+        "correct": true,
+        "text": "Correct! When the prompt is vague, AI relies on the most common patterns from its training data, leading to generic responses."
+      },
+      "b": {
+        "correct": false,
+        "text": "AI cannot read your mind or know your intent without clear instructions."
+      },
+      "c": {
+        "correct": false,
+        "text": "AI will attempt to answer any prompt, but vague prompts result in less focused answers."
+      },
+      "d": {
+        "correct": false,
+        "text": "AI does not ignore vague questions; it just struggles to provide specific answers."
+      }
     }
-  
+  },
+
+  "pop_quiz_prompt_engineering": {
+    "question": "How does giving more context and structure in your prompt affect an AI's response?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) It helps the AI focus on relevant patterns and produce a more accurate answer."
+      },
+      {
+        "value": "b",
+        "text": "B) It confuses the AI and makes its answer worse."
+      },
+      {
+        "value": "c",
+        "text": "C) It has no effect; AI always gives the same answer."
+      },
+      {
+        "value": "d",
+        "text": "D) It makes the AI ignore your instructions."
+      }
+    ],
+    "correctAnswer": "a",
+    "feedback": {
+      "a": {
+        "correct": true,
+        "text": "Correct! Clear, structured prompts guide the AI to search for the most relevant information and produce better answers."
+      },
+      "b": {
+        "correct": false,
+        "text": "More context actually helps the AI, rather than confusing it."
+      },
+      "c": {
+        "correct": false,
+        "text": "The quality of the answer depends on the quality of the prompt."
+      },
+      "d": {
+        "correct": false,
+        "text": "AI does not ignore instructions; it tries to follow them as best as it can."
+      }
+    }
+  },
+
+  "pop_quiz_iteration": {
+    "question": "What best describes the process of improving an AI’s answers through feedback?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Each new prompt and feedback helps the AI adjust its response in real time."
+      },
+      {
+        "value": "b",
+        "text": "B) The AI permanently remembers all feedback from every user."
+      },
+      {
+        "value": "c",
+        "text": "C) Feedback has no impact; the AI always gives the same answer."
+      },
+      {
+        "value": "d",
+        "text": "D) Feedback makes the AI stop responding."
+      }
+    ],
+    "correctAnswer": "a",
+    "feedback": {
+      "a": {
+        "correct": true,
+        "text": "Correct! Your feedback acts as a new prompt, guiding the AI to refine its response during the conversation."
+      },
+      "b": {
+        "correct": false,
+        "text": "AI does not permanently remember feedback from individual users for privacy and safety reasons."
+      },
+      "c": {
+        "correct": false,
+        "text": "Feedback allows you to guide and improve the AI’s answers in real time."
+      },
+      "d": {
+        "correct": false,
+        "text": "Feedback helps the AI, not hinders it."
+      }
+    }
+  },
+  "pop_quiz_ai_strengths_01": {
+    "question": "Why are AI tools especially good at tasks like summarizing articles or generating lists of ideas?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Because AI can understand emotions and context perfectly."
+      },
+      {
+        "value": "b",
+        "text": "B) Because AI is trained on huge datasets and can spot patterns quickly."
+      },
+      {
+        "value": "c",
+        "text": "C) Because AI always knows what you want without being told."
+      },
+      {
+        "value": "d",
+        "text": "D) Because AI can make personal decisions for you."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "AI does not truly understand emotions or context; it works by recognizing patterns in data."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! AI excels at these tasks because it is trained on massive datasets and can quickly find and organize patterns."
+      },
+      "c": {
+        "correct": false,
+        "text": "AI cannot read your mind; it needs clear instructions to be effective."
+      },
+      "d": {
+        "correct": false,
+        "text": "AI cannot make personal decisions; it can only suggest options based on patterns."
+      }
+    }
+  },
+
+  "pop_quiz_ai_limits_01": {
+    "question": "What is a key reason AI struggles with giving personal advice or showing empathy?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) AI has too many feelings to process."
+      },
+      {
+        "value": "b",
+        "text": "B) AI only repeats patterns from its training data and lacks real understanding."
+      },
+      {
+        "value": "c",
+        "text": "C) AI can only answer math questions."
+      },
+      {
+        "value": "d",
+        "text": "D) AI is programmed to ignore personal questions."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "AI does not have feelings at all."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! AI lacks real understanding or experience, so it can only echo patterns from its training data."
+      },
+      "c": {
+        "correct": false,
+        "text": "AI can answer many types of questions, not just math."
+      },
+      "d": {
+        "correct": false,
+        "text": "AI will try to answer, but its responses lack personal insight."
+      }
+    }
+  },
+
+  "pop_quiz_human_ai_team_01": {
+    "question": "Why do the best results often come from humans and AI working together?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Because AI can replace all human creativity."
+      },
+      {
+        "value": "b",
+        "text": "B) Because humans and AI both have the exact same strengths."
+      },
+      {
+        "value": "c",
+        "text": "C) Because humans bring judgment and creativity, while AI brings speed and structure."
+      },
+      {
+        "value": "d",
+        "text": "D) Because AI can make emotional decisions for humans."
+      }
+    ],
+    "correctAnswer": "c",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "AI cannot replace human creativity; it can only assist."
+      },
+      "b": {
+        "correct": false,
+        "text": "Humans and AI have different strengths that complement each other."
+      },
+      "c": {
+        "correct": true,
+        "text": "Correct! The best results come when humans use their creativity and judgment, and AI adds speed and structure."
+      },
+      "d": {
+        "correct": false,
+        "text": "AI does not have emotions and cannot make emotional decisions."
+      }
+    }
+  }
 }
