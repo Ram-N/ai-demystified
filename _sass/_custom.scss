@@ -7,6 +7,7 @@ body {
   font-size: 1.125rem;
   line-height: 1.75;
   color: #1a202c;
+  padding-top: 70px;
   
   h1, h2, h3, h4, h5, h6 {
     font-family: 'DM Serif Display', Georgia, serif;
@@ -74,6 +75,12 @@ body {
 
 /* Navbar Styles */
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  width: 100%;
   padding: 0.5rem 1rem;
   
   a, .nav-link, button {

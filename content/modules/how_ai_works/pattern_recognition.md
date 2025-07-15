@@ -14,7 +14,12 @@ section_slug: modules_section
 
 ## Micro-Lesson 1: Humans are Amazing Pattern-Spotting Machines
 
-<img src="../../../images/going_to_rain.png" alt="Descriptive Alt Text" width="30%" class="float-left-image">
+<figure class="float-left-figure" style="width: 30%;">
+  <img src="../../../images/going_to_rain.png" alt="Descriptive Alt Text" class="figure-img">
+  <figcaption class="figure-caption figure-caption-with-title">
+    <span class="caption-title">Pattern Recognition:</span> Humans excel at spotting patterns from sensory clues like approaching buses or incoming rain
+  </figcaption>
+</figure>
 
 You hear a bus approaching.
 You grab your lunchbox.

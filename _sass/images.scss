@@ -205,6 +205,85 @@ span[style*="float"] img {
     }
 }
 
+/* Figure-based caption classes for floating images */
+.float-left-figure {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 50%;
+    height: auto;
+    display: block;
+}
+
+.float-right-figure {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    max-width: 50%;
+    height: auto;
+    display: block;
+}
+
+/* Image styling within figures */
+.float-left-figure .figure-img,
+.float-right-figure .figure-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Caption styling */
+.figure-caption-with-title {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-top: 8px;
+    line-height: 1.4;
+    width: 100%;
+}
+
+.caption-title {
+    font-weight: bold;
+    display: inline;
+}
+
+.caption-description {
+    display: inline;
+}
+
+/* Responsive behavior for figures */
+@media (max-width: 600px) {
+    .float-left-figure,
+    .float-right-figure {
+        float: none !important;
+        display: block !important;
+        margin: 20px auto !important;
+        max-width: 100% !important;
+        width: auto !important;
+    }
+}
+
+/* PDF Export optimizations for figures */
+@media print {
+    .float-left-figure,
+    .float-right-figure {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+        max-width: 60% !important;
+    }
+    
+    .float-right-figure {
+        margin-left: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    
+    .float-left-figure {
+        margin-right: 15px !important;
+        margin-bottom: 15px !important;
+    }
+}
+
 /* Force clear after headings to prevent layout issues */
 h1, h2, h3, h4, h5, h6 {
     clear: both !important;

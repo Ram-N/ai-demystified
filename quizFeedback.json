@@ -795,5 +795,129 @@
         "text": "AI does not have emotions and cannot make emotional decisions."
       }
     }
+  },
+  "pop_quiz_ai_draft_01": {
+    "question": "Why is AI-generated text often considered a 'first draft' rather than a finished product?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) AI always writes in perfect grammar and style."
+      },
+      {
+        "value": "b",
+        "text": "B) AI generates text by predicting likely next words, not by understanding meaning."
+      },
+      {
+        "value": "c",
+        "text": "C) AI only copies and pastes from existing websites."
+      },
+      {
+        "value": "d",
+        "text": "D) AI can only answer yes/no questions."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "AI can make grammar errors and often needs editing for clarity and style."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! AI predicts the next word based on patterns in its training data, not by truly understanding the content."
+      },
+      "c": {
+        "correct": false,
+        "text": "AI does not copy and paste; it generates new text based on learned patterns."
+      },
+      "d": {
+        "correct": false,
+        "text": "AI can generate many types of responses, not just yes/no answers."
+      }
+    }
+  },
+  "pop_quiz_ai_hallucinations_02": {
+    "question": "What is an 'AI hallucination'?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) When AI repeats the same answer multiple times."
+      },
+      {
+        "value": "b",
+        "text": "B) When AI generates information that sounds plausible but is actually false or made up."
+      },
+      {
+        "value": "c",
+        "text": "C) When AI refuses to answer a question."
+      },
+      {
+        "value": "d",
+        "text": "D) When AI outputs text in a different language."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Repetition is not the same as hallucination."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! An AI hallucination is when the model invents facts or details that sound real but aren't true."
+      },
+      "c": {
+        "correct": false,
+        "text": "Refusing to answer is not a hallucination."
+      },
+      "d": {
+        "correct": false,
+        "text": "Changing language is not related to hallucinations."
+      }
+    }
+  },
+  "pop_quiz_ai_voice_03": {
+    "question": "Why does AI-generated text often sound generic or bland?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) AI is programmed to use only technical language."
+      },
+      {
+        "value": "b",
+        "text": "B) AI tries to average out many writing styles to be broadly acceptable."
+      },
+      {
+        "value": "c",
+        "text": "C) AI is unable to form complete sentences."
+      },
+      {
+        "value": "d",
+        "text": "D) AI is designed to always use humor."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "AI is not limited to technical language; it can use many styles."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! AI is trained on a wide range of sources and tends to produce neutral, average-sounding text to avoid mistakes or offense."
+      },
+      "c": {
+        "correct": false,
+        "text": "AI can form complete sentences, but they may lack personality."
+      },
+      "d": {
+        "correct": false,
+        "text": "AI is not specifically designed to use humor."
+      }
+    }
   }
+
 }
