@@ -918,6 +918,132 @@
         "text": "AI is not specifically designed to use humor."
       }
     }
+  },
+  "pop_quiz_ai_ethics_01": {
+    "question": "Why can an AI system trained on biased data still appear to perform 'accurately'?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Because biased data always leads to better generalization."
+      },
+      {
+        "value": "b",
+        "text": "B) Because the training algorithm automatically removes bias during optimization."
+      },
+      {
+        "value": "c",
+        "text": "C) Because it may simply learn to reproduce patterns in the data, even if they are unfair."
+      },
+      {
+        "value": "d",
+        "text": "D) Because performance metrics can detect and reject unfair models."
+      }
+    ],
+    "correctAnswer": "c",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Biased data often hurts generalization—it doesn't help!"
+      },
+      "b": {
+        "correct": false,
+        "text": "Most training algorithms do not correct for bias unless explicitly told to."
+      },
+      "c": {
+        "correct": true,
+        "text": "Correct! AI often mirrors patterns in data, even when those patterns are biased or unfair."
+      },
+      "d": {
+        "correct": false,
+        "text": "Performance metrics alone can miss ethical problems unless designed to spot them."
+      }
+    }
+  },
+
+  "pop_quiz_ai_ethics_02": {
+    "question": "Which of the following design decisions could introduce bias into an AI system?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Choosing to test the model on a wide variety of scenarios."
+      },
+      {
+        "value": "b",
+        "text": "B) Only using data labeled by a small, homogenous group of people."
+      },
+      {
+        "value": "c",
+        "text": "C) Regularly updating your dataset with new user feedback."
+      },
+      {
+        "value": "d",
+        "text": "D) Training the system in multiple languages."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Testing on varied scenarios actually helps reduce bias!"
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! A limited or non-diverse labeling group can unintentionally encode their own biases into the dataset."
+      },
+      "c": {
+        "correct": false,
+        "text": "Updating with feedback helps catch and fix bias—this is good practice."
+      },
+      "d": {
+        "correct": false,
+        "text": "Multilingual training can actually improve inclusivity and generalization."
+      }
+    }
+  },
+
+  "pop_quiz_ai_ethics_03": {
+    "question": "Which statement BEST reflects the challenge of defining fairness in AI?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Fairness means treating everyone exactly the same, always."
+      },
+      {
+        "value": "b",
+        "text": "B) Fairness is built into AI systems automatically during training."
+      },
+      {
+        "value": "c",
+        "text": "C) Fairness can mean different things depending on the context and goals of the system."
+      },
+      {
+        "value": "d",
+        "text": "D) Fairness is purely a technical problem with a clear mathematical solution."
+      }
+    ],
+    "correctAnswer": "c",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Treating everyone the same sounds good, but it can ignore deeper inequities."
+      },
+      "b": {
+        "correct": false,
+        "text": "Fairness isn’t automatic; it must be intentionally designed and tested for."
+      },
+      "c": {
+        "correct": true,
+        "text": "Correct! Definitions of fairness vary across use cases, cultures, and ethical frameworks."
+      },
+      "d": {
+        "correct": false,
+        "text": "While math can help, fairness also includes moral and social considerations."
+      }
+    }
   }
+
 
 }
