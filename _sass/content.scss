@@ -139,7 +139,7 @@ mark,
 .advanced-content {
     font-size: 0.9em;
     line-height: 1.5;
-    background-color: #f8f9fa;
+    background-color: #fff9f5;
     padding: 1em 1em 1em 2.5em;
     border-radius: 0.5em;
     border-left: 4px solid #6c757d;
@@ -149,7 +149,7 @@ mark,
     transition: all 0.3s ease;
     
     &:hover {
-        background-color: #e9ecef;
+        background-color: #ffede0;
     }
     
     /* Collapsed state - show only first 2 lines */
@@ -162,14 +162,14 @@ mark,
             position: absolute;
             bottom: 0.5em;
             right: 1em;
-            background-color: #f8f9fa;
+            background-color: #fff9f5;
             padding-left: 0.5em;
             font-weight: bold;
             color: #6c757d;
         }
         
         &:hover::after {
-            background-color: #e9ecef;
+            background-color: #ffede0;
         }
     }
     
