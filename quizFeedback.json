@@ -1043,7 +1043,382 @@
         "text": "While math can help, fairness also includes moral and social considerations."
       }
     }
-  }
+  },
 
+  "pop_quiz_ai_responsibility_01": {
+    "question": "Why can't an AI system be held legally responsible when something goes wrong?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Because AI systems often ignore rules on purpose."
+      },
+      {
+        "value": "b",
+        "text": "B) Because responsibility for actions always belongs to the human designers, users, or companies behind the system."
+      },
+      {
+        "value": "c",
+        "text": "C) Because AI systems can't process information."
+      },
+      {
+        "value": "d",
+        "text": "D) Because AI systems are registered legal entities."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "AI systems don't have intentions and can't choose to ignore rules."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! AI doesn't have moral or legal agency—humans and organizations are responsible for its actions."
+      },
+      "c": {
+        "correct": false,
+        "text": "AI systems do process information, but lack awareness or intent."
+      },
+      "d": {
+        "correct": false,
+        "text": "AI systems are not legal persons or entities that can be sued or fined."
+      }
+    }
+  },
+
+  "pop_quiz_ai_responsibility_02": {
+    "question": "In a scenario where a self-driving car makes a harmful mistake, what makes assigning responsibility so complicated?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Only the car company should ever be liable."
+      },
+      {
+        "value": "b",
+        "text": "B) Because multiple parties—like engineers, the company, regulators, and users—may have all played a role."
+      },
+      {
+        "value": "c",
+        "text": "C) Responsibility is never shared between people in AI projects."
+      },
+      {
+        "value": "d",
+        "text": "D) Self-driving cars are fully autonomous and need no human oversight."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Often, more than one group shares responsibility."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! Each group can influence the outcome, from design to rules to actual use."
+      },
+      "c": {
+        "correct": false,
+        "text": "In reality, responsibility is often spread across many people and organizations."
+      },
+      "d": {
+        "correct": false,
+        "text": "Even the best AI systems need human and legal oversight."
+      }
+    }
+  },
+
+  "pop_quiz_ai_responsibility_03": {
+    "question": "Which best describes how safer AI systems are typically built?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) By letting the AI learn from its mistakes completely unsupervised."
+      },
+      {
+        "value": "b",
+        "text": "B) By having only one team check all the code right before launch."
+      },
+      {
+        "value": "c",
+        "text": "C) Through shared responsibility: engineers, companies, regulators, and users all play a role in making and using the system safely."
+      },
+      {
+        "value": "d",
+        "text": "D) By never updating the AI once it is deployed."
+      }
+    ],
+    "correctAnswer": "c",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Unsupervised learning without checks can lead to risky or biased behavior."
+      },
+      "b": {
+        "correct": false,
+        "text": "Wider review and broad accountability are needed, not just a last-minute check."
+      },
+      "c": {
+        "correct": true,
+        "text": "Correct! Safe AI comes from a system where everyone—builders, companies, government, and users—share responsibility."
+      },
+      "d": {
+        "correct": false,
+        "text": "AI should be monitored, updated, and improved over time."
+      }
+    }
+  },
+  "pop_quiz_ai_explainability_01": {
+    "question": "What is meant by calling an AI system a 'black box'?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) The AI uses physical boxes to store data."
+      },
+      {
+        "value": "b",
+        "text": "B) We know exactly how an AI's decisions are made, step-by-step."
+      },
+      {
+        "value": "c",
+        "text": "C) The process inside the AI is too complex or hidden for humans to easily understand."
+      },
+      {
+        "value": "d",
+        "text": "D) The AI system always gives random outputs."
+      }
+    ],
+    "correctAnswer": "c",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "A 'black box' is not about physical boxes—it’s about a lack of interpretability."
+      },
+      "b": {
+        "correct": false,
+        "text": "If we understood every step, it wouldn’t be a black box."
+      },
+      "c": {
+        "correct": true,
+        "text": "Correct! A system is a 'black box' when we can't fully explain or follow how it reaches a decision."
+      },
+      "d": {
+        "correct": false,
+        "text": "Black box AI can be very consistent; the issue is the lack of transparency, not randomness."
+      }
+    }
+  },
+
+  "pop_quiz_ai_explainability_02": {
+    "question": "Why is explainability especially important for AI decisions in fields like medicine or finance?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Because these fields only use simple algorithms."
+      },
+      {
+        "value": "b",
+        "text": "B) Because lives and major opportunities can be affected, and people need to understand or challenge decisions."
+      },
+      {
+        "value": "c",
+        "text": "C) Because everyone already understands how AI works."
+      },
+      {
+        "value": "d",
+        "text": "D) Because AI is always more accurate without explanations."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Complex, high-stakes decisions are common in these fields, not simple algorithms."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! High-stakes decisions require transparency so people can trust, audit, or contest them."
+      },
+      "c": {
+        "correct": false,
+        "text": "In fact, most people do NOT fully understand how AI works inside."
+      },
+      "d": {
+        "correct": false,
+        "text": "Lack of explanation may lead to mistrust, not better accuracy."
+      }
+    }
+  },
+
+  "pop_quiz_ai_explainability_03": {
+    "question": "Which is a common method for making AI decisions more explainable?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Ignoring the inputs used by the AI."
+      },
+      {
+        "value": "b",
+        "text": "B) Developing tools that highlight which features (like pixels, words, or numbers) were most important for a decision."
+      },
+      {
+        "value": "c",
+        "text": "C) Making the AI guess randomly."
+      },
+      {
+        "value": "d",
+        "text": "D) Letting only computers interpret other computers’ outputs."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Ignoring input removes useful information and makes models less transparent."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! Feature highlighting, like saliency maps or feature importance scores, helps make decisions understandable."
+      },
+      "c": {
+        "correct": false,
+        "text": "Random guessing would reduce trust and usefulness, not increase explainability."
+      },
+      "d": {
+        "correct": false,
+        "text": "Explainability matters most when humans can interpret and act on AI explanations."
+      }
+    }
+  },
+  "pop_quiz_ai_dataquality_01": {
+    "question": "Why can bias in training data lead to unfair AI decisions?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Because AI can detect and fix bias automatically."
+      },
+      {
+        "value": "b",
+        "text": "B) Because AI will often reflect and even amplify any patterns—including bias—it finds in its training data."
+      },
+      {
+        "value": "c",
+        "text": "C) Because biased data always makes AI less accurate, but not unfair."
+      },
+      {
+        "value": "d",
+        "text": "D) Because AI ignores the training data after deployment."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Most AI systems don’t automatically recognize or remove bias—this requires special analysis and engineering."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! AI internalizes statistical patterns, so if bias is present in the training set, it will likely appear in the results as well or even become worse."
+      },
+      "c": {
+        "correct": false,
+        "text": "Biased data can make AI both inaccurate and unfair, especially if the bias is systematic."
+      },
+      "d": {
+        "correct": false,
+        "text": "AI relies on its training data long after deployment to make new decisions."
+      }
+    }
+  },
+
+  "pop_quiz_ai_dataquality_02": {
+    "question": "What does 'Garbage In, Garbage Out' mean when it comes to AI?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) As long as the algorithm is complex, input data quality does not matter."
+      },
+      {
+        "value": "b",
+        "text": "B) Good algorithms can always overcome bad data."
+      },
+      {
+        "value": "c",
+        "text": "C) If the input data is flawed or biased, the AI's output will also be flawed or biased."
+      },
+      {
+        "value": "d",
+        "text": "D) AI can guess the right answer without any good data."
+      }
+    ],
+    "correctAnswer": "c",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Even the most advanced algorithms cannot make good decisions from poor data."
+      },
+      "b": {
+        "correct": false,
+        "text": "No AI can 'fix' bad data without specific tools or steps for quality control."
+      },
+      "c": {
+        "correct": true,
+        "text": "Correct! Low-quality inputs produce low-quality outputs, no matter how good the model is."
+      },
+      "d": {
+        "correct": false,
+        "text": "AI needs accurate, high-quality data to make good predictions or decisions."
+      }
+    }
+  },
+
+  "pop_quiz_ai_dataquality_03": {
+    "question": "Which approach helps ensure AI systems are less likely to produce biased results?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Training only on historic data without review."
+      },
+      {
+        "value": "b",
+        "text": "B) Regularly analyzing and updating datasets for fairness and representation."
+      },
+      {
+        "value": "c",
+        "text": "C) Ignoring the data source and focusing only on the model architecture."
+      },
+      {
+        "value": "d",
+        "text": "D) Using as little data as possible so the model stays simple."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Historic data often contains hidden biases; without review, these can be reinforced."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! Routinely checking and diversifying data helps catch and reduce bias before it enters the model."
+      },
+      "c": {
+        "correct": false,
+        "text": "The data source is crucial—model design and data quality must both be addressed."
+      },
+      "d": {
+        "correct": false,
+        "text": "Less data is not better if it isn’t representative or diverse."
+      }
+    }
+  }
 
 }
