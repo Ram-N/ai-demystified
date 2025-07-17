@@ -1419,6 +1419,133 @@
         "text": "Less data is not better if it isn’t representative or diverse."
       }
     }
-  }
+  },
+  "pop_quiz_using_ai_tools_01": {
+    "question": "When you use AI to generate writing, what is the safest way to avoid plagiarism?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Submit the AI output unchanged, since AI creates original text."
+      },
+      {
+        "value": "b",
+        "text": "B) Rewrite the text in your own style, add your own insights, and note where AI helped."
+      },
+      {
+        "value": "c",
+        "text": "C) Only change a few words so it looks different."
+      },
+      {
+        "value": "d",
+        "text": "D) Avoid using AI for any writing tasks."
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Submitting raw AI text can still be plagiarism if it doesn't reflect your thinking."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! Personalizing, adding insights, and giving credit are the best ways to avoid plagiarism."
+      },
+      "c": {
+        "correct": false,
+        "text": "Simple word swaps can leave the structure and ideas unchanged, which is not enough."
+      },
+      "d": {
+        "correct": false,
+        "text": "You can use AI if you do so responsibly and transparently."
+      }
+    }
+  },
 
+  "pop_quiz_using_ai_tools_02": {
+    "question": "Why does AI sometimes include information that is outdated, inaccurate, or even made up ('hallucination')?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) AI always searches the current internet for answers."
+      },
+      {
+        "value": "b",
+        "text": "B) AI can't access any information at all."
+      },
+      {
+        "value": "c",
+        "text": "C) AI generates responses based on statistical patterns from its training data, not real-time knowledge."
+      },
+      {
+        "value": "d",
+        "text": "D) AI purposefully tries to confuse users."
+      }
+    ],
+    "correctAnswer": "c",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "AI models do not browse the web for current info when generating text."
+      },
+      "b": {
+        "correct": false,
+        "text": "AI uses what it has 'learned' in training, not nothing."
+      },
+      "c": {
+        "correct": true,
+        "text": "Correct! AI predicts the next word based on data it has seen during training, which can lead to errors or made-up info."
+      },
+      "d": {
+        "correct": false,
+        "text": "AI is not trying to confuse you; it has no intentions, only algorithms."
+      }
+    }
+  },
+
+  "pop_quiz_using_ai_tools_03": {
+    "question": "Which statement best explains why a 'transparency note' matters when using AI for writing assignments?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) It helps teachers understand what was AI-generated and what was your own thinking."
+      },
+      {
+        "value": "b",
+        "text": "B) It adds more words to your essay for a higher word count."
+      },
+      {
+        "value": "c",
+        "text": "C) It is required by law in all schools."
+      },
+      {
+        "value": "d",
+        "text": "D) It hides any use of AI so you get more credit."
+      }
+    ],
+    "correctAnswer": "a",
+    "feedback": {
+      "a": {
+        "correct": true,
+        "text": "Correct! Transparency notes increase trust and clarify your process to teachers or reviewers."
+      },
+      "b": {
+        "correct": false,
+        "text": "The purpose is honesty, not padding length."
+      },
+      "c": {
+        "correct": false,
+        "text": "It's not a universal law, but it's an important practice."
+      },
+      "d": {
+        "correct": false,
+        "text": "Transparency means being open, not hiding your AI use."
+      }
+    }
+  }
 }
+
+
+
