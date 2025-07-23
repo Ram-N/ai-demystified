@@ -24,6 +24,3 @@ section_slug: modules_section
 
 - [AI and Originality: How to Use It Without Copying](ai_and_originality.html)  
   Use AI responsibly and keep your work uniquely yours.
-
-- [Putting It All Together: Your AI Toolkit](your_ai_toolkit.html)  
-  Recap best practices and build your own AI user guide.

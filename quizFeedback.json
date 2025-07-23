@@ -1544,7 +1544,133 @@
         "text": "Transparency means being open, not hiding your AI use."
       }
     }
+  },
+  "pop_quiz_ai_deepfake_01": {
+    "question": "Which technique is most commonly used to create hyper-realistic deepfakes?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Decision Trees"
+      },
+      {
+        "value": "b",
+        "text": "B) Generative Adversarial Networks (GANs)"
+      },
+      {
+        "value": "c",
+        "text": "C) K-Means Clustering"
+      },
+      {
+        "value": "d",
+        "text": "D) Nearest Neighbor Algorithms"
+      }
+    ],
+    "correctAnswer": "b",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "Decision Trees are useful for classification tasks, not for generating realistic images."
+      },
+      "b": {
+        "correct": true,
+        "text": "Correct! GANs are commonly used to create convincing deepfakes by training one AI to generate images and another to detect fakes."
+      },
+      "c": {
+        "correct": false,
+        "text": "K-Means Clustering is used for grouping similar data, not for generating images."
+      },
+      "d": {
+        "correct": false,
+        "text": "Nearest Neighbor algorithms are used for matching, not for image synthesis."
+      }
+    }
+  },
+
+  "pop_quiz_ai_deepfake_02": {
+    "question": "Why can AI-generated misinformation spread faster than traditional rumors?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) AI can make sure every message is true before sharing it."
+      },
+      {
+        "value": "b",
+        "text": "B) AI models understand the difference between truth and lies."
+      },
+      {
+        "value": "c",
+        "text": "C) AI can generate large quantities of convincing content very quickly."
+      },
+      {
+        "value": "d",
+        "text": "D) AI requires human approval for every post it generates."
+      }
+    ],
+    "correctAnswer": "c",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "AI can't verify the truth of its outputs; it generates content based on patterns."
+      },
+      "b": {
+        "correct": false,
+        "text": "AI does not inherently know what is true or false."
+      },
+      "c": {
+        "correct": true,
+        "text": "Correct! AI allows for the rapid, large-scale creation of realistic content, helping misinformation spread much faster than before."
+      },
+      "d": {
+        "correct": false,
+        "text": "AI-generated content can often be posted automatically, without human checks."
+      }
+    }
+  },
+
+  "pop_quiz_ai_deepfake_03": {
+    "question": "What is one major challenge when trying to detect AI-generated fake content?",
+    "type": "multiple-choice",
+    "options": [
+      {
+        "value": "a",
+        "text": "A) Only humans can generate fake content."
+      },
+      {
+        "value": "b",
+        "text": "B) AI fakes never look realistic."
+      },
+      {
+        "value": "c",
+        "text": "C) Detection tools rely on clues that AI models are constantly improving at hiding."
+      },
+      {
+        "value": "d",
+        "text": "D) AI-generated content always carries a digital watermark."
+      }
+    ],
+    "correctAnswer": "c",
+    "feedback": {
+      "a": {
+        "correct": false,
+        "text": "AI is very capable of generating fake content—sometimes more persuasively than humans."
+      },
+      "b": {
+        "correct": false,
+        "text": "Modern AI-generated fakes can look extremely real, which is a big part of the problem."
+      },
+      "c": {
+        "correct": true,
+        "text": "Correct! As AI-generated content gets better at hiding its tracks, detection tools must constantly keep improving to catch new tricks."
+      },
+      "d": {
+        "correct": false,
+        "text": "Not all AI-generated content is watermarked or easy to trace."
+      }
+    }
   }
+
 }
 
 
