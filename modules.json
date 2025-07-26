@@ -23,5 +23,10 @@
     "slug": "ai-ethics",
     "title": "AI Ethics",
     "url": "/content/modules/ethics/"
+  },
+  {
+    "slug": "resources",
+    "title": "Resources",
+    "url": "/content/resources/"
   }
 ]

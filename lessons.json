@@ -220,5 +220,47 @@
     "url": "/content/modules/coding_with_ai/refactor_with_ai.html",
     "module_slug": "coding-with-ai",
     "topic_slug": "level_up_improve"
+  },
+  {
+    "title": "Gen AI Resources Overview",
+    "url": "/content/resources/index.html",
+    "module_slug": "resources",
+    "topic_slug": "gen-ai-resources"
+  },
+  {
+    "title": "AI Courses",
+    "url": "/content/resources/courses/",
+    "module_slug": "resources",
+    "topic_slug": "ai-courses"
+  },
+  {
+    "title": "Books",
+    "url": "/content/resources/books/",
+    "module_slug": "resources",
+    "topic_slug": "ai-books"
+  },
+  {
+    "title": "YouTube Channels",
+    "url": "/content/resources/videos/",
+    "module_slug": "resources",
+    "topic_slug": "ai-videos"
+  },
+  {
+    "title": "Blogs & Articles",
+    "url": "/content/resources/blogs/",
+    "module_slug": "resources",
+    "topic_slug": "ai-blogs"
+  },
+  {
+    "title": "Podcasts",
+    "url": "/content/resources/podcasts/",
+    "module_slug": "resources",
+    "topic_slug": "ai-podcasts"
+  },
+  {
+    "title": "Interactive Tools",
+    "url": "/content/resources/tools/",
+    "module_slug": "resources",
+    "topic_slug": "ai-tools"
   }
 ]
