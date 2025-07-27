@@ -240,14 +240,14 @@
     "topic_slug": "ai-books"
   },
   {
-    "title": "YouTube Channels",
+    "title": "Videos & Tutorials",
     "url": "/content/resources/videos/",
     "module_slug": "resources",
     "topic_slug": "ai-videos"
   },
   {
     "title": "Blogs & Articles",
-    "url": "/content/resources/blogs/",
+    "url": "/content/resources/genai-blogs/",
     "module_slug": "resources",
     "topic_slug": "ai-blogs"
   },
@@ -259,7 +259,7 @@
   },
   {
     "title": "Interactive Tools",
-    "url": "/content/resources/tools/",
+    "url": "/content/resources/ai-tools/",
     "module_slug": "resources",
     "topic_slug": "ai-tools"
   }

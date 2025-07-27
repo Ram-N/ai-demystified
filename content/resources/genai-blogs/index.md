@@ -6,7 +6,8 @@ section_slug: resources
 sidebar_context: open-none
 ---
 
-# Gen AI Blog to follow, keep an eye on
+# Gen AI Blogs to follow, 
+Keep an eye on these
 
 Here are several blogs and articles that about "what GenAI really is"
 <a href="blogs_what_is_gen_ai.html" target="_blank">Find those here</a>

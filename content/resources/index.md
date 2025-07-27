@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
     tools: [
       { src: '{{site.baseurl}}/content/resources/images/tools_google_teachable_machine.jpg', zoom: 1.0, posX: 50, posY: 50 },
       { src: '{{site.baseurl}}/content/resources/images/tools_google_ai_experiments.png', zoom: 1.0, posX: 50, posY: 50 },
-      { src: '{{site.baseurl}}/content/resources/images/tools_copilot.jpg', zoom: 1.0, posX: 50, posY: 50 },
+      { src: '{{site.baseurl}}/content/resources/images/tools_copilot.jpg', zoom: 0.5, posX: 50, posY: 50 },
       { src: '{{site.baseurl}}/content/resources/images/tools_dall-e.webp', zoom: 1.0, posX: 50, posY: 50 },
       { src: '{{site.baseurl}}/content/resources/images/tools_synthesia.webp', zoom: 1.0, posX: 50, posY: 50 }
     ]
