@@ -8,7 +8,6 @@ section_slug: modules_section
 
 # Who’s Responsible When AI Gets It Wrong?
 
-
 ## 1. **AI Doesn’t Own Its Actions — Humans Do**
 
 <figure class="float-left-figure" style="width: 30%;">
@@ -96,9 +95,9 @@ In real-world development, building “safe” AI involves a whole lifecycle of 
 
 Think of these hypothetical AI failure scenarios:
 
-`* A self-driving car runs a red light and causes an accident.`
-`* A hiring algorithm rejects qualified candidates due to biased training data.`
-`* A medical AI misdiagnoses a patient.`
+* A self-driving car runs a red light and causes an accident.
+* A hiring algorithm rejects qualified candidates due to biased training data.
+* A medical AI misdiagnoses a patient.
 
 For each, decide:
 **“Who should be held responsible—and why?”**

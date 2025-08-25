@@ -1,5 +1,15 @@
 [
   {
+    "slug": "retrieval-augmented-generation-rag",
+    "title": "RAG (Retrieval-Augmented Generation)",
+    "url": "/content/glossary/retrieval-augmented-generation-RAG"
+  },
+  {
+    "slug": "backpropagation",
+    "title": "Backpropagation",
+    "url": "/content/glossary/backpropagation"
+  },
+  {
     "slug": "agentive",
     "title": "Agentive",
     "url": "/content/glossary/agentive"
@@ -128,6 +138,16 @@
     "slug": "google-gemini",
     "title": "Google Gemini",
     "url": "/content/glossary/google-gemini"
+  },
+  {
+    "slug": "gradients",
+    "title": "Gradients",
+    "url": "/content/glossary/gradients"
+  },
+  {
+    "slug": "greedy-decoding",
+    "title": "Greedy Decoding",
+    "url": "/content/glossary/greedy-decoding"
   },
   {
     "slug": "guardrails",
