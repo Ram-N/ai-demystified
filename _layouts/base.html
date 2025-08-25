@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css" />
   <link rel="stylesheet" href="{{ site.baseurl }}/css/quiz.css" />
   <link rel="stylesheet" href="{{ site.baseurl }}/css/page_effects.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/search.css" />
 
   {% if page.layout == 'glossary_index' or page.layout == 'glossary' %}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/glossary.css" />
@@ -96,6 +97,9 @@
   <script src="{{site.baseurl}}{{js}}"></script>
   {% endfor %}
   {% endif %}
+
+  <!-- Site-wide Search Script -->
+  <script src="{{ site.baseurl }}/js/search.js"></script>
 
   <!-- Google Analytics -->
   {% if site.ga_tracking_code or site.p2pu_ga_tracking_code %}
